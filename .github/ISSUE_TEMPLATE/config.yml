@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Typofix website
+    url: https://typofix.org
+    about: Learn what Typofix is and how the rules database is used.
+  - name: Questions about using the data
+    url: https://github.com/Typofix-org/typofix-data/discussions
+    about: For usage questions that are not a bug or a rule proposal.

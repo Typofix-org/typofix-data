@@ -1,0 +1,65 @@
+name: Rule bug
+description: A rule changes text it should not, or misses text it should change.
+title: "[Rule bug] "
+labels: ["rule-bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem with a rule. The fix is made in the Typofix CMS and ships in the next
+        release — this repository is generated, so there is nothing to change here directly.
+  - type: input
+    id: rule-id
+    attributes:
+      label: Rule ID
+      description: The `id` of the rule, as it appears in the data.
+      placeholder: "e.g. 1427"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The BCP 47 code of the language the rule misbehaves in.
+      placeholder: "e.g. sk, cs, en-GB"
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Input text
+      description: The exact text you ran the rule on.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What the text should look like after correction.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What the rule actually produced (or that it produced no change).
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Data version
+      description: The release tag of the data you used.
+      placeholder: "e.g. v1.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Context, other affected inputs, references to the typographic rule, and so on.
+    validations:
+      required: false

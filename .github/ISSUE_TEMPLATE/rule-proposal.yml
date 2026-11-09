@@ -1,0 +1,43 @@
+name: Rule proposal
+description: Suggest a typographic correction Typofix does not make yet.
+title: "[Rule proposal] "
+labels: ["rule-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a rule. The Typofix team reviews proposals and adds accepted ones in the CMS; they
+        then ship in a release.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The BCP 47 code of the language the rule applies to (or several).
+      placeholder: "e.g. sk, cs, en-GB"
+    validations:
+      required: true
+  - type: textarea
+    id: rule
+    attributes:
+      label: The typographic rule
+      description: Describe what should be corrected and why, with a reference to a style guide if you have one.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Before / after examples
+      description: Concrete text before and after the correction. Several examples help.
+      render: text
+      placeholder: |
+        before: 10 km
+        after:  10 km   (with a non-breaking space)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Edge cases, exceptions, where the rule should not apply, and so on.
+    validations:
+      required: false

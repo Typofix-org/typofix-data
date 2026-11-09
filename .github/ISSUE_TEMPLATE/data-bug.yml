@@ -1,0 +1,41 @@
+name: Data or schema bug
+description: Something wrong in the files themselves — invalid document, XML/JSON mismatch, broken link.
+title: "[Data bug] "
+labels: ["data-bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for problems with the dataset itself rather than with a single rule's behaviour: a file that does
+        not validate against the XSD or JSON Schema, XML and JSON that disagree, a broken link, and so on.
+  - type: input
+    id: file
+    attributes:
+      label: File path
+      description: The path of the affected file in the repository.
+      placeholder: "e.g. json/main/sk/rules.json"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Data version
+      description: The release tag where you saw the problem.
+      placeholder: "e.g. v1.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Describe the problem; paste the validator error or the mismatching snippet if you have it.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: How you found it, the tool or schema version you validated against, and so on.
+    validations:
+      required: false

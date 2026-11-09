@@ -1,0 +1,45 @@
+name: Close pull requests
+
+# This repository is generated from the Typofix CMS and only the Typofix team pushes releases.
+# Contributions come through issues, so pull requests from outside the team are closed automatically.
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    # Leave the team's own pull requests open; close everyone else's.
+    if: ${{ !contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.pull_request.author_association) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              "Thanks for your interest in Typofix!",
+              "",
+              "This repository is **generated** from the Typofix CMS — every file is an export, and nothing is",
+              "edited here by hand, so pull requests cannot be merged and are closed automatically.",
+              "",
+              "If you found a wrong, missing or mistaken rule, or a problem in the data, please open an issue",
+              "instead: https://github.com/Typofix-org/typofix-data/issues/new/choose",
+              "",
+              "The Typofix team makes the correction in the CMS and it ships in the next release.",
+            ].join("\n");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: "closed",
+            });

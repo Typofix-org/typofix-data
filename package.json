@@ -1,0 +1,31 @@
+{
+  "name": "@typofix/data",
+  "version": "0.0.0",
+  "description": "Public database of typographic correction rules behind Typofix, per language.",
+  "keywords": [
+    "typofix",
+    "typography",
+    "proofreading",
+    "rules",
+    "grep",
+    "regex",
+    "cldr"
+  ],
+  "homepage": "https://typofix.org",
+  "bugs": {
+    "url": "https://github.com/Typofix-org/typofix-data/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Typofix-org/typofix-data.git"
+  },
+  "license": "CC-BY-4.0",
+  "author": "Typofix (https://typofix.org)",
+  "files": [
+    "json/"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
