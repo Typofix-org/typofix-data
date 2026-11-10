@@ -1,0 +1,203 @@
+{
+    "$schema": "https://typofix.org/schema/v1/rules.json",
+    "version": "1",
+    "report": "https://typofix.org/report",
+    "main": {
+        "en-GB": {
+            "identity": {
+                "type": "en-GB",
+                "icu": "en_GB",
+                "language": "en",
+                "script": "",
+                "region": "GB",
+                "privateuse": "",
+                "title": "English (UK)",
+                "localName": "English (UK)"
+            },
+            "rules": [
+                {
+                    "id": 421,
+                    "order": 1,
+                    "name": "Add nonbreraking space before ellipsis at the end of a sentence",
+                    "description": "Add nonbreraking space before ellipsis at the end of a sentence",
+                    "category": [
+                        "Spaces",
+                        "Add space before/after ellipsis (prefs)"
+                    ],
+                    "source": {
+                        "search": "\\p{Zs}?\\x{2026}(?=$|\\r?\\n)",
+                        "replace": "\\x{00A0}\\x{2026}"
+                    },
+                    "resolved": {
+                        "grep": {
+                            "search": "\\p{Zs}?\\x{2026}(?=$|\\r?\\n)",
+                            "replace": "\\x{00A0}\\x{2026}"
+                        },
+                        "ecma": {
+                            "search": "\\p{Zs}?\\u{2026}(?=$|\\r?\\n)",
+                            "replace": "\\u{00A0}\\u{2026}",
+                            "flags": "gv"
+                        }
+                    },
+                    "unresolved": [],
+                    "caseInsensitive": false,
+                    "alertOnly": false,
+                    "automatic": false,
+                    "manual": false,
+                    "examples": [
+                        {
+                            "before": "Han tøvede et øjeblik, før han svarede… (Danish)",
+                            "after": "Han tøvede et øjeblik, før han svarede … (Danish)"
+                        }
+                    ]
+                }
+            ],
+            "variables": [
+                {
+                    "code": "OrdSuffix",
+                    "extend": {
+                        "grep": [
+                            "nd",
+                            "rd",
+                            "st",
+                            "th"
+                        ],
+                        "ecma": [
+                            "nd",
+                            "rd",
+                            "st",
+                            "th"
+                        ]
+                    }
+                },
+                {
+                    "code": "QL1",
+                    "extend": {
+                        "grep": [
+                            "‘"
+                        ],
+                        "ecma": [
+                            "‘"
+                        ]
+                    },
+                    "preference": {
+                        "defaultValue": {
+                            "grep": "‘",
+                            "ecma": "‘"
+                        },
+                        "values": {
+                            "grep": [
+                                {
+                                    "name": "‘ [high-single-6]",
+                                    "value": "‘",
+                                    "preview": "‘",
+                                    "icon": "single-quote"
+                                },
+                                {
+                                    "name": "“ [high-double-66]",
+                                    "value": "“",
+                                    "preview": "“",
+                                    "icon": "double-quote"
+                                }
+                            ],
+                            "ecma": [
+                                {
+                                    "name": "‘ [high-single-6]",
+                                    "value": "‘",
+                                    "preview": "‘",
+                                    "icon": "single-quote"
+                                },
+                                {
+                                    "name": "“ [high-double-66]",
+                                    "value": "“",
+                                    "preview": "“",
+                                    "icon": "double-quote"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "code": "QL2",
+                    "extend": {
+                        "grep": [
+                            "“"
+                        ],
+                        "ecma": [
+                            "“"
+                        ]
+                    },
+                    "preference": {
+                        "defaultValue": {
+                            "grep": "“",
+                            "ecma": "“"
+                        },
+                        "values": {
+                            "grep": [
+                                {
+                                    "name": "“ [high-double-66]",
+                                    "value": "“",
+                                    "preview": "“",
+                                    "icon": "double-quote"
+                                },
+                                {
+                                    "name": "‘ [high-single-6]",
+                                    "value": "‘",
+                                    "preview": "‘",
+                                    "icon": "single-quote"
+                                }
+                            ],
+                            "ecma": [
+                                {
+                                    "name": "“ [high-double-66]",
+                                    "value": "“",
+                                    "preview": "“",
+                                    "icon": "double-quote"
+                                },
+                                {
+                                    "name": "‘ [high-single-6]",
+                                    "value": "‘",
+                                    "preview": "‘",
+                                    "icon": "single-quote"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "code": "Months",
+                    "extend": {
+                        "grep": [
+                            "January",
+                            "February",
+                            "March",
+                            "April",
+                            "May",
+                            "June",
+                            "July",
+                            "August",
+                            "September",
+                            "October",
+                            "November",
+                            "December"
+                        ],
+                        "ecma": [
+                            "January",
+                            "February",
+                            "March",
+                            "April",
+                            "May",
+                            "June",
+                            "July",
+                            "August",
+                            "September",
+                            "October",
+                            "November",
+                            "December"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

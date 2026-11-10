@@ -1,0 +1,61 @@
+<!-- Typofix rules database, version 1. See https://typofix.org and the XSD in xsd/typofix.xsd. -->
+
+<!ELEMENT typofix (identity?, languages?, rules?, variables?)>
+<!ATTLIST typofix
+    version CDATA #REQUIRED
+    report CDATA #REQUIRED
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+
+<!ELEMENT languages (locale*)>
+<!ELEMENT locale (type, icu, language, script, region, privateuse, title, localName)>
+
+<!ELEMENT identity (type, icu, language, script, region, privateuse, title, localName)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT icu (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT script (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT privateuse (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT localName (#PCDATA)>
+
+<!ELEMENT rules (rule*)>
+<!ELEMENT rule (id, order, name, description, category, source, resolved, unresolved,
+    caseInsensitive, alertOnly, automatic, manual, examples)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT order (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT category (name*)>
+<!ELEMENT source (search, replace)>
+<!ELEMENT search (#PCDATA)>
+<!ELEMENT replace (#PCDATA)>
+<!ELEMENT resolved (grep, ecma)>
+<!ELEMENT flags (#PCDATA)>
+<!ELEMENT unresolved (code*)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT caseInsensitive (#PCDATA)>
+<!ELEMENT alertOnly (#PCDATA)>
+<!ELEMENT automatic (#PCDATA)>
+<!ELEMENT manual (#PCDATA)>
+<!ELEMENT examples (example*)>
+<!ELEMENT example (before, after)>
+<!ELEMENT before (#PCDATA)>
+<!ELEMENT after (#PCDATA)>
+
+<!ELEMENT variables (variable*)>
+<!ELEMENT variable (code, name?, description?, values?, extend?, preference?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT values (grep, ecma)>
+<!ELEMENT extend (grep, ecma)>
+<!ELEMENT preference (defaultValue, values)>
+<!ELEMENT defaultValue (grep, ecma)>
+<!ELEMENT option (name, value, preview, icon)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT preview (#PCDATA)>
+<!ELEMENT icon (#PCDATA)>
+
+<!-- grep and ecma carry a pattern (text), a search/replace pair, a list of values or a list of named
+     options, depending on where they sit; a single permissive model covers every use. -->
+<!ELEMENT grep (#PCDATA | search | replace | value | option)*>
+<!ELEMENT ecma (#PCDATA | search | replace | value | option)*>

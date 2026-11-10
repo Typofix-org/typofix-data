@@ -1,0 +1,41 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://typofix.org/schema/v1/languages.json",
+    "title": "Typofix exported languages",
+    "type": "object",
+    "required": ["version", "report", "supplemental"],
+    "properties": {
+        "$schema": { "type": "string" },
+        "version": { "type": "string" },
+        "report": { "type": "string", "format": "uri" },
+        "supplemental": {
+            "type": "object",
+            "required": ["languages"],
+            "additionalProperties": false,
+            "properties": {
+                "languages": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/identity" }
+                }
+            }
+        }
+    },
+    "additionalProperties": false,
+    "$defs": {
+        "identity": {
+            "type": "object",
+            "required": ["type", "icu", "language", "script", "region", "privateuse", "title", "localName"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string" },
+                "icu": { "type": "string" },
+                "language": { "type": "string" },
+                "script": { "type": "string" },
+                "region": { "type": "string" },
+                "privateuse": { "type": "string" },
+                "title": { "type": "string" },
+                "localName": { "type": "string" }
+            }
+        }
+    }
+}

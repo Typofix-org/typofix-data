@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Typofix rules database, version 1. See https://typofix.org. -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="typofix">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="identity" type="identityType" minOccurs="0"/>
+                <xs:element name="languages" type="languagesType" minOccurs="0"/>
+                <xs:element name="rules" type="rulesType" minOccurs="0"/>
+                <xs:element name="variables" type="variablesType" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="version" type="xs:string" use="required"/>
+            <xs:attribute name="report" type="xs:anyURI" use="required"/>
+            <xs:anyAttribute namespace="##other" processContents="skip"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="identityType">
+        <xs:sequence>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="icu" type="xs:string"/>
+            <xs:element name="language" type="xs:string"/>
+            <xs:element name="script" type="xs:string"/>
+            <xs:element name="region" type="xs:string"/>
+            <xs:element name="privateuse" type="xs:string"/>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="localName" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="languagesType">
+        <xs:sequence>
+            <xs:element name="locale" type="identityType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="rulesType">
+        <xs:sequence>
+            <xs:element name="rule" type="ruleType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ruleType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:integer"/>
+            <xs:element name="order" type="xs:integer"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="category">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="source" type="patternPairType"/>
+            <xs:element name="resolved">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="grep" type="patternPairType"/>
+                        <xs:element name="ecma" type="ecmaPatternType"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="unresolved">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="code" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="caseInsensitive" type="xs:boolean"/>
+            <xs:element name="alertOnly" type="xs:boolean"/>
+            <xs:element name="automatic" type="xs:boolean"/>
+            <xs:element name="manual" type="xs:boolean"/>
+            <xs:element name="examples">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="example" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="before" type="xs:string"/>
+                                    <xs:element name="after" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="patternPairType">
+        <xs:sequence>
+            <xs:element name="search" type="xs:string"/>
+            <xs:element name="replace" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ecmaPatternType">
+        <xs:sequence>
+            <xs:element name="search" type="xs:string"/>
+            <xs:element name="replace" type="xs:string"/>
+            <xs:element name="flags" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="variablesType">
+        <xs:sequence>
+            <xs:element name="variable" type="variableType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- A variable is either a base definition (name, description, values) or a language definition
+         (extend and/or preference); every child but the code is therefore optional. -->
+    <xs:complexType name="variableType">
+        <xs:sequence>
+            <xs:element name="code" type="xs:string"/>
+            <xs:element name="name" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="values" type="valueListsType" minOccurs="0"/>
+            <xs:element name="extend" type="valueListsType" minOccurs="0"/>
+            <xs:element name="preference" type="preferenceType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="valueListsType">
+        <xs:sequence>
+            <xs:element name="grep" type="valueListType"/>
+            <xs:element name="ecma" type="valueListType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="valueListType">
+        <xs:sequence>
+            <xs:element name="value" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="preferenceType">
+        <xs:sequence>
+            <xs:element name="defaultValue" type="patternPairDialectType"/>
+            <xs:element name="values" type="optionListsType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="patternPairDialectType">
+        <xs:sequence>
+            <xs:element name="grep" type="xs:string"/>
+            <xs:element name="ecma" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="optionListsType">
+        <xs:sequence>
+            <xs:element name="grep" type="optionListType"/>
+            <xs:element name="ecma" type="optionListType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="optionListType">
+        <xs:sequence>
+            <xs:element name="option" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="value" type="xs:string"/>
+                        <xs:element name="preview" type="xs:string"/>
+                        <xs:element name="icon" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

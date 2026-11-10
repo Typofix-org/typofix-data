@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE typofix SYSTEM "https://typofix.org/dtd/typofix.dtd">
+<typofix version="1" report="https://typofix.org/report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://typofix.org/xsd/typofix.xsd">
+  <languages>
+    <locale>
+      <type>cs-CZ-x-01</type>
+      <icu>cs_CZ</icu>
+      <language>cs</language>
+      <script></script>
+      <region>CZ</region>
+      <privateuse>x-01</privateuse>
+      <title>Czech (academic rules)</title>
+      <localName>Čeština (akademická pravidla)</localName>
+    </locale>
+    <locale>
+      <type>cs-CZ-x-02</type>
+      <icu>cs_CZ</icu>
+      <language>cs</language>
+      <script></script>
+      <region>CZ</region>
+      <privateuse>x-02</privateuse>
+      <title>Czech (traditional rules)</title>
+      <localName>Čeština (typografická pravidla)</localName>
+    </locale>
+    <locale>
+      <type>en-GB</type>
+      <icu>en_GB</icu>
+      <language>en</language>
+      <script></script>
+      <region>GB</region>
+      <privateuse></privateuse>
+      <title>English (UK)</title>
+      <localName>English (UK)</localName>
+    </locale>
+    <locale>
+      <type>pl-PL</type>
+      <icu>pl_PL</icu>
+      <language>pl</language>
+      <script></script>
+      <region>PL</region>
+      <privateuse></privateuse>
+      <title>Polish</title>
+      <localName>polski</localName>
+    </locale>
+  </languages>
+</typofix>

@@ -1,0 +1,156 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://typofix.org/schema/v1/rules.json",
+    "title": "Typofix rules of one language",
+    "type": "object",
+    "required": ["version", "report", "main"],
+    "properties": {
+        "$schema": { "type": "string" },
+        "version": { "type": "string" },
+        "report": { "type": "string", "format": "uri" },
+        "main": {
+            "type": "object",
+            "minProperties": 1,
+            "maxProperties": 1,
+            "additionalProperties": {
+                "type": "object",
+                "required": ["identity", "rules", "variables"],
+                "additionalProperties": false,
+                "properties": {
+                    "identity": { "$ref": "#/$defs/identity" },
+                    "rules": { "type": "array", "items": { "$ref": "#/$defs/rule" } },
+                    "variables": { "type": "array", "items": { "$ref": "#/$defs/languageVariable" } }
+                }
+            }
+        }
+    },
+    "additionalProperties": false,
+    "$defs": {
+        "identity": {
+            "type": "object",
+            "required": ["type", "icu", "language", "script", "region", "privateuse", "title", "localName"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string" },
+                "icu": { "type": "string" },
+                "language": { "type": "string" },
+                "script": { "type": "string" },
+                "region": { "type": "string" },
+                "privateuse": { "type": "string" },
+                "title": { "type": "string" },
+                "localName": { "type": "string" }
+            }
+        },
+        "rule": {
+            "type": "object",
+            "required": ["id", "order", "name", "description", "category", "source", "resolved",
+                "unresolved", "caseInsensitive", "alertOnly", "automatic", "manual", "examples"],
+            "additionalProperties": false,
+            "properties": {
+                "id": { "type": "integer" },
+                "order": { "type": "integer" },
+                "name": { "type": "string" },
+                "description": { "type": "string" },
+                "category": { "type": "array", "items": { "type": "string" } },
+                "source": { "$ref": "#/$defs/patternPair" },
+                "resolved": {
+                    "type": "object",
+                    "required": ["grep", "ecma"],
+                    "additionalProperties": false,
+                    "properties": {
+                        "grep": { "$ref": "#/$defs/patternPair" },
+                        "ecma": {
+                            "type": "object",
+                            "required": ["search", "replace", "flags"],
+                            "additionalProperties": false,
+                            "properties": {
+                                "search": { "type": "string" },
+                                "replace": { "type": "string" },
+                                "flags": { "type": "string" }
+                            }
+                        }
+                    }
+                },
+                "unresolved": { "type": "array", "items": { "type": "string" } },
+                "caseInsensitive": { "type": "boolean" },
+                "alertOnly": { "type": "boolean" },
+                "automatic": { "type": "boolean" },
+                "manual": { "type": "boolean" },
+                "examples": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["before", "after"],
+                        "additionalProperties": false,
+                        "properties": {
+                            "before": { "type": "string" },
+                            "after": { "type": "string" }
+                        }
+                    }
+                }
+            }
+        },
+        "patternPair": {
+            "type": "object",
+            "required": ["search", "replace"],
+            "additionalProperties": false,
+            "properties": {
+                "search": { "type": "string" },
+                "replace": { "type": "string" }
+            }
+        },
+        "languageVariable": {
+            "type": "object",
+            "required": ["code"],
+            "additionalProperties": false,
+            "properties": {
+                "code": { "type": "string" },
+                "extend": {
+                    "type": "object",
+                    "required": ["grep", "ecma"],
+                    "additionalProperties": false,
+                    "properties": {
+                        "grep": { "type": "array", "items": { "type": "string" } },
+                        "ecma": { "type": "array", "items": { "type": "string" } }
+                    }
+                },
+                "preference": {
+                    "type": "object",
+                    "required": ["defaultValue", "values"],
+                    "additionalProperties": false,
+                    "properties": {
+                        "defaultValue": {
+                            "type": "object",
+                            "required": ["grep", "ecma"],
+                            "additionalProperties": false,
+                            "properties": {
+                                "grep": { "type": "string" },
+                                "ecma": { "type": "string" }
+                            }
+                        },
+                        "values": {
+                            "type": "object",
+                            "required": ["grep", "ecma"],
+                            "additionalProperties": false,
+                            "properties": {
+                                "grep": { "type": "array", "items": { "$ref": "#/$defs/option" } },
+                                "ecma": { "type": "array", "items": { "$ref": "#/$defs/option" } }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "option": {
+            "type": "object",
+            "required": ["name", "value", "preview", "icon"],
+            "additionalProperties": false,
+            "properties": {
+                "name": { "type": "string" },
+                "value": { "type": "string" },
+                "preview": { "type": "string" },
+                "icon": { "type": "string" }
+            }
+        }
+    }
+}

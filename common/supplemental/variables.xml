@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE typofix SYSTEM "https://typofix.org/dtd/typofix.dtd">
+<typofix version="1" report="https://typofix.org/report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://typofix.org/xsd/typofix.xsd">
+  <variables>
+    <variable>
+      <code>OrdSuffix</code>
+      <name>Ordinal Suffixes</name>
+      <description>Ordinal indicator is a character, group of characters or a symbol following a numeral denoting that it is an ordinal number (1st, 2:a 3., 4ª)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>QL1</code>
+      <name>Quote Left Primary</name>
+      <description>Primary (default) left quotation mark</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>QL2</code>
+      <name>Quote Left Secondary</name>
+      <description>Secondary (nested) left quotation mark</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>Months</code>
+      <name>Months</name>
+      <description>List of names of months incl. abbreviated forms and inflected forms (January, jaanuar, jaanuari, jaanuaril…)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DashRange</code>
+      <name>Dash indicating range of values</name>
+      <description>Select the proper lenght of a standard dash (en-dash or em-dash) in closed range of values (1–10, 1910–1947, 12 000–24 000, 12.000–24.000)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{2013}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{2013}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Dash</code>
+      <name>Dash</name>
+      <description>The alternative options for a standard en-dash used in a sentence (not as a range or relation indicator)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{2013}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{2013}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbAfterOrd</code>
+      <name>Abbreviations after ordinal numbers</name>
+      <description>List of expressions which should be connected to a preceding ordinal number with nonbreaking space to prevent splitting at the end of a line (1. LF)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>pZs00A0</code>
+      <name>Spaces (without nonbreaking space U+00A0)</name>
+      <description>Spaces (without nonbreaking space U+00A0)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{0020}\x{1680}\x{2000}-\x{200A}\x{202F}\x{205F}\x{3000}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Zs}--\u{00A0}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd2013</code>
+      <name>Dashes (without en-dash U+2013)</name>
+      <description>Dashes (without en-dash U+2013)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{002D}\x{2010}\x{2011}\x{2012}\x{2014}\x{2015}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Pd}--\u{2013}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>ParentLeft</code>
+      <name>Opening parentheses and brackets</name>
+      <description>Opening parentheses and brackets: ( [ {</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0028}]]></value>
+          <value><![CDATA[\x{005B}]]></value>
+          <value><![CDATA[\x{007B}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0028}]]></value>
+          <value><![CDATA[\u{005B}]]></value>
+          <value><![CDATA[\u{007B}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>ParentRight</code>
+      <name>Closing parentheses and brackets</name>
+      <description>Closing parentheses and brackets: ) ] }</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0029}]]></value>
+          <value><![CDATA[\x{005D}]]></value>
+          <value><![CDATA[\x{007D}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0029}]]></value>
+          <value><![CDATA[\u{005D}]]></value>
+          <value><![CDATA[\u{007D}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>LB</code>
+      <name>Left Word Boundary</name>
+      <description>Left word boundary</description>
+      <values>
+        <grep>
+          <value><![CDATA[\b]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?<![\p{L}\p{M}\p{N}])]]></value>
+        </ecma>
+      </values>
+    </variable>
+  </variables>
+</typofix>

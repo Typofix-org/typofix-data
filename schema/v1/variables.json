@@ -1,0 +1,46 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://typofix.org/schema/v1/variables.json",
+    "title": "Typofix shared variable base",
+    "type": "object",
+    "required": ["version", "report", "supplemental"],
+    "properties": {
+        "$schema": { "type": "string" },
+        "version": { "type": "string" },
+        "report": { "type": "string", "format": "uri" },
+        "supplemental": {
+            "type": "object",
+            "required": ["variables"],
+            "additionalProperties": false,
+            "properties": {
+                "variables": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/variable" }
+                }
+            }
+        }
+    },
+    "additionalProperties": false,
+    "$defs": {
+        "variable": {
+            "type": "object",
+            "required": ["code", "name", "description", "values"],
+            "additionalProperties": false,
+            "properties": {
+                "code": { "type": "string" },
+                "name": { "type": "string" },
+                "description": { "type": "string" },
+                "values": { "$ref": "#/$defs/valueLists" }
+            }
+        },
+        "valueLists": {
+            "type": "object",
+            "required": ["grep", "ecma"],
+            "additionalProperties": false,
+            "properties": {
+                "grep": { "type": "array", "items": { "type": "string" } },
+                "ecma": { "type": "array", "items": { "type": "string" } }
+            }
+        }
+    }
+}

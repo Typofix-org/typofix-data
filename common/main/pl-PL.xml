@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE typofix SYSTEM "https://typofix.org/dtd/typofix.dtd">
+<typofix version="1" report="https://typofix.org/report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://typofix.org/xsd/typofix.xsd">
+  <identity>
+    <type>pl-PL</type>
+    <icu>pl_PL</icu>
+    <language>pl</language>
+    <script></script>
+    <region>PL</region>
+    <privateuse></privateuse>
+    <title>Polish</title>
+    <localName>polski</localName>
+  </identity>
+  <rules>
+    <rule>
+      <id>192</id>
+      <order>1</order>
+      <name>The correct form of born in year (1974–)</name>
+      <description>The correct form of born in year (1974–) with endash between parenthesis&#13;
+</description>
+      <category>
+        <name>Punctuation</name>
+        <name>Hyphens and dashes</name>
+      </category>
+      <source>
+        <search><![CDATA[(?:@{ParentLeft})\p{Nd}{4}\K(?:\p{Zs}\p{Pd}|(?:@{pPd2013}))(?=@{ParentRight})]]></search>
+        <replace><![CDATA[@{DashRange}]]></replace>
+      </source>
+      <resolved>
+        <grep>
+          <search><![CDATA[(?:\x{0028}|\x{005B}|\x{007B})\p{Nd}{4}\K(?:\p{Zs}\p{Pd}|(?:[\x{002D}\x{2010}\x{2011}\x{2012}\x{2014}\x{2015}]))(?=\x{0029}|\x{005D}|\x{007D})]]></search>
+          <replace><![CDATA[\x{2013}]]></replace>
+        </grep>
+        <ecma>
+          <search><![CDATA[(?<=(?:\u{0028}|\u{005B}|\u{007B})\p{Nd}{4})(?:\p{Zs}\p{Pd}|(?:[\p{Pd}--\u{2013}]))(?=\u{0029}|\u{005D}|\u{007D})]]></search>
+          <replace><![CDATA[\u{2013}]]></replace>
+          <flags>gv</flags>
+        </ecma>
+      </resolved>
+      <unresolved/>
+      <caseInsensitive>false</caseInsensitive>
+      <alertOnly>false</alertOnly>
+      <automatic>false</automatic>
+      <manual>true</manual>
+      <examples>
+        <example>
+          <before>Project (1974-)
+Project (1974 –)</before>
+          <after>Project (1974–)
+Project (1974–)</after>
+        </example>
+      </examples>
+    </rule>
+  </rules>
+  <variables>
+    <variable>
+      <code>OrdSuffix</code>
+      <extend>
+        <grep>
+          <value><![CDATA[\.]]></value>
+          <value><![CDATA[\x{00BA}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\.]]></value>
+          <value><![CDATA[\u{00BA}]]></value>
+        </ecma>
+      </extend>
+    </variable>
+    <variable>
+      <code>QL1</code>
+      <extend>
+        <grep>
+          <value><![CDATA[„]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[„]]></value>
+        </ecma>
+      </extend>
+      <preference>
+        <defaultValue>
+          <grep><![CDATA[„]]></grep>
+          <ecma><![CDATA[„]]></ecma>
+        </defaultValue>
+        <values>
+          <grep>
+            <option>
+              <name>„ [low-double-99]</name>
+              <value><![CDATA[„]]></value>
+              <preview>„</preview>
+              <icon>double-quote</icon>
+            </option>
+            <option>
+              <name>« [left-pointing-guillemet]</name>
+              <value><![CDATA[«]]></value>
+              <preview>«</preview>
+              <icon>quillement</icon>
+            </option>
+          </grep>
+          <ecma>
+            <option>
+              <name>„ [low-double-99]</name>
+              <value><![CDATA[„]]></value>
+              <preview>„</preview>
+              <icon>double-quote</icon>
+            </option>
+            <option>
+              <name>« [left-pointing-guillemet]</name>
+              <value><![CDATA[«]]></value>
+              <preview>«</preview>
+              <icon>quillement</icon>
+            </option>
+          </ecma>
+        </values>
+      </preference>
+    </variable>
+    <variable>
+      <code>QL2</code>
+      <extend>
+        <grep>
+          <value><![CDATA[»]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[»]]></value>
+        </ecma>
+      </extend>
+      <preference>
+        <defaultValue>
+          <grep><![CDATA[»]]></grep>
+          <ecma><![CDATA[»]]></ecma>
+        </defaultValue>
+        <values>
+          <grep>
+            <option>
+              <name>« [left-pointing-guillemet]</name>
+              <value><![CDATA[«]]></value>
+              <preview>«</preview>
+              <icon>quillement</icon>
+            </option>
+            <option>
+              <name>‚ [low-single-9]</name>
+              <value><![CDATA[‚]]></value>
+              <preview>‚</preview>
+              <icon>single-quote</icon>
+            </option>
+            <option>
+              <name>» [right-pointing-guillemet]</name>
+              <value><![CDATA[»]]></value>
+              <preview>»</preview>
+              <icon>quillement</icon>
+            </option>
+          </grep>
+          <ecma>
+            <option>
+              <name>« [left-pointing-guillemet]</name>
+              <value><![CDATA[«]]></value>
+              <preview>«</preview>
+              <icon>quillement</icon>
+            </option>
+            <option>
+              <name>‚ [low-single-9]</name>
+              <value><![CDATA[‚]]></value>
+              <preview>‚</preview>
+              <icon>single-quote</icon>
+            </option>
+            <option>
+              <name>» [right-pointing-guillemet]</name>
+              <value><![CDATA[»]]></value>
+              <preview>»</preview>
+              <icon>quillement</icon>
+            </option>
+          </ecma>
+        </values>
+      </preference>
+    </variable>
+    <variable>
+      <code>Months</code>
+      <extend>
+        <grep>
+          <value><![CDATA[(?:(?:maj|październik|(?:stycz|(?:kwiec|sierp|wrzes|grudz)i)eń|(?:maj|październik|listopad|(?:kwiet|wrześ|grud|s(?:tycz|ierp))ni|(?:mar|czerw|lip)c)a|(?:marz|(?:czerw|lip)i)ec|l(?:istopad|ut(?:ego|y))))]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:maj|październik|(?:stycz|(?:kwiec|sierp|wrzes|grudz)i)eń|(?:maj|październik|listopad|(?:kwiet|wrześ|grud|s(?:tycz|ierp))ni|(?:mar|czerw|lip)c)a|(?:marz|(?:czerw|lip)i)ec|l(?:istopad|ut(?:ego|y))))]]></value>
+        </ecma>
+      </extend>
+    </variable>
+  </variables>
+</typofix>

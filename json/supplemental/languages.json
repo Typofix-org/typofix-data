@@ -1,0 +1,49 @@
+{
+    "$schema": "https://typofix.org/schema/v1/languages.json",
+    "version": "1",
+    "report": "https://typofix.org/report",
+    "supplemental": {
+        "languages": [
+            {
+                "type": "cs-CZ-x-01",
+                "icu": "cs_CZ",
+                "language": "cs",
+                "script": "",
+                "region": "CZ",
+                "privateuse": "x-01",
+                "title": "Czech (academic rules)",
+                "localName": "Čeština (akademická pravidla)"
+            },
+            {
+                "type": "cs-CZ-x-02",
+                "icu": "cs_CZ",
+                "language": "cs",
+                "script": "",
+                "region": "CZ",
+                "privateuse": "x-02",
+                "title": "Czech (traditional rules)",
+                "localName": "Čeština (typografická pravidla)"
+            },
+            {
+                "type": "en-GB",
+                "icu": "en_GB",
+                "language": "en",
+                "script": "",
+                "region": "GB",
+                "privateuse": "",
+                "title": "English (UK)",
+                "localName": "English (UK)"
+            },
+            {
+                "type": "pl-PL",
+                "icu": "pl_PL",
+                "language": "pl",
+                "script": "",
+                "region": "PL",
+                "privateuse": "",
+                "title": "Polish",
+                "localName": "polski"
+            }
+        ]
+    }
+}

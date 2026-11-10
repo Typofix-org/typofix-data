@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE typofix SYSTEM "https://typofix.org/dtd/typofix.dtd">
+<typofix version="1" report="https://typofix.org/report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://typofix.org/xsd/typofix.xsd">
+  <identity>
+    <type>en-GB</type>
+    <icu>en_GB</icu>
+    <language>en</language>
+    <script></script>
+    <region>GB</region>
+    <privateuse></privateuse>
+    <title>English (UK)</title>
+    <localName>English (UK)</localName>
+  </identity>
+  <rules>
+    <rule>
+      <id>421</id>
+      <order>1</order>
+      <name>Add nonbreraking space before ellipsis at the end of a sentence</name>
+      <description>Add nonbreraking space before ellipsis at the end of a sentence</description>
+      <category>
+        <name>Spaces</name>
+        <name>Add space before/after ellipsis (prefs)</name>
+      </category>
+      <source>
+        <search><![CDATA[\p{Zs}?\x{2026}(?=$|\r?\n)]]></search>
+        <replace><![CDATA[\x{00A0}\x{2026}]]></replace>
+      </source>
+      <resolved>
+        <grep>
+          <search><![CDATA[\p{Zs}?\x{2026}(?=$|\r?\n)]]></search>
+          <replace><![CDATA[\x{00A0}\x{2026}]]></replace>
+        </grep>
+        <ecma>
+          <search><![CDATA[\p{Zs}?\u{2026}(?=$|\r?\n)]]></search>
+          <replace><![CDATA[\u{00A0}\u{2026}]]></replace>
+          <flags>gv</flags>
+        </ecma>
+      </resolved>
+      <unresolved/>
+      <caseInsensitive>false</caseInsensitive>
+      <alertOnly>false</alertOnly>
+      <automatic>false</automatic>
+      <manual>false</manual>
+      <examples>
+        <example>
+          <before>Han tøvede et øjeblik, før han svarede… (Danish)</before>
+          <after>Han tøvede et øjeblik, før han svarede … (Danish)</after>
+        </example>
+      </examples>
+    </rule>
+  </rules>
+  <variables>
+    <variable>
+      <code>OrdSuffix</code>
+      <extend>
+        <grep>
+          <value><![CDATA[nd]]></value>
+          <value><![CDATA[rd]]></value>
+          <value><![CDATA[st]]></value>
+          <value><![CDATA[th]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[nd]]></value>
+          <value><![CDATA[rd]]></value>
+          <value><![CDATA[st]]></value>
+          <value><![CDATA[th]]></value>
+        </ecma>
+      </extend>
+    </variable>
+    <variable>
+      <code>QL1</code>
+      <extend>
+        <grep>
+          <value><![CDATA[‘]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[‘]]></value>
+        </ecma>
+      </extend>
+      <preference>
+        <defaultValue>
+          <grep><![CDATA[‘]]></grep>
+          <ecma><![CDATA[‘]]></ecma>
+        </defaultValue>
+        <values>
+          <grep>
+            <option>
+              <name>‘ [high-single-6]</name>
+              <value><![CDATA[‘]]></value>
+              <preview>‘</preview>
+              <icon>single-quote</icon>
+            </option>
+            <option>
+              <name>“ [high-double-66]</name>
+              <value><![CDATA[“]]></value>
+              <preview>“</preview>
+              <icon>double-quote</icon>
+            </option>
+          </grep>
+          <ecma>
+            <option>
+              <name>‘ [high-single-6]</name>
+              <value><![CDATA[‘]]></value>
+              <preview>‘</preview>
+              <icon>single-quote</icon>
+            </option>
+            <option>
+              <name>“ [high-double-66]</name>
+              <value><![CDATA[“]]></value>
+              <preview>“</preview>
+              <icon>double-quote</icon>
+            </option>
+          </ecma>
+        </values>
+      </preference>
+    </variable>
+    <variable>
+      <code>QL2</code>
+      <extend>
+        <grep>
+          <value><![CDATA[“]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[“]]></value>
+        </ecma>
+      </extend>
+      <preference>
+        <defaultValue>
+          <grep><![CDATA[“]]></grep>
+          <ecma><![CDATA[“]]></ecma>
+        </defaultValue>
+        <values>
+          <grep>
+            <option>
+              <name>“ [high-double-66]</name>
+              <value><![CDATA[“]]></value>
+              <preview>“</preview>
+              <icon>double-quote</icon>
+            </option>
+            <option>
+              <name>‘ [high-single-6]</name>
+              <value><![CDATA[‘]]></value>
+              <preview>‘</preview>
+              <icon>single-quote</icon>
+            </option>
+          </grep>
+          <ecma>
+            <option>
+              <name>“ [high-double-66]</name>
+              <value><![CDATA[“]]></value>
+              <preview>“</preview>
+              <icon>double-quote</icon>
+            </option>
+            <option>
+              <name>‘ [high-single-6]</name>
+              <value><![CDATA[‘]]></value>
+              <preview>‘</preview>
+              <icon>single-quote</icon>
+            </option>
+          </ecma>
+        </values>
+      </preference>
+    </variable>
+    <variable>
+      <code>Months</code>
+      <extend>
+        <grep>
+          <value><![CDATA[January]]></value>
+          <value><![CDATA[February]]></value>
+          <value><![CDATA[March]]></value>
+          <value><![CDATA[April]]></value>
+          <value><![CDATA[May]]></value>
+          <value><![CDATA[June]]></value>
+          <value><![CDATA[July]]></value>
+          <value><![CDATA[August]]></value>
+          <value><![CDATA[September]]></value>
+          <value><![CDATA[October]]></value>
+          <value><![CDATA[November]]></value>
+          <value><![CDATA[December]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[January]]></value>
+          <value><![CDATA[February]]></value>
+          <value><![CDATA[March]]></value>
+          <value><![CDATA[April]]></value>
+          <value><![CDATA[May]]></value>
+          <value><![CDATA[June]]></value>
+          <value><![CDATA[July]]></value>
+          <value><![CDATA[August]]></value>
+          <value><![CDATA[September]]></value>
+          <value><![CDATA[October]]></value>
+          <value><![CDATA[November]]></value>
+          <value><![CDATA[December]]></value>
+        </ecma>
+      </extend>
+    </variable>
+  </variables>
+</typofix>
