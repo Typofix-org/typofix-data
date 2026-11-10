@@ -1,0 +1,40 @@
+name: Release
+
+# Runs when tasks:dataset-release in the Typofix CMS pushes a vX.Y.Z tag. It attaches a zip of the whole dataset
+# to a GitHub Release and publishes the JSON package to npm. Packagist updates itself from its GitHub hook, and
+# Zenodo archives the GitHub Release for a DOI; both are enabled once on the repository, outside this workflow.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the tag
+        uses: actions/checkout@v4
+
+      - name: Build the dataset zip
+        run: zip -r "typofix-data-${GITHUB_REF_NAME}.zip" common json dtd xsd schema CHANGELOG.md README.md LICENSE
+
+      - name: Create the GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: typofix-data-${{ github.ref_name }}.zip
+          generate_release_notes: true
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      # Trusted publishing (OIDC): no token. The first version is published by hand, which enables it on npm.
+      - name: Publish to npm
+        run: npm publish --provenance --access public
