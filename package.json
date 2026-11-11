@@ -1,6 +1,6 @@
 {
   "name": "@typofix/data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Public database of typographic correction rules behind Typofix, per language.",
   "keywords": [
     "typofix",

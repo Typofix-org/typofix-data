@@ -2,6 +2,10 @@
 
 All notable changes to the Typofix rules database, newest first.
 
+## v1.0.1 — 2026-11-11
+
+_No rule changes._
+
 ## v1.0.0 — 2026-11-10
 
 ### cs-CZ-x-01
