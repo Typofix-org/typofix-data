@@ -23,6 +23,46 @@
       <localName>Čeština (typografická pravidla)</localName>
     </locale>
     <locale>
+      <type>bg-BG</type>
+      <icu>bg_BG</icu>
+      <language>bg</language>
+      <script></script>
+      <region>BG</region>
+      <privateuse></privateuse>
+      <title>Bulgarian</title>
+      <localName>Български език</localName>
+    </locale>
+    <locale>
+      <type>hr-HR</type>
+      <icu>hr_HR</icu>
+      <language>hr</language>
+      <script></script>
+      <region>HR</region>
+      <privateuse></privateuse>
+      <title>Croatian</title>
+      <localName>Hrvatski jezik</localName>
+    </locale>
+    <locale>
+      <type>da-DK</type>
+      <icu>da_DK</icu>
+      <language>da</language>
+      <script></script>
+      <region>DK</region>
+      <privateuse></privateuse>
+      <title>Danish</title>
+      <localName>Dansk</localName>
+    </locale>
+    <locale>
+      <type>nl-NL</type>
+      <icu>nl_NL</icu>
+      <language>nl</language>
+      <script></script>
+      <region>NL</region>
+      <privateuse></privateuse>
+      <title>Dutch</title>
+      <localName>Nederlands</localName>
+    </locale>
+    <locale>
       <type>en-GB</type>
       <icu>en_GB</icu>
       <language>en</language>
@@ -33,6 +73,126 @@
       <localName>English (UK)</localName>
     </locale>
     <locale>
+      <type>en-US</type>
+      <icu>en_US</icu>
+      <language>en</language>
+      <script></script>
+      <region>US</region>
+      <privateuse></privateuse>
+      <title>English (US)</title>
+      <localName>English (US)</localName>
+    </locale>
+    <locale>
+      <type>et-EE</type>
+      <icu>et_EE</icu>
+      <language>et</language>
+      <script></script>
+      <region>EE</region>
+      <privateuse></privateuse>
+      <title>Estonian</title>
+      <localName>Eesti</localName>
+    </locale>
+    <locale>
+      <type>fi-FI</type>
+      <icu>fi_FI</icu>
+      <language>fi</language>
+      <script></script>
+      <region>FI</region>
+      <privateuse></privateuse>
+      <title>Finnish</title>
+      <localName>suomi</localName>
+    </locale>
+    <locale>
+      <type>fr-FR</type>
+      <icu>fr_FR</icu>
+      <language>fr</language>
+      <script></script>
+      <region>FR</region>
+      <privateuse></privateuse>
+      <title>French</title>
+      <localName>Française</localName>
+    </locale>
+    <locale>
+      <type>de-DE</type>
+      <icu>de_DE</icu>
+      <language>de</language>
+      <script></script>
+      <region>DE</region>
+      <privateuse></privateuse>
+      <title>German (Germany)</title>
+      <localName>Deutsch (Deutschland)</localName>
+    </locale>
+    <locale>
+      <type>el-GR</type>
+      <icu>el_GR</icu>
+      <language>el</language>
+      <script></script>
+      <region>GR</region>
+      <privateuse></privateuse>
+      <title>Greek</title>
+      <localName>Ελληνική</localName>
+    </locale>
+    <locale>
+      <type>hu-HU</type>
+      <icu>hu_HU</icu>
+      <language>hu</language>
+      <script></script>
+      <region>HU</region>
+      <privateuse></privateuse>
+      <title>Hungarian</title>
+      <localName>Magyar</localName>
+    </locale>
+    <locale>
+      <type>ga-IE</type>
+      <icu>ga_IE</icu>
+      <language>ga</language>
+      <script></script>
+      <region>IE</region>
+      <privateuse></privateuse>
+      <title>Irish</title>
+      <localName>An Ghaeilge</localName>
+    </locale>
+    <locale>
+      <type>it-IT</type>
+      <icu>it_IT</icu>
+      <language>it</language>
+      <script></script>
+      <region>IT</region>
+      <privateuse></privateuse>
+      <title>Italian</title>
+      <localName>Italiano</localName>
+    </locale>
+    <locale>
+      <type>lv-LV</type>
+      <icu>lv_LV</icu>
+      <language>lv</language>
+      <script></script>
+      <region>LV</region>
+      <privateuse></privateuse>
+      <title>Latvian</title>
+      <localName>Latviešu</localName>
+    </locale>
+    <locale>
+      <type>lt-LT</type>
+      <icu>lt_LT</icu>
+      <language>lt</language>
+      <script></script>
+      <region>LT</region>
+      <privateuse></privateuse>
+      <title>Lithuanian</title>
+      <localName>Lietuvių kalba</localName>
+    </locale>
+    <locale>
+      <type>mt-MT</type>
+      <icu>mt_MT</icu>
+      <language>mt</language>
+      <script></script>
+      <region>MT</region>
+      <privateuse></privateuse>
+      <title>Maltese</title>
+      <localName>Il-Malti</localName>
+    </locale>
+    <locale>
       <type>pl-PL</type>
       <icu>pl_PL</icu>
       <language>pl</language>
@@ -41,6 +201,66 @@
       <privateuse></privateuse>
       <title>Polish</title>
       <localName>polski</localName>
+    </locale>
+    <locale>
+      <type>pt-PT</type>
+      <icu>pt_PT</icu>
+      <language>pt</language>
+      <script></script>
+      <region>PT</region>
+      <privateuse></privateuse>
+      <title>Portuguese</title>
+      <localName>Língua portuguesa</localName>
+    </locale>
+    <locale>
+      <type>ro-RO</type>
+      <icu>ro_RO</icu>
+      <language>ro</language>
+      <script></script>
+      <region>RO</region>
+      <privateuse></privateuse>
+      <title>Romanian</title>
+      <localName>Limba română</localName>
+    </locale>
+    <locale>
+      <type>sk-SK</type>
+      <icu>sk_SK</icu>
+      <language>sk</language>
+      <script></script>
+      <region>SK</region>
+      <privateuse></privateuse>
+      <title>Slovak</title>
+      <localName>Slovenčina</localName>
+    </locale>
+    <locale>
+      <type>sl-SI</type>
+      <icu>sl_SI</icu>
+      <language>sl</language>
+      <script></script>
+      <region>SI</region>
+      <privateuse></privateuse>
+      <title>Slovenian</title>
+      <localName>Slovenski</localName>
+    </locale>
+    <locale>
+      <type>es-ES</type>
+      <icu>es_ES</icu>
+      <language>es</language>
+      <script></script>
+      <region>ES</region>
+      <privateuse></privateuse>
+      <title>Spanish</title>
+      <localName>Español</localName>
+    </locale>
+    <locale>
+      <type>sv-SE</type>
+      <icu>sv_SE</icu>
+      <language>sv</language>
+      <script></script>
+      <region>SE</region>
+      <privateuse></privateuse>
+      <title>Swedish</title>
+      <localName>Svenska</localName>
     </locale>
   </languages>
 </typofix>

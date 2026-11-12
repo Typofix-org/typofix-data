@@ -25,6 +25,46 @@
                 "localName": "Čeština (typografická pravidla)"
             },
             {
+                "type": "bg-BG",
+                "icu": "bg_BG",
+                "language": "bg",
+                "script": "",
+                "region": "BG",
+                "privateuse": "",
+                "title": "Bulgarian",
+                "localName": "Български език"
+            },
+            {
+                "type": "hr-HR",
+                "icu": "hr_HR",
+                "language": "hr",
+                "script": "",
+                "region": "HR",
+                "privateuse": "",
+                "title": "Croatian",
+                "localName": "Hrvatski jezik"
+            },
+            {
+                "type": "da-DK",
+                "icu": "da_DK",
+                "language": "da",
+                "script": "",
+                "region": "DK",
+                "privateuse": "",
+                "title": "Danish",
+                "localName": "Dansk"
+            },
+            {
+                "type": "nl-NL",
+                "icu": "nl_NL",
+                "language": "nl",
+                "script": "",
+                "region": "NL",
+                "privateuse": "",
+                "title": "Dutch",
+                "localName": "Nederlands"
+            },
+            {
                 "type": "en-GB",
                 "icu": "en_GB",
                 "language": "en",
@@ -35,6 +75,126 @@
                 "localName": "English (UK)"
             },
             {
+                "type": "en-US",
+                "icu": "en_US",
+                "language": "en",
+                "script": "",
+                "region": "US",
+                "privateuse": "",
+                "title": "English (US)",
+                "localName": "English (US)"
+            },
+            {
+                "type": "et-EE",
+                "icu": "et_EE",
+                "language": "et",
+                "script": "",
+                "region": "EE",
+                "privateuse": "",
+                "title": "Estonian",
+                "localName": "Eesti"
+            },
+            {
+                "type": "fi-FI",
+                "icu": "fi_FI",
+                "language": "fi",
+                "script": "",
+                "region": "FI",
+                "privateuse": "",
+                "title": "Finnish",
+                "localName": "suomi"
+            },
+            {
+                "type": "fr-FR",
+                "icu": "fr_FR",
+                "language": "fr",
+                "script": "",
+                "region": "FR",
+                "privateuse": "",
+                "title": "French",
+                "localName": "Française"
+            },
+            {
+                "type": "de-DE",
+                "icu": "de_DE",
+                "language": "de",
+                "script": "",
+                "region": "DE",
+                "privateuse": "",
+                "title": "German (Germany)",
+                "localName": "Deutsch (Deutschland)"
+            },
+            {
+                "type": "el-GR",
+                "icu": "el_GR",
+                "language": "el",
+                "script": "",
+                "region": "GR",
+                "privateuse": "",
+                "title": "Greek",
+                "localName": "Ελληνική"
+            },
+            {
+                "type": "hu-HU",
+                "icu": "hu_HU",
+                "language": "hu",
+                "script": "",
+                "region": "HU",
+                "privateuse": "",
+                "title": "Hungarian",
+                "localName": "Magyar"
+            },
+            {
+                "type": "ga-IE",
+                "icu": "ga_IE",
+                "language": "ga",
+                "script": "",
+                "region": "IE",
+                "privateuse": "",
+                "title": "Irish",
+                "localName": "An Ghaeilge"
+            },
+            {
+                "type": "it-IT",
+                "icu": "it_IT",
+                "language": "it",
+                "script": "",
+                "region": "IT",
+                "privateuse": "",
+                "title": "Italian",
+                "localName": "Italiano"
+            },
+            {
+                "type": "lv-LV",
+                "icu": "lv_LV",
+                "language": "lv",
+                "script": "",
+                "region": "LV",
+                "privateuse": "",
+                "title": "Latvian",
+                "localName": "Latviešu"
+            },
+            {
+                "type": "lt-LT",
+                "icu": "lt_LT",
+                "language": "lt",
+                "script": "",
+                "region": "LT",
+                "privateuse": "",
+                "title": "Lithuanian",
+                "localName": "Lietuvių kalba"
+            },
+            {
+                "type": "mt-MT",
+                "icu": "mt_MT",
+                "language": "mt",
+                "script": "",
+                "region": "MT",
+                "privateuse": "",
+                "title": "Maltese",
+                "localName": "Il-Malti"
+            },
+            {
                 "type": "pl-PL",
                 "icu": "pl_PL",
                 "language": "pl",
@@ -43,6 +203,66 @@
                 "privateuse": "",
                 "title": "Polish",
                 "localName": "polski"
+            },
+            {
+                "type": "pt-PT",
+                "icu": "pt_PT",
+                "language": "pt",
+                "script": "",
+                "region": "PT",
+                "privateuse": "",
+                "title": "Portuguese",
+                "localName": "Língua portuguesa"
+            },
+            {
+                "type": "ro-RO",
+                "icu": "ro_RO",
+                "language": "ro",
+                "script": "",
+                "region": "RO",
+                "privateuse": "",
+                "title": "Romanian",
+                "localName": "Limba română"
+            },
+            {
+                "type": "sk-SK",
+                "icu": "sk_SK",
+                "language": "sk",
+                "script": "",
+                "region": "SK",
+                "privateuse": "",
+                "title": "Slovak",
+                "localName": "Slovenčina"
+            },
+            {
+                "type": "sl-SI",
+                "icu": "sl_SI",
+                "language": "sl",
+                "script": "",
+                "region": "SI",
+                "privateuse": "",
+                "title": "Slovenian",
+                "localName": "Slovenski"
+            },
+            {
+                "type": "es-ES",
+                "icu": "es_ES",
+                "language": "es",
+                "script": "",
+                "region": "ES",
+                "privateuse": "",
+                "title": "Spanish",
+                "localName": "Español"
+            },
+            {
+                "type": "sv-SE",
+                "icu": "sv_SE",
+                "language": "sv",
+                "script": "",
+                "region": "SE",
+                "privateuse": "",
+                "title": "Swedish",
+                "localName": "Svenska"
             }
         ]
     }

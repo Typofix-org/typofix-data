@@ -5,6 +5,805 @@
     "supplemental": {
         "variables": [
             {
+                "code": "ISOcurrency",
+                "name": "ISO currency codes",
+                "description": "ISO 4217 is a standard published by the International Organization for Standardization (ISO) that defines alpha codes for the representation of currencies",
+                "values": {
+                    "grep": [
+                        "AED",
+                        "AFN",
+                        "ALL",
+                        "AMD",
+                        "ANG",
+                        "AOA",
+                        "ARS",
+                        "AUD",
+                        "AWG",
+                        "AZN",
+                        "BAM",
+                        "BBD",
+                        "BDT",
+                        "BGN",
+                        "BHD",
+                        "BIF",
+                        "BMD",
+                        "BND",
+                        "BOB",
+                        "BRL",
+                        "BSD",
+                        "BTN",
+                        "BWP",
+                        "BYN",
+                        "BZD",
+                        "CAD",
+                        "CDF",
+                        "CHF",
+                        "CLP",
+                        "CNY",
+                        "COP",
+                        "CRC",
+                        "CUP",
+                        "CVE",
+                        "CZK",
+                        "DJF",
+                        "DKK",
+                        "DOP",
+                        "DZD",
+                        "EGP",
+                        "ERN",
+                        "ETB",
+                        "EUR",
+                        "FJD",
+                        "FKP",
+                        "FOK",
+                        "GBP",
+                        "GEL",
+                        "GGP",
+                        "GHS",
+                        "GIP",
+                        "GMD",
+                        "GNF",
+                        "GTQ",
+                        "GYD",
+                        "HKD",
+                        "HNL",
+                        "HRK",
+                        "HTG",
+                        "HUF",
+                        "IDR",
+                        "ILS",
+                        "IMP",
+                        "INR",
+                        "IQD",
+                        "IRR",
+                        "ISK",
+                        "JEP",
+                        "JMD",
+                        "JOD",
+                        "JPY",
+                        "KES",
+                        "KGS",
+                        "KHR",
+                        "KID",
+                        "KMF",
+                        "KRW",
+                        "KWD",
+                        "KYD",
+                        "KZT",
+                        "LAK",
+                        "LBP",
+                        "LKR",
+                        "LRD",
+                        "LSL",
+                        "LYD",
+                        "MAD",
+                        "MDL",
+                        "MGA",
+                        "MKD",
+                        "MMK",
+                        "MNT",
+                        "MOP",
+                        "MRU",
+                        "MUR",
+                        "MVR",
+                        "MWK",
+                        "MXN",
+                        "MYR",
+                        "MZN",
+                        "NAD",
+                        "NGN",
+                        "NIO",
+                        "NOK",
+                        "NPR",
+                        "NZD",
+                        "OMR",
+                        "PAB",
+                        "PEN",
+                        "PGK",
+                        "PHP",
+                        "PKR",
+                        "PLN",
+                        "PYG",
+                        "QAR",
+                        "RON",
+                        "RSD",
+                        "RUB",
+                        "RWF",
+                        "SAR",
+                        "SBD",
+                        "SCR",
+                        "SDG",
+                        "SEK",
+                        "SGD",
+                        "SHP",
+                        "SLL",
+                        "SOS",
+                        "SRD",
+                        "SSP",
+                        "STN",
+                        "SVC",
+                        "SYP",
+                        "SZL",
+                        "THB",
+                        "TJS",
+                        "TMT",
+                        "TND",
+                        "TOP",
+                        "TRY",
+                        "TTD",
+                        "TWD",
+                        "TZS",
+                        "UAH",
+                        "UGX",
+                        "USD",
+                        "UYU",
+                        "UZS",
+                        "VES",
+                        "VND",
+                        "VUV",
+                        "WST",
+                        "XAF",
+                        "XCD",
+                        "XDR",
+                        "XOF",
+                        "XPF",
+                        "YER",
+                        "ZAR",
+                        "ZMW"
+                    ],
+                    "ecma": [
+                        "AED",
+                        "AFN",
+                        "ALL",
+                        "AMD",
+                        "ANG",
+                        "AOA",
+                        "ARS",
+                        "AUD",
+                        "AWG",
+                        "AZN",
+                        "BAM",
+                        "BBD",
+                        "BDT",
+                        "BGN",
+                        "BHD",
+                        "BIF",
+                        "BMD",
+                        "BND",
+                        "BOB",
+                        "BRL",
+                        "BSD",
+                        "BTN",
+                        "BWP",
+                        "BYN",
+                        "BZD",
+                        "CAD",
+                        "CDF",
+                        "CHF",
+                        "CLP",
+                        "CNY",
+                        "COP",
+                        "CRC",
+                        "CUP",
+                        "CVE",
+                        "CZK",
+                        "DJF",
+                        "DKK",
+                        "DOP",
+                        "DZD",
+                        "EGP",
+                        "ERN",
+                        "ETB",
+                        "EUR",
+                        "FJD",
+                        "FKP",
+                        "FOK",
+                        "GBP",
+                        "GEL",
+                        "GGP",
+                        "GHS",
+                        "GIP",
+                        "GMD",
+                        "GNF",
+                        "GTQ",
+                        "GYD",
+                        "HKD",
+                        "HNL",
+                        "HRK",
+                        "HTG",
+                        "HUF",
+                        "IDR",
+                        "ILS",
+                        "IMP",
+                        "INR",
+                        "IQD",
+                        "IRR",
+                        "ISK",
+                        "JEP",
+                        "JMD",
+                        "JOD",
+                        "JPY",
+                        "KES",
+                        "KGS",
+                        "KHR",
+                        "KID",
+                        "KMF",
+                        "KRW",
+                        "KWD",
+                        "KYD",
+                        "KZT",
+                        "LAK",
+                        "LBP",
+                        "LKR",
+                        "LRD",
+                        "LSL",
+                        "LYD",
+                        "MAD",
+                        "MDL",
+                        "MGA",
+                        "MKD",
+                        "MMK",
+                        "MNT",
+                        "MOP",
+                        "MRU",
+                        "MUR",
+                        "MVR",
+                        "MWK",
+                        "MXN",
+                        "MYR",
+                        "MZN",
+                        "NAD",
+                        "NGN",
+                        "NIO",
+                        "NOK",
+                        "NPR",
+                        "NZD",
+                        "OMR",
+                        "PAB",
+                        "PEN",
+                        "PGK",
+                        "PHP",
+                        "PKR",
+                        "PLN",
+                        "PYG",
+                        "QAR",
+                        "RON",
+                        "RSD",
+                        "RUB",
+                        "RWF",
+                        "SAR",
+                        "SBD",
+                        "SCR",
+                        "SDG",
+                        "SEK",
+                        "SGD",
+                        "SHP",
+                        "SLL",
+                        "SOS",
+                        "SRD",
+                        "SSP",
+                        "STN",
+                        "SVC",
+                        "SYP",
+                        "SZL",
+                        "THB",
+                        "TJS",
+                        "TMT",
+                        "TND",
+                        "TOP",
+                        "TRY",
+                        "TTD",
+                        "TWD",
+                        "TZS",
+                        "UAH",
+                        "UGX",
+                        "USD",
+                        "UYU",
+                        "UZS",
+                        "VES",
+                        "VND",
+                        "VUV",
+                        "WST",
+                        "XAF",
+                        "XCD",
+                        "XDR",
+                        "XOF",
+                        "XPF",
+                        "YER",
+                        "ZAR",
+                        "ZMW"
+                    ]
+                }
+            },
+            {
+                "code": "LenghtUnits",
+                "name": "SI length units abbreviations",
+                "description": "List of of the most common units of lenght, SI and non-SI units incl. local forms (km, км, χλμ.) – only 2 letters and more",
+                "values": {
+                    "grep": [
+                        "(?:da|[acdEfGhkMmnPpQqRrTYyZz\\x{00B5}\\x{03BC}])m"
+                    ],
+                    "ecma": [
+                        "(?:da|[acdEfGhkMmnPpQqRrTYyZz\\u{00B5}\\u{03BC}])m"
+                    ]
+                }
+            },
+            {
+                "code": "SLW",
+                "name": "Single Letter Words",
+                "description": "List of single-letter-words – in some languages, there are specific rules for these words.",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "Year",
+                "name": "Abbreviation for Year",
+                "description": "Abbreviation for the word “year” – used typically after the number (2012 г.) or before the number (r. 2012)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WeightUnits",
+                "name": "SI weight units",
+                "description": "List of of the most common units of weight, SI and non-SI units including local versions of names of those units (ton, кг…)",
+                "values": {
+                    "grep": [
+                        "kg",
+                        "mg",
+                        "µg",
+                        "ng",
+                        "pg"
+                    ],
+                    "ecma": [
+                        "kg",
+                        "mg",
+                        "µg",
+                        "ng",
+                        "pg"
+                    ]
+                }
+            },
+            {
+                "code": "AcademicTitles",
+                "name": "Academic titles, honorifics etc",
+                "description": "Abbreviated (or very short) forms of academic titles and degrees, honorifics, Saint etc. (Mr., Dr, Prof., St etc.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "VolumeUnits",
+                "name": "Volume Units abbreviations",
+                "description": "List of of the most common units of volume, SI and non-SI units including local versions of names of those units (km³, км³, fl oz…)",
+                "values": {
+                    "grep": [
+                        "nm³",
+                        "[\\x{00B5}\\x{03BC}]m³",
+                        "mm³",
+                        "cm³",
+                        "m³",
+                        "dm³",
+                        "km³",
+                        "ft³",
+                        "yd³",
+                        "mi³",
+                        "in³",
+                        "hl",
+                        "dl",
+                        "cl",
+                        "ml",
+                        "\\x{2113}"
+                    ],
+                    "ecma": [
+                        "nm³",
+                        "[\\u{00B5}\\u{03BC}]m³",
+                        "mm³",
+                        "cm³",
+                        "m³",
+                        "dm³",
+                        "km³",
+                        "ft³",
+                        "yd³",
+                        "mi³",
+                        "in³",
+                        "hl",
+                        "dl",
+                        "cl",
+                        "ml",
+                        "\\u{2113}"
+                    ]
+                }
+            },
+            {
+                "code": "AreaUnits",
+                "name": "Area Units",
+                "description": "List of of the most common units of area, SI and non-SI units including local versions of names of those units (ha, hectare, yd², см²…)",
+                "values": {
+                    "grep": [
+                        "(\\x{00B5}|\\x{03BC})m²",
+                        "[cdnml]?m²",
+                        "ft²",
+                        "yd²",
+                        "mi²",
+                        "ha"
+                    ],
+                    "ecma": [
+                        "(\\u{00B5}|\\u{03BC})m²",
+                        "[cdnml]?m²",
+                        "ft²",
+                        "yd²",
+                        "mi²",
+                        "ha"
+                    ]
+                }
+            },
+            {
+                "code": "SymBefore",
+                "name": "Symbols before words",
+                "description": "Symbols written before a word and followed by a nonbreaking space to prevent splitting at the end of a line (© § etc.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "TempUnits",
+                "name": "Temperature Units abbreviations",
+                "description": "List of of the most common units of temperature, SI and non-SI units including possible local versions (°C)  – only 2 letters and more",
+                "values": {
+                    "grep": [
+                        "°C",
+                        "°F"
+                    ],
+                    "ecma": [
+                        "°C",
+                        "°F"
+                    ]
+                }
+            },
+            {
+                "code": "RomanNums",
+                "name": "Roman Numbers",
+                "description": "A regex definition of valid Roman numbers",
+                "values": {
+                    "grep": [
+                        "@{LB}(?:(?:I[VX]|VI{0,3}|I{1,3})|(?:(?:X[LC]|LX{0,3}|X{1,3})(?:I[VX]|V?I{0,3}))|(?:(?:C[DM]|DC{0,3}|C{1,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3}))|(?:M+(?:C[DM]|D?C{0,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3})))|(?:[\\x{2160}-\\x{216F}])|(?:[\\x{2170}-\\x{217F}])@{RB}"
+                    ],
+                    "ecma": [
+                        "@{LB}(?:(?:I[VX]|VI{0,3}|I{1,3})|(?:(?:X[LC]|LX{0,3}|X{1,3})(?:I[VX]|V?I{0,3}))|(?:(?:C[DM]|DC{0,3}|C{1,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3}))|(?:M+(?:C[DM]|D?C{0,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3})))|(?:[\\u{2160}-\\u{216F}])|(?:[\\u{2170}-\\u{217F}])@{RB}"
+                    ]
+                }
+            },
+            {
+                "code": "Town",
+                "name": "Town or City name",
+                "description": "List of town or city names which are followed by district number or code (Praha 1, Dublin 2 etc.), common in Czechia, Slovakia and Ireland",
+                "values": {
+                    "grep": [
+                        "Praha",
+                        "Prague",
+                        "Bratislava",
+                        "Dublin",
+                        "Ostrava",
+                        "Bh?aile\\p{Zs}Átha\\p{Zs}Cliath"
+                    ],
+                    "ecma": [
+                        "Praha",
+                        "Prague",
+                        "Bratislava",
+                        "Dublin",
+                        "Ostrava",
+                        "Bh?aile\\p{Zs}Átha\\p{Zs}Cliath"
+                    ]
+                }
+            },
+            {
+                "code": "LocalCurrency",
+                "name": "Local Currency Abbreviations",
+                "description": "List of local and historical currency abbreviations. The global list contains all non-€ valid EU currencies, local list typically include Δρχ., Kčs, DM or лв",
+                "values": {
+                    "grep": [
+                        "Kč",
+                        "Sk",
+                        "Ft",
+                        "[Kk]r\\.?",
+                        "Rp",
+                        "Re",
+                        "zł",
+                        "lei",
+                        "Rs",
+                        "DM"
+                    ],
+                    "ecma": [
+                        "Kč",
+                        "Sk",
+                        "Ft",
+                        "[Kk]r\\.?",
+                        "Rp",
+                        "Re",
+                        "zł",
+                        "lei",
+                        "Rs",
+                        "DM"
+                    ]
+                }
+            },
+            {
+                "code": "Percent",
+                "name": "Percent-like Symbols (% ‰)",
+                "description": "Symbols derived from the % sign",
+                "values": {
+                    "grep": [
+                        "\\x{0025}",
+                        "\\x{2030}",
+                        "\\x{2031}"
+                    ],
+                    "ecma": [
+                        "\\u{0025}",
+                        "\\u{2030}",
+                        "\\u{2031}"
+                    ]
+                }
+            },
+            {
+                "code": "Multiply",
+                "name": "Multiply",
+                "description": "Various correct and incorrect variants for the multiply symbol: e.g., the letter x in Latin, х in Cyrillic, or χ in Greek",
+                "values": {
+                    "grep": [
+                        "×",
+                        "✕",
+                        "x",
+                        "X",
+                        "Х",
+                        "х",
+                        "Χ",
+                        "χ"
+                    ],
+                    "ecma": [
+                        "×",
+                        "✕",
+                        "x",
+                        "X",
+                        "Х",
+                        "х",
+                        "Χ",
+                        "χ"
+                    ]
+                }
+            },
+            {
+                "code": "ApostropheWrong",
+                "name": "Collection of wrong forms of apostrophe",
+                "description": "Various incorrect variants for the apostrophe glyph: from accents to symbols from other scripts (does not include left single English quote ‘ U+2018)",
+                "values": {
+                    "grep": [
+                        "\\x{0027}",
+                        "\\x{0060}",
+                        "\\x{00B4}",
+                        "\\x{02B9}",
+                        "\\x{02BB}",
+                        "\\x{02BC}",
+                        "\\x{05F3}",
+                        "\\x{201B}",
+                        "\\x{2032}",
+                        "\\x{2035}",
+                        "\\x{275C}",
+                        "\\x{FF07}"
+                    ],
+                    "ecma": [
+                        "\\u{0027}",
+                        "\\u{0060}",
+                        "\\u{00B4}",
+                        "\\u{02B9}",
+                        "\\u{02BB}",
+                        "\\u{02BC}",
+                        "\\u{05F3}",
+                        "\\u{201B}",
+                        "\\u{2032}",
+                        "\\u{2035}",
+                        "\\u{275C}",
+                        "\\u{FF07}"
+                    ]
+                }
+            },
+            {
+                "code": "3abb",
+                "name": "Abbreviations composed of three parts followed by period",
+                "description": "Complex abbreviations consisting of three parts ending with a period (s. r. o., s. r. l.) – the form of the space (or no space) depends on individual language setting ",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordPairs",
+                "name": "WordPairs",
+                "description": "Frequently occurring pairs of words that should be joined by a nonbreaking space, typically broadcast stations (HBO 3, Rai 1)",
+                "values": {
+                    "grep": [
+                        "(?:Eurosport\\h[1-2]@{RB})",
+                        "(?:France\\h24@{RB})",
+                        "(?:BBC\\hNews@{RB})",
+                        "(?:Al\\hArabiya@{RB})",
+                        "(?:Al\\hJazeera@{RB})"
+                    ],
+                    "ecma": [
+                        "(?:Eurosport\\p{Zs}[1-2]@{RB})",
+                        "(?:France\\p{Zs}24@{RB})",
+                        "(?:BBC\\p{Zs}News@{RB})",
+                        "(?:Al\\p{Zs}Arabiya@{RB})",
+                        "(?:Al\\p{Zs}Jazeera@{RB})"
+                    ]
+                }
+            },
+            {
+                "code": "Abbs",
+                "name": "Abbreviations used before words",
+                "description": "Abbreviations written before a word and followed by an nonbreaking space to prevent splitting at the end of a line (i.e., incl. or resp.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "AbbAfter",
+                "name": "Abbreviations used after words",
+                "description": "Symbols written at the end of a word or sentence preceded by nonbreaking space to prevent splitting at the end of a line (etc., usw.)",
+                "values": {
+                    "grep": [
+                        "etc\\."
+                    ],
+                    "ecma": [
+                        "etc\\."
+                    ]
+                }
+            },
+            {
+                "code": "AbbBeforeNums",
+                "name": "Abbreviations used before numbers",
+                "description": "Abbreviations written before numbers and followed by a nonbreaking space to prevent splitting at the end of a line (tel., No., nr., pp.)",
+                "values": {
+                    "grep": [
+                        "fax",
+                        "ID",
+                        "Op\\.",
+                        "AD"
+                    ],
+                    "ecma": [
+                        "fax",
+                        "ID",
+                        "Op\\.",
+                        "AD"
+                    ]
+                }
+            },
+            {
+                "code": "HypSuffix",
+                "name": "Suffices connected after words with hyphen",
+                "description": "Suffixes written after a word with a hyphen and no spaces (bude-li, dintr‑o)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "AbbsWithoutPeriod",
+                "name": "Abbreviations not marked by period",
+                "description": "Frequent abbreviations that are commonly incorrectly followed by a period – this allows the removal of unnecessary periods (cca)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "CompoudsGeo",
+                "name": "Two-word compounds using hyphen (geographical locations)",
+                "description": "Compound city or regional names consisting of two parts joined by a hyphen (Baden-Württemberg, Charleville-Mézières)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DaysWeek",
+                "name": "Days of the week",
+                "description": "List of names of week days – long and abbreviated (Saturday, Sat, Sa)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "NoSpacePunct",
+                "name": "Punctuation not preceded by a space",
+                "description": "Punctuation not preceded by a space (. , : ; ? ! ‽ · ;)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SymAfterNumsTop",
+                "name": "Symbols after numbers written without spaces (1° 2′ 3″ 4‴ 5⁗)",
+                "description": "Symbols (units) to be written right after the number (°, ″ etc.)",
+                "values": {
+                    "grep": [
+                        "\\x{00B0}",
+                        "\\x{2032}",
+                        "\\x{2033}",
+                        "\\x{2034}",
+                        "\\x{2057}"
+                    ],
+                    "ecma": [
+                        "\\u{00B0}",
+                        "\\u{2032}",
+                        "\\u{2033}",
+                        "\\u{2034}",
+                        "\\u{2057}"
+                    ]
+                }
+            },
+            {
+                "code": "SymBeforeNums",
+                "name": "Nonbreaking space between symbols and numbers",
+                "description": "Symbols written before numbers and followed by a nonbreaking space to prevent splitting at the end of a line (§, №, ℮)",
+                "values": {
+                    "grep": [
+                        "\\x{00A7}",
+                        "\\x{2116}",
+                        "\\x{212E}"
+                    ],
+                    "ecma": [
+                        "\\u{00A7}",
+                        "\\u{2116}",
+                        "\\u{212E}"
+                    ]
+                }
+            },
+            {
+                "code": "SymAfter",
+                "name": "Symbols after words (® ™ ℠)",
+                "description": "Symbols to be written right after a word without space (®, ™)",
+                "values": {
+                    "grep": [
+                        "\\x{00AE}",
+                        "\\x{2122}",
+                        "\\x{2120}"
+                    ],
+                    "ecma": [
+                        "\\u{00AE}",
+                        "\\u{2122}",
+                        "\\u{2120}"
+                    ]
+                }
+            },
+            {
                 "code": "OrdSuffix",
                 "name": "Ordinal Suffixes",
                 "description": "Ordinal indicator is a character, group of characters or a symbol following a numeral denoting that it is an ordinal number (1st, 2:a 3., 4ª)",
@@ -23,6 +822,15 @@
                 }
             },
             {
+                "code": "QR1",
+                "name": "Quote Right Primary",
+                "description": "Primary (default) right quotation mark",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
                 "code": "QL2",
                 "name": "Quote Left Secondary",
                 "description": "Secondary (nested) left quotation mark",
@@ -32,9 +840,548 @@
                 }
             },
             {
+                "code": "QR2",
+                "name": "Quote Right Secondary",
+                "description": "Secondary (nested) right quotation mark",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "QL1All",
+                "name": "Quote Left Primary All",
+                "description": "All possible forms of primary left quotation mark including wrong ones",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "QR2All",
+                "name": "Quote Right Secondary All",
+                "description": "All possible forms of secondary (nested) right quotation mark including wrong ones",
+                "values": {
+                    "grep": [
+                        "’",
+                        "‘",
+                        "\\x{2039}",
+                        "\\x{203A}",
+                        "\\x{0027}",
+                        "\\x{0060}"
+                    ],
+                    "ecma": [
+                        "’",
+                        "‘",
+                        "\\u{2039}",
+                        "\\u{203A}",
+                        "\\u{0027}",
+                        "\\u{0060}"
+                    ]
+                }
+            },
+            {
+                "code": "QR1All",
+                "name": "Quote Right Primary All",
+                "description": "All possible forms of primary right quotation mark including wrong ones",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "QL2All",
+                "name": "Quote Left Secondary All",
+                "description": "All possible forms of secondary (nested) left quotation mark including wrong ones",
+                "values": {
+                    "grep": [
+                        "’",
+                        "‘",
+                        "‚",
+                        "\\x{2039}",
+                        "\\x{203A}",
+                        "\\x{0027}",
+                        "\\x{0060}",
+                        "\\x{201B}"
+                    ],
+                    "ecma": [
+                        "’",
+                        "‘",
+                        "‚",
+                        "\\u{2039}",
+                        "\\u{203A}",
+                        "\\u{0027}",
+                        "\\u{0060}",
+                        "\\u{201B}"
+                    ]
+                }
+            },
+            {
+                "code": "EnergyUnits",
+                "name": "Energy and Power non-SI units",
+                "description": "List of of the most common non-SI units of energy including local versions of names of those units (kcal, mW, calories, joules)",
+                "values": {
+                    "grep": [
+                        "hp",
+                        "HP",
+                        "k?cal",
+                        "[kM]W[p]"
+                    ],
+                    "ecma": [
+                        "hp",
+                        "HP",
+                        "k?cal",
+                        "[kM]W[p]"
+                    ]
+                }
+            },
+            {
+                "code": "DigitalUnits",
+                "name": "Digital Units abbreviations",
+                "description": "List of of the most common digital units, SI and non-SI units including local versions of names of those units (px, dpi)",
+                "values": {
+                    "grep": [
+                        "ppi",
+                        "dpi",
+                        "lpi",
+                        "px",
+                        "l\\x{002F}cm"
+                    ],
+                    "ecma": [
+                        "ppi",
+                        "dpi",
+                        "lpi",
+                        "px",
+                        "l\\u{002F}cm"
+                    ]
+                }
+            },
+            {
+                "code": "TimeUnitsAbb",
+                "name": "Time Units abbreviations",
+                "description": "List of of the most common units of time, SI and non-SI units including local versions of names of those units (cent., wk, sec, )",
+                "values": {
+                    "grep": [
+                        "ms",
+                        "μs",
+                        "ns"
+                    ],
+                    "ecma": [
+                        "ms",
+                        "μs",
+                        "ns"
+                    ]
+                }
+            },
+            {
+                "code": "UniFrac",
+                "name": "Unicode Fractions",
+                "description": "List of all Unicode precomposed fractions (½ etc.)",
+                "values": {
+                    "grep": [
+                        "\\x{00BD}",
+                        "\\x{00BC}",
+                        "\\x{00BE}",
+                        "\\x{2150}",
+                        "\\x{2151}",
+                        "\\x{2152}",
+                        "\\x{2153}",
+                        "\\x{2154}",
+                        "\\x{2155}",
+                        "\\x{2156}",
+                        "\\x{2157}",
+                        "\\x{2158}",
+                        "\\x{2159}",
+                        "\\x{215A}",
+                        "\\x{215B}",
+                        "\\x{215C}",
+                        "\\x{215D}",
+                        "\\x{215E}",
+                        "\\x{215F}"
+                    ],
+                    "ecma": [
+                        "\\u{00BD}",
+                        "\\u{00BC}",
+                        "\\u{00BE}",
+                        "\\u{2150}",
+                        "\\u{2151}",
+                        "\\u{2152}",
+                        "\\u{2153}",
+                        "\\u{2154}",
+                        "\\u{2155}",
+                        "\\u{2156}",
+                        "\\u{2157}",
+                        "\\u{2158}",
+                        "\\u{2159}",
+                        "\\u{215A}",
+                        "\\u{215B}",
+                        "\\u{215C}",
+                        "\\u{215D}",
+                        "\\u{215E}",
+                        "\\u{215F}"
+                    ]
+                }
+            },
+            {
+                "code": "Frac",
+                "name": "Fractions",
+                "description": "Expression for fractions created with slash or U+2044 (fraction sign)",
+                "values": {
+                    "grep": [
+                        "(?:@{LB}(?:\\d+)(?:\\x{002F}|\\x{2044})(?:\\d+))"
+                    ],
+                    "ecma": [
+                        "(?:@{LB}(?:\\p{Nd}+)(?:\\u{002F}|\\u{2044})(?:\\p{Nd}+))"
+                    ]
+                }
+            },
+            {
                 "code": "Months",
                 "name": "Months",
                 "description": "List of names of months incl. abbreviated forms and inflected forms (January, jaanuar, jaanuari, jaanuaril…)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "2abbEdu",
+                "name": "Abbreviations composed of two parts (university faculties)",
+                "description": "Keep abbreviations of universities and faculties together using nonbreaking space (common probably only in Czechia and Slovakia: FF UK, FT UTB)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "RomanMonths",
+                "name": "Roman Months",
+                "description": "Months expressed in Roman numbers (I–XII)",
+                "values": {
+                    "grep": [
+                        "@{LB}(?:I{1,3}|IV|V|VI{1,3}|IX|X|XI{1,3}|XII)@{RB}"
+                    ],
+                    "ecma": [
+                        "@{LB}(?:I{1,3}|IV|V|VI{1,3}|IX|X|XI{1,3}|XII)@{RB}"
+                    ]
+                }
+            },
+            {
+                "code": "2abb",
+                "name": "Abbreviations composed of two parts followed by period",
+                "description": "Complex abbreviations consisting of two parts ending with a period (u. Ä, e.g.) – the form of the space (or no space) depends on individual language setting ",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "ArabMonths",
+                "name": "Arabic Months",
+                "description": "Months expressed in Arabic numbers (1–12)",
+                "values": {
+                    "grep": [
+                        "@{LB}(?:1[0-2]|0?[1-9])@{RB}"
+                    ],
+                    "ecma": [
+                        "@{LB}(?:1[0-2]|0?[1-9])@{RB}"
+                    ]
+                }
+            },
+            {
+                "code": "2abbEduDeg",
+                "name": "Abbreviations composed of two parts followed by period (academic degrees)",
+                "description": "Complex abbreviations consisting of two parts ending with a period (Dr. med.) – the form of the space (or no space) depends on individual language setting ",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "MilitaryRanks",
+                "name": "Military Ranks Abbreviations",
+                "description": "List of abbreviations or short words denoting military ranks, both current and historical (Gen., Sgt., Col)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "PoliceRanks",
+                "name": "Police Ranks Abbreviations",
+                "description": "List of abbreviations or short words denoting police ranks, both current and historical (DI, mjr.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DegreeAll",
+                "name": "All form of degree sign",
+                "description": "Various correct and incorrect variants for the degree glyph: from accents to symbols",
+                "values": {
+                    "grep": [
+                        "\\x{00B0}",
+                        "\\x{02DA}",
+                        "\\x{030A}",
+                        "\\x{2070}",
+                        "\\x{2218}",
+                        "\\x{00BA}"
+                    ],
+                    "ecma": [
+                        "\\u{00B0}",
+                        "\\u{02DA}",
+                        "\\u{030A}",
+                        "\\u{2070}",
+                        "\\u{2218}",
+                        "\\u{00BA}"
+                    ]
+                }
+            },
+            {
+                "code": "YearWord",
+                "name": "The word year",
+                "description": "Term for the word “year” or “season”",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "MusicalKeys",
+                "name": "Musical Keys with non breaking hyphen",
+                "description": "Musical key – the structure of musical key description (A-dur, b minor, c - moll)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "BiblicalBookAbb",
+                "name": "Biblical books abbreviations",
+                "description": "List of Biblical book abbreviations, shorthand forms used to refer to the books of the Bible in a concise manner (there might be several alternative forms)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SIprefixes",
+                "name": "Prefixes for the International System of Units (SI)",
+                "description": "The SI prefixes are metric prefixes that were standardised for use in the International System of Units",
+                "values": {
+                    "grep": [
+                        "[acdEfGhkMmnPpQqRrTYyZz\\x{00B5}\\x{03BC}]"
+                    ],
+                    "ecma": [
+                        "[acdEfGhkMmnPpQqRrTYyZz\\u{00B5}\\u{03BC}]"
+                    ]
+                }
+            },
+            {
+                "code": "SIunitsLong",
+                "name": "SI Base & Derived Units",
+                "description": "The International System of Units assigns special names to 7 base and 22 derived units",
+                "values": {
+                    "grep": [
+                        "Wb",
+                        "Sv",
+                        "Hz",
+                        "sr",
+                        "mol",
+                        "lm",
+                        "lx",
+                        "cd",
+                        "rad",
+                        "Pa",
+                        "Bq",
+                        "Da",
+                        "eV",
+                        "ua",
+                        "Gy",
+                        "kat",
+                        "°C",
+                        "g\\/m[2²]"
+                    ],
+                    "ecma": [
+                        "Wb",
+                        "Sv",
+                        "Hz",
+                        "sr",
+                        "mol",
+                        "lm",
+                        "lx",
+                        "cd",
+                        "rad",
+                        "Pa",
+                        "Bq",
+                        "Da",
+                        "eV",
+                        "ua",
+                        "Gy",
+                        "kat",
+                        "°C",
+                        "g\\/m[2²]"
+                    ]
+                }
+            },
+            {
+                "code": "TimeUnits",
+                "name": "Time Units words",
+                "description": "List of of the most common units of time, SI and non-SI units including local versions of names of those units (second, sec, day, year, decade, century…)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "PrefixHyphen",
+                "name": "Prefixes followed by hyphen",
+                "description": "List of prefixes connected to main compound by nonbreaking hyphen, common in Maltese (il-partiċeli)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "CompoudsGeo2",
+                "name": "Two-word compounds using space-hyphen-space (geographical locations)",
+                "description": "Compound city or regional names consisting of two parts joined by a space-hyphen-space (Šmarje - Sap) – probably in Slovenia only",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "ApostropheSet",
+                "name": "Collection of Apostrophe Variants",
+                "description": "Various incorrect variants for the apostrophe glyph: from accents to symbols from other scripts (includes left single English quote ‘ U+2018)",
+                "values": {
+                    "grep": [
+                        "\\x{0027}",
+                        "\\x{0060}",
+                        "\\x{00B4}",
+                        "\\x{02B9}",
+                        "\\x{02BB}",
+                        "\\x{02BC}",
+                        "\\x{05F3}",
+                        "\\x{2018}",
+                        "\\x{2019}",
+                        "\\x{201B}",
+                        "\\x{2032}",
+                        "\\x{2035}",
+                        "\\x{275C}",
+                        "\\x{FF07}"
+                    ],
+                    "ecma": [
+                        "\\u{0027}",
+                        "\\u{0060}",
+                        "\\u{00B4}",
+                        "\\u{02B9}",
+                        "\\u{02BB}",
+                        "\\u{02BC}",
+                        "\\u{05F3}",
+                        "\\u{2018}",
+                        "\\u{2019}",
+                        "\\u{201B}",
+                        "\\u{2032}",
+                        "\\u{2035}",
+                        "\\u{275C}",
+                        "\\u{FF07}"
+                    ]
+                }
+            },
+            {
+                "code": "MathMonomial",
+                "name": "Monomial",
+                "description": "Common numbers or variables in equations: 2, 3.14, ab, 2a, a², −2 etc.",
+                "values": {
+                    "grep": [
+                        "(?:@{LB}(?:(?:\\x{2212}?\\d+(?:[.,]\\d+)?[[:lower:]]*)|[[:lower:]]{1,2})[\\x{00B2}\\x{00B3}\\x{00B9}\\x{2070}-\\x{2079}]*)"
+                    ],
+                    "ecma": [
+                        "(?:@{LB}(?:(?:\\u{2212}?\\p{Nd}+(?:[.,]\\p{Nd}+)?\\p{Ll}*)|\\p{Ll}{1,2})[\\u{00B2}\\u{00B3}\\u{00B9}\\u{2070}-\\u{2079}]*)"
+                    ]
+                }
+            },
+            {
+                "code": "abbSpace",
+                "name": "Space in abbreviations",
+                "description": "The form (width) of space used after period in abbreviations (u. Ä., s. r. o.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "PunctSpace",
+                "name": "Space before punctuation",
+                "description": "The form (width) of space used before punctuation (; : ? !) in French",
+                "values": {
+                    "grep": [
+                        "\\x{2009}"
+                    ],
+                    "ecma": [
+                        "\\u{2009}"
+                    ]
+                }
+            },
+            {
+                "code": "SpacePunct",
+                "name": "Punctuation preceded by a space",
+                "description": "Punctuation which must be preceded by a space (: ; ? ! ‽) in French",
+                "values": {
+                    "grep": [
+                        "\\x{003A}",
+                        "\\x{003B}",
+                        "\\x{003F}",
+                        "\\x{0021}",
+                        "\\x{203D}"
+                    ],
+                    "ecma": [
+                        "\\u{003A}",
+                        "\\u{003B}",
+                        "\\u{003F}",
+                        "\\u{0021}",
+                        "\\u{203D}"
+                    ]
+                }
+            },
+            {
+                "code": "CompoudsDash",
+                "name": "Two-word compounds using dash (general)",
+                "description": "",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "GuillSpace",
+                "name": "Space after and before guillemets",
+                "description": "The form (width) of space used before and after guillemets (« ») in French",
+                "values": {
+                    "grep": [
+                        "\\x{00A0}"
+                    ],
+                    "ecma": [
+                        "\\u{00A0}"
+                    ]
+                }
+            },
+            {
+                "code": "Decade",
+                "name": "Decade",
+                "description": "A year with a decade designation (1980s, 1980er, 1980-talet, 1980’erne)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "Born",
+                "name": "Born or died in abbreviation",
+                "description": "Abbreviation used to mark the birth (b. 1975, geb. 1976)",
                 "values": {
                     "grep": [],
                     "ecma": []
@@ -54,6 +1401,333 @@
                 }
             },
             {
+                "code": "ThousandsSep",
+                "name": "Thousand Separator",
+                "description": "Thousand separator – typically period (.), space ( ) or comma (,)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DecimalSep",
+                "name": "Decimal Separator",
+                "description": "Decimal separator – typically comma (,) or period (.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DashRangeSpaces",
+                "name": "Dash with spaces indicating range of values",
+                "description": "Select the proper lenght of standard dash (en-dash or em-dash) and form of spaces on both sides in closed range of values (1 – 10, 1910 – 1947, 12 000 – 24 000, 12.000 – 24.000)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "EmDash",
+                "name": "EmDash",
+                "description": "Possible alternatives to the default dash used in US English (em-dash without spaces)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "RomanNums2",
+                "name": "Roman Numbers long",
+                "description": "A regex definition of valid Roman numbers made of at least two letters",
+                "values": {
+                    "grep": [
+                        "(?-i:[IVXLCDM]{2,}|[\\x{2160}-\\x{217F}]+)"
+                    ],
+                    "ecma": [
+                        "(?-i:[IVXLCDM]{2,}|[\\u{2160}-\\u{217F}]+)"
+                    ]
+                }
+            },
+            {
+                "code": "RatioWords",
+                "name": "RatioWords",
+                "description": "List of words with the meaning of “scale” or “ratio” (only in languages where ratios are written with spaces 1 : 000)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "RedundantOrd",
+                "name": "Redundant ordinal number suffixes",
+                "description": "Frequent but incorrect (redundant) suffixes used after ordinal numbers (5-tý)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "RedundantCar",
+                "name": "Redundant cardinal number suffixes",
+                "description": "Frequent but incorrect (redundant) suffixes used after cardinal numbers (5-ti)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "CompoudsHyphen",
+                "name": "Two-word compounds using hyphen (general)",
+                "description": "Common expressions consisting of two parts joined by a hyphen (know-how, e-mail, …)",
+                "values": {
+                    "grep": [
+                        "(?:know\\p{Zs}*\\p{Pd}\\p{Zs}*how)",
+                        "(?:e\\p{Zs}*\\p{Pd}\\p{Zs}*mail)",
+                        "(?:S\\p{Zs}*\\p{Pd}\\p{Zs}*Bahn)",
+                        "(?:Wi\\p{Zs}*\\p{Pd}\\p{Zs}*Fi)",
+                        "(?:e\\p{Zs}*\\p{Pd}\\p{Zs}*book)",
+                        "(?:high\\p{Zs}*\\p{Pd}\\p{Zs}*tech)",
+                        "(?:low\\p{Zs}*\\p{Pd}\\p{Zs}*cost)",
+                        "(?:Hewlett\\p{Zs}*\\p{Pd}\\p{Zs}*Packard)",
+                        "(?:Harley\\p{Zs}*\\p{Pd}\\p{Zs}*Davidson)",
+                        "(?:T\\p{Zs}*\\p{Pd}\\p{Zs}*Mobile)",
+                        "(?:Sk[lł]odowsk[[:lower:]]+\\p{Zs}*\\p{Pd}\\p{Zs}*Curie)",
+                        "(?:Rolls\\p{Zs}*\\p{Pd}\\p{Zs}*Royce)",
+                        "(?:Mercedes\\p{Zs}*\\p{Pd}\\p{Zs}*Benz)",
+                        "(?:Baskin\\p{Zs}*\\p{Pd}\\p{Zs}*Robbins)",
+                        "(?:opt\\p{Zs}*\\p{Pd}\\p{Zs}*(?:in|out))",
+                        "(?:DVB\\p{Zs}*\\p{Pd}\\p{Zs}*T2?)",
+                        "(?:MPEG\\p{Zs}*\\p{Pd}\\p{Zs}*\\d)",
+                        "(?:G\\p{Zs}*\\p{Pd}\\p{Zs}*(?:20|7))",
+                        "(?:Covid\\p{Zs}*\\p{Pd}\\p{Zs}*19)"
+                    ],
+                    "ecma": [
+                        "(?:know\\p{Zs}*\\p{Pd}\\p{Zs}*how)",
+                        "(?:e\\p{Zs}*\\p{Pd}\\p{Zs}*mail)",
+                        "(?:S\\p{Zs}*\\p{Pd}\\p{Zs}*Bahn)",
+                        "(?:Wi\\p{Zs}*\\p{Pd}\\p{Zs}*Fi)",
+                        "(?:e\\p{Zs}*\\p{Pd}\\p{Zs}*book)",
+                        "(?:high\\p{Zs}*\\p{Pd}\\p{Zs}*tech)",
+                        "(?:low\\p{Zs}*\\p{Pd}\\p{Zs}*cost)",
+                        "(?:Hewlett\\p{Zs}*\\p{Pd}\\p{Zs}*Packard)",
+                        "(?:Harley\\p{Zs}*\\p{Pd}\\p{Zs}*Davidson)",
+                        "(?:T\\p{Zs}*\\p{Pd}\\p{Zs}*Mobile)",
+                        "(?:Sk[lł]odowsk\\p{Ll}+\\p{Zs}*\\p{Pd}\\p{Zs}*Curie)",
+                        "(?:Rolls\\p{Zs}*\\p{Pd}\\p{Zs}*Royce)",
+                        "(?:Mercedes\\p{Zs}*\\p{Pd}\\p{Zs}*Benz)",
+                        "(?:Baskin\\p{Zs}*\\p{Pd}\\p{Zs}*Robbins)",
+                        "(?:opt\\p{Zs}*\\p{Pd}\\p{Zs}*(?:in|out))",
+                        "(?:DVB\\p{Zs}*\\p{Pd}\\p{Zs}*T2?)",
+                        "(?:MPEG\\p{Zs}*\\p{Pd}\\p{Zs}*\\p{Nd})",
+                        "(?:G\\p{Zs}*\\p{Pd}\\p{Zs}*(?:20|7))",
+                        "(?:Covid\\p{Zs}*\\p{Pd}\\p{Zs}*19)"
+                    ]
+                }
+            },
+            {
+                "code": "Prime",
+                "name": "Prime",
+                "description": "Preferred form of prime symbol – many fonts do not contain the proper form (′) so the alternative is (')",
+                "values": {
+                    "grep": [
+                        "′"
+                    ],
+                    "ecma": [
+                        "′"
+                    ]
+                }
+            },
+            {
+                "code": "DblPrime",
+                "name": "Double Prime",
+                "description": "Preferred form of prime symbol – many fonts do not contain the proper form (″) so the alternative is (\")",
+                "values": {
+                    "grep": [
+                        "″"
+                    ],
+                    "ecma": [
+                        "″"
+                    ]
+                }
+            },
+            {
+                "code": "DblPrimeWrong",
+                "name": "Double Prime Wrong",
+                "description": "A collection of uncorrect forms of double prime",
+                "values": {
+                    "grep": [
+                        "\\x{0022}",
+                        "\\x{02BA}",
+                        "\\x{2033}"
+                    ],
+                    "ecma": [
+                        "\\u{0022}",
+                        "\\u{02BA}",
+                        "\\u{2033}"
+                    ]
+                }
+            },
+            {
+                "code": "PrimeWrong",
+                "name": "Prime Wrong",
+                "description": "A collection of uncorrect forms of prime",
+                "values": {
+                    "grep": [
+                        "\\x{0027}",
+                        "\\x{02B9}",
+                        "\\x{2032}"
+                    ],
+                    "ecma": [
+                        "\\u{0027}",
+                        "\\u{02B9}",
+                        "\\u{2032}"
+                    ]
+                }
+            },
+            {
+                "code": "GeoSpace",
+                "name": "Space in geographic coordinate system",
+                "description": "The form (width) of space used in geographical coordinates (51° 28′ 38″ N)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "3abbEduDeg",
+                "name": "Abbreviations composed of three parts followed by period (academic degrees)",
+                "description": "Complex abbreviations of academic degrees consisting of two parts ending with a period (dr. h. c.) – the form of the space (or no space) depends on individual language setting",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "word2abb",
+                "name": "Abbreviations preceded by a short word (pred n. l.)",
+                "description": "Abbreviations preceded by a short word (pred n. l.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "AbbsPeriod",
+                "name": "Abbreviations ending with period",
+                "description": "",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "NumWord",
+                "name": "Numbers written as abbreviations",
+                "description": "Abbreviations of numbers in the form of words (mil., mio., mld…)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "InitSpace",
+                "name": "Space in initials",
+                "description": "The form (width) of space used between initials (J.R.R.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "LastInitSpace",
+                "name": "Last space after initials",
+                "description": "The form (width) of the last space after initials before surname (A. Merkel)",
+                "values": {
+                    "grep": [
+                        "\\x{00A0}"
+                    ],
+                    "ecma": [
+                        "\\u{00A0}"
+                    ]
+                }
+            },
+            {
+                "code": "NarrowSpace",
+                "name": "Thin Space",
+                "description": "The preferred form (width) of a narrow or thin space",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DayDate",
+                "name": "Day in Date incl. leading zero",
+                "description": "An expression (regex) to capture date number (1–31 or 01–31)",
+                "values": {
+                    "grep": [
+                        "(?:@{LB}0?[1-9]|[12][0-9]|3[01])"
+                    ],
+                    "ecma": [
+                        "(?:@{LB}0?[1-9]|[12][0-9]|3[01])"
+                    ]
+                }
+            },
+            {
+                "code": "YearDate",
+                "name": "Year in Date",
+                "description": "An expression (regex) to capture four-digit year (1987) or two digit year (87) possibly preceded by an apostrophe (’)",
+                "values": {
+                    "grep": [
+                        "(?:@{LB}(?:\\d{4}|\\x{2019}?\\d{2})@{RB})"
+                    ],
+                    "ecma": [
+                        "(?:@{LB}(?:\\p{Nd}{4}|\\u{2019}?\\p{Nd}{2})@{RB})"
+                    ]
+                }
+            },
+            {
+                "code": "DateSepAll",
+                "name": "Date Separator incl. alternative forms",
+                "description": "A list of all forms of date separators – typically period (.), hyphen (-) or slash (/)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DateSep",
+                "name": "Date Separator",
+                "description": "Preferred day separator – typically period (.), hyphen (-) or slash (/) incl. alternative forms",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DateSpace",
+                "name": "Space in short dates",
+                "description": "The form (width) of space in short dates (21. 2.) if space is required",
+                "values": {
+                    "grep": [
+                        "\\x{00A0}"
+                    ],
+                    "ecma": [
+                        "\\u{00A0}"
+                    ]
+                }
+            },
+            {
+                "code": "HypSuffixNum",
+                "name": "Suffices connected after numbers with hyphen",
+                "description": "Suffixes written after numbers with a hyphen and no spaces (2-oisos, 2-bólként)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
                 "code": "Dash",
                 "name": "Dash",
                 "description": "The alternative options for a standard en-dash used in a sentence (not as a range or relation indicator)",
@@ -67,12 +1741,833 @@
                 }
             },
             {
+                "code": "MathSym",
+                "name": "MathSymbols",
+                "description": "Basic mathematical symbols (+, ÷, = etc.)",
+                "values": {
+                    "grep": [
+                        "[+×÷=≠<>≤≥±≈∙·∶−]"
+                    ],
+                    "ecma": [
+                        "[+×÷=≠<>≤≥±≈∙·∶−]"
+                    ]
+                }
+            },
+            {
                 "code": "AbbAfterOrd",
                 "name": "Abbreviations after ordinal numbers",
                 "description": "List of expressions which should be connected to a preceding ordinal number with nonbreaking space to prevent splitting at the end of a line (1. LF)",
                 "values": {
                     "grep": [],
                     "ecma": []
+                }
+            },
+            {
+                "code": "FigSpace",
+                "name": "Figural Space",
+                "description": "Space between figures – the form (width) of space used as a separator in phone numbers, bank accounts etc.",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "abbUnits",
+                "name": "Abbreviations before units",
+                "description": "Abbreviations used before units and followed by space (sq. for sq. meters)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "CompoudsGeoThree",
+                "name": "Three-word compounds using hyphen (geographical locations)",
+                "description": "Compound city or regional names consisting of three parts joined by a hyphen (Villeneuve-Saint-Georges) ",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "CompoudsGeoFour",
+                "name": "Four-word compounds using hyphen (geographical locations)",
+                "description": "Compound city or regional names consisting of four parts joined by a hyphen (Sainte-Marie-aux-Mines) ",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "MaltaPost",
+                "name": "Maltese postal code prefix",
+                "description": "A list of three-letter prefixes used in Malta in postal codes",
+                "values": {
+                    "grep": [
+                        "ATD",
+                        "BBG",
+                        "BKR",
+                        "BML",
+                        "BRG",
+                        "BZN",
+                        "DGL",
+                        "FGR",
+                        "FNT",
+                        "FRN",
+                        "GDJ",
+                        "GHR",
+                        "GRB",
+                        "GSM",
+                        "GSR",
+                        "GXQ",
+                        "GZR",
+                        "HMR",
+                        "IKL",
+                        "ISL",
+                        "KCM",
+                        "KKP",
+                        "KKR",
+                        "KMN",
+                        "LJA",
+                        "LQA",
+                        "MDN",
+                        "MFN",
+                        "MGR",
+                        "MLH",
+                        "MQB",
+                        "MRS",
+                        "MSD",
+                        "MSK",
+                        "MST",
+                        "MTF",
+                        "MTP",
+                        "MXK",
+                        "MXR",
+                        "NDR",
+                        "NXR",
+                        "PBK",
+                        "PLA",
+                        "PTA",
+                        "QLA",
+                        "QRD",
+                        "QRM",
+                        "RBT",
+                        "SCM",
+                        "SFI",
+                        "SGN",
+                        "SGW",
+                        "SLC",
+                        "SLM",
+                        "TP",
+                        "SLZ",
+                        "SNT",
+                        "SPB",
+                        "STJ",
+                        "SPK",
+                        "SVR",
+                        "SWQ",
+                        "TXN",
+                        "VCT",
+                        "VLT",
+                        "XBX",
+                        "XJR",
+                        "XLN",
+                        "XRA",
+                        "XWK",
+                        "ZBB",
+                        "ZBG",
+                        "ZBR",
+                        "ZRQ",
+                        "ZTN"
+                    ],
+                    "ecma": [
+                        "ATD",
+                        "BBG",
+                        "BKR",
+                        "BML",
+                        "BRG",
+                        "BZN",
+                        "DGL",
+                        "FGR",
+                        "FNT",
+                        "FRN",
+                        "GDJ",
+                        "GHR",
+                        "GRB",
+                        "GSM",
+                        "GSR",
+                        "GXQ",
+                        "GZR",
+                        "HMR",
+                        "IKL",
+                        "ISL",
+                        "KCM",
+                        "KKP",
+                        "KKR",
+                        "KMN",
+                        "LJA",
+                        "LQA",
+                        "MDN",
+                        "MFN",
+                        "MGR",
+                        "MLH",
+                        "MQB",
+                        "MRS",
+                        "MSD",
+                        "MSK",
+                        "MST",
+                        "MTF",
+                        "MTP",
+                        "MXK",
+                        "MXR",
+                        "NDR",
+                        "NXR",
+                        "PBK",
+                        "PLA",
+                        "PTA",
+                        "QLA",
+                        "QRD",
+                        "QRM",
+                        "RBT",
+                        "SCM",
+                        "SFI",
+                        "SGN",
+                        "SGW",
+                        "SLC",
+                        "SLM",
+                        "TP",
+                        "SLZ",
+                        "SNT",
+                        "SPB",
+                        "STJ",
+                        "SPK",
+                        "SVR",
+                        "SWQ",
+                        "TXN",
+                        "VCT",
+                        "VLT",
+                        "XBX",
+                        "XJR",
+                        "XLN",
+                        "XRA",
+                        "XWK",
+                        "ZBB",
+                        "ZBG",
+                        "ZBR",
+                        "ZRQ",
+                        "ZTN"
+                    ]
+                }
+            },
+            {
+                "code": "AbbAfterNums",
+                "name": "Abbreviations used after numbers",
+                "description": "Abbreviations written after numbers and preceded by a nonbreaking space to prevent splitting at the end of a line (Sb., ks)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordLetter",
+                "name": "Words before individual letters",
+                "description": "Certain words are often connected with letters, inserting nonbreaking space you avoid breaking those expressions at the end of the line",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "OrdSuffixHyph",
+                "name": "Ordinal Suffixes preceded with hyphen",
+                "description": "Ordinal suffix following a number and hyphen denoting that it is an ordinal number (2-oji, 1-ва, 3-lea)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "Number",
+                "name": "Words for Number",
+                "description": "Words like number, nombre, číslo, Nummer…",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "NumWordLong",
+                "name": "Numbers written as regular words",
+                "description": "Words for numbers – numerals – in unabbreviated form, incl. plural and inflected forms (million, honderd, sto, sta…)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "LocalCurrencyLong",
+                "name": "Local Currency Words",
+                "description": "List of local and historical currencies, their full forms, incl. plural and inclined forms (kuna, tolar, dollar, euro, euros…)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DollarPrefix",
+                "name": "Dollar Prefix",
+                "description": "A prefix to differantiate between dollar currencies in different countries (AU$, Can$…)",
+                "values": {
+                    "grep": [
+                        "US",
+                        "CA?",
+                        "Can",
+                        "AU?",
+                        "N[ZT]?",
+                        "HK",
+                        "SG?",
+                        "FJ",
+                        "BZ?",
+                        "N",
+                        "SI",
+                        "EC",
+                        "J",
+                        "GY",
+                        "SR",
+                        "B",
+                        "FJ"
+                    ],
+                    "ecma": [
+                        "US",
+                        "CA?",
+                        "Can",
+                        "AU?",
+                        "N[ZT]?",
+                        "HK",
+                        "SG?",
+                        "FJ",
+                        "BZ?",
+                        "N",
+                        "SI",
+                        "EC",
+                        "J",
+                        "GY",
+                        "SR",
+                        "B",
+                        "FJ"
+                    ]
+                }
+            },
+            {
+                "code": "DashDialog",
+                "name": "Dash used in dialogues",
+                "description": "A dash used at the beginning of a paragraph to indicate dialogue – its form, with or without spaces, and possible variants (\\x{0009} means tab character \\t)",
+                "values": {
+                    "grep": [
+                        "\\x{2013}\\x{0009}"
+                    ],
+                    "ecma": [
+                        "\\u{2013}\\u{0009}"
+                    ]
+                }
+            },
+            {
+                "code": "NonBrHyphen",
+                "name": "Contrations using nonbreaking hyphen",
+                "description": "A list of contractions written with nonbreaking hyphen to prevent splitting at the end of a line (m-ați)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "GreekNums",
+                "name": "Greek Numbers (UC only)",
+                "description": "An expression (regex) to catch Greek numbers – Greek letters followed by acute ",
+                "values": {
+                    "grep": [
+                        "(?:\\x{0375}?[ΑΒΓΔΕϚΖΗΘ](?:[ΡΣΤΥΦΧΨΩϠ])?(?:[ΙΚΛΜΝΞΟΠϘϞ])?(?:\\x{0375}?[ΑΒΓΔΕϚΖΗΘ])?|[ΡΣΤΥΦΧΨΩϠ]?[ΙΚΛΜΝΞΟΠϘϞ]?[ΑΒΓΔΕϚΖΗΘ])(?:\\x{0374}|[ʹ΄’'´′])"
+                    ],
+                    "ecma": [
+                        "(?:\\u{0375}?[ΑΒΓΔΕϚΖΗΘ](?:[ΡΣΤΥΦΧΨΩϠ])?(?:[ΙΚΛΜΝΞΟΠϘϞ])?(?:\\u{0375}?[ΑΒΓΔΕϚΖΗΘ])?|[ΡΣΤΥΦΧΨΩϠ]?[ΙΚΛΜΝΞΟΠϘϞ]?[ΑΒΓΔΕϚΖΗΘ])(?:\\u{0374}|[ʹ΄’'´′])"
+                    ]
+                }
+            },
+            {
+                "code": "4abb",
+                "name": "Abbreviations composed of four parts followed by period",
+                "description": "Complex abbreviations consisting of four parts ending with a period (ΚΕ.Β.Ο.Π.) – the form of the space (or no space) depends on individual language setting",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "GreekNumSym",
+                "name": "Greek Number Symbol dexia keraia",
+                "description": "Symbol following the Greek letter denoting Greek numbers",
+                "values": {
+                    "grep": [
+                        "\\x{00B4}"
+                    ],
+                    "ecma": [
+                        "\\u{00B4}"
+                    ]
+                }
+            },
+            {
+                "code": "SpaceEll",
+                "name": "Space before or after ellipsis",
+                "description": "The form (width) of space used before or after ellipsis",
+                "values": {
+                    "grep": [
+                        "\\x{0020}"
+                    ],
+                    "ecma": [
+                        "\\u{0020}"
+                    ]
+                }
+            },
+            {
+                "code": "MultiplySpace",
+                "name": "Multiplication Space",
+                "description": "The form (width) of space used in multiplication formulas (3 × 3) – typically narrow or hair space",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "BeforeRomanNums",
+                "name": "Words before Roman numerals",
+                "description": "Words used before Roman numerals, i.e. in French “XVI siècle”",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "MusicalKeysSpace",
+                "name": "Musical Keys with space",
+                "description": "Musical key – the structure of musical key description (A dur, b minor)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "VarUnits",
+                "name": "Various Units",
+                "description": "Various units like spoons, pieces or cups",
+                "values": {
+                    "grep": [
+                        "psi",
+                        "atm",
+                        "pH",
+                        "ppm",
+                        "ppb"
+                    ],
+                    "ecma": [
+                        "psi",
+                        "atm",
+                        "pH",
+                        "ppm",
+                        "ppb"
+                    ]
+                }
+            },
+            {
+                "code": "GeoSpaceLast",
+                "name": "Last space in geographic coordinate system (before N, S…)",
+                "description": "The form (width) of space used in geographical coordinates (51° 28′ 38″ N)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "AbbBeforeRomanNums",
+                "name": "Abbreviations used before Roman numbers",
+                "description": "Abbreviations written before numbers and followed by a nonbreaking space to prevent splitting at the end of a line (vol. XII)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "PrepositionTime",
+                "name": "Prepositions related to time values",
+                "description": "List of prepositions preceding time expressions",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordHour",
+                "name": "All forms of the word “hour” incl. abbreviations",
+                "description": "All forms of the word “hour” incl. abbreviations and other time related words",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SpanishAbbs",
+                "name": "Spanish abbreviations written incorrectly without period before suffix",
+                "description": "",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordsAfterComma",
+                "name": "Words used after comma",
+                "description": "Words or symbols which should (or should not) be preceded by comma and space",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "2abbSpace",
+                "name": "Abbreviations composed of two parts followed by period separated by space",
+                "description": "Abbreviations consisting of two parts ending with a period written – against the general rule – with spaces",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "currSpace",
+                "name": "Currency Space",
+                "description": "The form of a space between currency symbol and value",
+                "values": {
+                    "grep": [
+                        "\\x{00A0}"
+                    ],
+                    "ecma": [
+                        "\\u{00A0}"
+                    ]
+                }
+            },
+            {
+                "code": "DateSepNonPeriod",
+                "name": "Date Separator incl. alternative forms",
+                "description": "A list of all forms of date separators but not period: hyphen (-) or slash (/)",
+                "values": {
+                    "grep": [
+                        "\\x{002D}",
+                        "\\x{2011}",
+                        "\\x{002F}"
+                    ],
+                    "ecma": [
+                        "\\u{002D}",
+                        "\\u{2011}",
+                        "\\u{002F}"
+                    ]
+                }
+            },
+            {
+                "code": "GreekNumSymWrong",
+                "name": "All possible forms of Greek Number Symbol dexia keraia",
+                "description": "All possible forms of Greek Number Symbol dexia keraia",
+                "values": {
+                    "grep": [
+                        "\\x{0374}|[ʹ΄’'´′]"
+                    ],
+                    "ecma": [
+                        "\\u{0374}|[ʹ΄’'´′]"
+                    ]
+                }
+            },
+            {
+                "code": "WordsBeforeNums",
+                "name": "Words before numbers",
+                "description": "",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "TimeSuffix",
+                "name": "Time suffix",
+                "description": "Suffixes connected to time values",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "wordabb",
+                "name": "Abbreviations preceded by a short word (ir pan.)",
+                "description": "Abbreviations preceded by a short word (ir pan.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "ShortWords",
+                "name": "Short Words",
+                "description": "List of short words which could be connected with the following word",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "ConjHyphen",
+                "name": "Conjunction used after words with hyphen (Ein- und Zweizimmer)",
+                "description": "Conjunction used after words with hyphen, usually “and” or “or”",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordHyphen",
+                "name": "Words ending with hyphens followed by space and a conjunction",
+                "description": "Words ending with hyphens followed by space and a conjunction – suspended hyphen (Ein- oder Zweizimmer)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordTriplets",
+                "name": "Word triplets ",
+                "description": "Three words to be connected by nonbreaking space",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "abbWordabb",
+                "name": "Abbreviations structured a. de C.",
+                "description": "Abbreviations structured a. de C.",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WordsNotAfterComma",
+                "name": "Words which should not be preceded by comma",
+                "description": "Words or symbols which should not be preceded by comma and space",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "2abbWrong",
+                "name": "Abbreviations wrongly composed of two parts followed by period",
+                "description": "Complex abbreviations wrongly consisting of two parts ending with a period (ú. n. or ú.n.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SymAfterNums",
+                "name": "Symbols after numbers",
+                "description": "",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "YearDateLong",
+                "name": "Year in Date Long",
+                "description": "An expression (regex) to capture four-digit year (1987)",
+                "values": {
+                    "grep": [
+                        "(?:\\d{4}\\b)"
+                    ],
+                    "ecma": [
+                        "(?:\\p{Nd}{4}(?:(?<![\\p{L}\\p{M}\\p{N}])(?=[\\p{L}\\p{M}\\p{N}])|(?<=[\\p{L}\\p{M}\\p{N}])(?![\\p{L}\\p{M}\\p{N}])))"
+                    ]
+                }
+            },
+            {
+                "code": "Initials",
+                "name": "Form of initial",
+                "description": "Capital letters and/or digraphs and trigraphs like Ch. in Czech or Sz. in Hungarian",
+                "values": {
+                    "grep": [
+                        "[[:upper:]]"
+                    ],
+                    "ecma": [
+                        "\\p{Lu}"
+                    ]
+                }
+            },
+            {
+                "code": "LenghtUnitsWords",
+                "name": "SI units of length in the form of words",
+                "description": "List of of the most common words representing the units of lenght (kilometer)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "TempUnitsWords",
+                "name": "Units of temperature in the form of words",
+                "description": "List of of the most common words representing the units of temperature (degree) eventually incl. historical units",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SIprefixesNames",
+                "name": "SI Prefixes Names",
+                "description": "A metric prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. All metric prefixes used today are decimal.",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SIunitsNames",
+                "name": "SI Base & Derived Unit Names",
+                "description": "The International System of Units is the modern form of the metric system and the world's most widely used system of measurement. The list contains base and derived units plus units used in conjunction with SI units as well as other units using SI prefixes. The names of the units are localized in every language. Instead of kilogram we use gram to add possible prefixes in a simple way.",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SingleLetterUnits",
+                "name": "Non-SI Base & Derived Units (one letter only)",
+                "description": "Single letter single letter abbreviations for non-SI units, typically t (tons), h (hours)",
+                "values": {
+                    "grep": [
+                        "t",
+                        "h"
+                    ],
+                    "ecma": [
+                        "t",
+                        "h"
+                    ]
+                }
+            },
+            {
+                "code": "SIunitsShort",
+                "name": "SI Base & Derived Units (one letter only)",
+                "description": "The International System of Units assigns special names to 7 base and 22 derived units",
+                "values": {
+                    "grep": [
+                        "[bgmsultBAKMNJWCVFSTHL\\x{03a9}\\x{2126}]"
+                    ],
+                    "ecma": [
+                        "[bgmsultBAKMNJWCVFSTHL\\u{03a9}\\u{2126}]"
+                    ]
+                }
+            },
+            {
+                "code": "EnergyUnitsWords",
+                "name": "Energy and Power non-SI unit names",
+                "description": "List of of the most common non-SI units of energy including local versions of names of those units (calories, joules)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "TownSuburbSingle",
+                "name": "Town name followed by hyphen and suburb name",
+                "description": "Town name followed by hyphen and suburb name (Bratislava-Petržalka)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "TownSuburbMulti",
+                "name": "Town name followed by hyphen or dash and long suburb name (two words and more)",
+                "description": "Town name followed by hyphen or dash and suburb name (Praha-Malá Strana)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SymBeforeNoSpace",
+                "name": "Symbols before words not followed by space",
+                "description": "Symbols written before a word and followed by a nonbreaking space to prevent splitting at the end of a line (© § etc.)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "4abbEduDeg",
+                "name": "Abbreviations composed of four parts followed by period (academic degrees)",
+                "description": "Complex abbreviations of academic degrees consisting of two parts ending with a period (dipl. inž. diz. inž.) – the form of the space (or no space) depends on individual language setting",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "DupSymbols",
+                "name": "Duplicated Symbols",
+                "description": "Symbols which should not be duplicated to indicate plural form",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "AbbsWithPeriod",
+                "name": "Abbreviations requiring period",
+                "description": "Abbreviations commonly written without final period",
+                "values": {
+                    "grep": [
+                        "(?:et\\p{Zs}al)"
+                    ],
+                    "ecma": [
+                        "(?:et\\p{Zs}al)"
+                    ]
+                }
+            },
+            {
+                "code": "SuffixNum",
+                "name": "Suffix written directly after number value",
+                "description": "Suffix written directly after number value",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SlashUnits",
+                "name": "Common units with slash",
+                "description": "Common units with slash (km/h)",
+                "values": {
+                    "grep": [
+                        "(?:km\\p{Zs}*\\x{002F}\\p{Zs}*h)",
+                        "(?:(?:@{LocalCurrency})\\p{Zs}*\\x{002F}\\p{Zs}[ckdm]?m[²³]?)",
+                        "(?:(?:@{LocalCurrency})\\p{Zs}*\\x{002F}\\p{Zs}*l)",
+                        "(?:[MG]B\\p{Zs}*\\x{002F}\\p{Zs}*s)",
+                        "(?:m\\p{Zs}*\\x{002F}\\p{Zs}*s)",
+                        "(?:[km]?g\\p{Zs}*\\x{002F}\\p{Zs}*m[²³]?)"
+                    ],
+                    "ecma": [
+                        "(?:km\\p{Zs}*\\u{002F}\\p{Zs}*h)",
+                        "(?:(?:@{LocalCurrency})\\p{Zs}*\\u{002F}\\p{Zs}[ckdm]?m[²³]?)",
+                        "(?:(?:@{LocalCurrency})\\p{Zs}*\\u{002F}\\p{Zs}*l)",
+                        "(?:[MG]B\\p{Zs}*\\u{002F}\\p{Zs}*s)",
+                        "(?:m\\p{Zs}*\\u{002F}\\p{Zs}*s)",
+                        "(?:[km]?g\\p{Zs}*\\u{002F}\\p{Zs}*m[²³]?)"
+                    ]
                 }
             },
             {
@@ -89,6 +2584,19 @@
                 }
             },
             {
+                "code": "pPd002D",
+                "name": "Dashes (without hyphen U+002D)",
+                "description": "Dashes (without nonbreaking space U+002D)",
+                "values": {
+                    "grep": [
+                        "[\\x{2010}\\x{2011}\\x{2012}\\x{2013}\\x{2014}\\x{2015}]"
+                    ],
+                    "ecma": [
+                        "[\\p{Pd}--\\u{002D}]"
+                    ]
+                }
+            },
+            {
                 "code": "pPd2013",
                 "name": "Dashes (without en-dash U+2013)",
                 "description": "Dashes (without en-dash U+2013)",
@@ -98,6 +2606,19 @@
                     ],
                     "ecma": [
                         "[\\p{Pd}--\\u{2013}]"
+                    ]
+                }
+            },
+            {
+                "code": "pPd2011",
+                "name": "Dashes (without non-breaking hyphen U+2011)",
+                "description": "Dashes (without non-breaking hyphen U+2011)",
+                "values": {
+                    "grep": [
+                        "[\\x{002D}\\x{2010}\\x{2013}\\x{2012}\\x{2014}\\x{2015}]"
+                    ],
+                    "ecma": [
+                        "[\\p{Pd}--\\u{2011}]"
                     ]
                 }
             },
@@ -136,6 +2657,19 @@
                 }
             },
             {
+                "code": "pPd2014",
+                "name": "Dashes (without em-dash U+2014)",
+                "description": "Dashes (without em-dash U+2014)",
+                "values": {
+                    "grep": [
+                        "[\\x{002D}\\x{2010}\\x{2011}\\x{2012}\\x{2013}\\x{2015}]"
+                    ],
+                    "ecma": [
+                        "[\\p{Pd}--\\u{2014}]"
+                    ]
+                }
+            },
+            {
                 "code": "LB",
                 "name": "Left Word Boundary",
                 "description": "Left word boundary",
@@ -145,6 +2679,453 @@
                     ],
                     "ecma": [
                         "(?<![\\p{L}\\p{M}\\p{N}])"
+                    ]
+                }
+            },
+            {
+                "code": "RB",
+                "name": "Right Word Boundary",
+                "description": "Right Word Boundary",
+                "values": {
+                    "grep": [
+                        "\\b"
+                    ],
+                    "ecma": [
+                        "(?![\\p{L}\\p{M}\\p{N}])"
+                    ]
+                }
+            },
+            {
+                "code": "pZsabbSpace",
+                "name": "Spaces (without nonbreaking space used as space after abbreviations)",
+                "description": "Spaces (without abbSpace)",
+                "values": {
+                    "grep": [
+                        "[\\x{0020}\\x{1680}\\x{2000}-\\x{200A}\\x{202F}\\x{205F}\\x{3000}]"
+                    ],
+                    "ecma": [
+                        "[\\p{Zs}--@{abbSpace}]"
+                    ]
+                }
+            },
+            {
+                "code": "LenghtUnitsWordsNonSI",
+                "name": "Non SI units of length in the form of words",
+                "description": "List of of the most common words representing the imperial units of lenght (mile etc.) incl. historical units",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "VolumeUnitsWordsNonSI",
+                "name": "Non SI units of volume in the form of words",
+                "description": "List of of the most common words representing the imperial units of volume (gallon) incl. historical units",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "WeightUnitsNonSI",
+                "name": "Non SI weight units",
+                "description": "List of of the most common units of weight, SI and non-SI units including local versions of names of those units (ton, кг…)",
+                "values": {
+                    "grep": [
+                        "Gt",
+                        "Mt"
+                    ],
+                    "ecma": [
+                        "Gt",
+                        "Mt"
+                    ]
+                }
+            },
+            {
+                "code": "LenghtUnitsNonSI",
+                "name": "Length units abbreviations",
+                "description": "List of of the most common units of lenght, SI and non-SI units incl. local forms (km, км, χλμ.) – only 2 letters and more",
+                "values": {
+                    "grep": [
+                        "ft",
+                        "yd",
+                        "mi",
+                        "in"
+                    ],
+                    "ecma": [
+                        "ft",
+                        "yd",
+                        "mi",
+                        "in"
+                    ]
+                }
+            },
+            {
+                "code": "NumWordNoSpace",
+                "name": "Numbers written as abbreviations directly after number",
+                "description": "Abbreviations of numbers in the form of abbreviations (m, bn)",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SIcommon",
+                "name": "SI common units",
+                "description": "Common SI units used in everyday communication",
+                "values": {
+                    "grep": [
+                        "[mcdkµμn]m[²³]?",
+                        "[mcdhµμ]l",
+                        "[mµμk]g",
+                        "km\\x{002F}h",
+                        "m[²³]?\\x{002F}s",
+                        "g\\x{002F}m²",
+                        "kg\\x{002F}m[²³]",
+                        "l\\x{002F}m²",
+                        "mg\\x{002F}m?l",
+                        "mg\\x{002F}m³",
+                        "µg\\x{002F}l",
+                        "µg\\x{002F}ml",
+                        "µg\\x{002F}m³",
+                        "m?l\\x{002F}min",
+                        "l\\x{002F}[hs]",
+                        "min",
+                        "ms",
+                        "°C",
+                        "ha",
+                        "lx",
+                        "lm",
+                        "[kM]?Hz",
+                        "MHz",
+                        "mAh?",
+                        "[mk]VA?",
+                        "[kMT]Wh?",
+                        "Wh",
+                        "[khM]Pa",
+                        "dB",
+                        "[MGT]J"
+                    ],
+                    "ecma": [
+                        "[mcdkµμn]m[²³]?",
+                        "[mcdhµμ]l",
+                        "[mµμk]g",
+                        "km\\u{002F}h",
+                        "m[²³]?\\u{002F}s",
+                        "g\\u{002F}m²",
+                        "kg\\u{002F}m[²³]",
+                        "l\\u{002F}m²",
+                        "mg\\u{002F}m?l",
+                        "mg\\u{002F}m³",
+                        "µg\\u{002F}l",
+                        "µg\\u{002F}ml",
+                        "µg\\u{002F}m³",
+                        "m?l\\u{002F}min",
+                        "l\\u{002F}[hs]",
+                        "min",
+                        "ms",
+                        "°C",
+                        "ha",
+                        "lx",
+                        "lm",
+                        "[kM]?Hz",
+                        "MHz",
+                        "mAh?",
+                        "[mk]VA?",
+                        "[kMT]Wh?",
+                        "Wh",
+                        "[khM]Pa",
+                        "dB",
+                        "[MGT]J"
+                    ]
+                }
+            },
+            {
+                "code": "pPd2013spaced",
+                "name": "Dashes (without en-dash U+2013 with spaces)",
+                "description": "All forms but spaced en-dash (U+2013)",
+                "values": {
+                    "grep": [
+                        "(?:(?:\\p{Zs}@{pPd2013}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|\\p{Pd})"
+                    ],
+                    "ecma": [
+                        "(?:(?:\\p{Zs}@{pPd2013}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|\\p{Pd})"
+                    ]
+                }
+            },
+            {
+                "code": "pPd2013nospaced",
+                "name": "Dashes (without en-dash U+2013 and without spaces)",
+                "description": "All forms but closed en-dash (U+2013)",
+                "values": {
+                    "grep": [
+                        "(?:(?:\\p{Zs}\\p{Pd}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|@{pPd2013})"
+                    ],
+                    "ecma": [
+                        "(?:(?:\\p{Zs}\\p{Pd}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|@{pPd2013})"
+                    ]
+                }
+            },
+            {
+                "code": "24hours",
+                "name": "24 hours incl. optional leading zero",
+                "description": "Numbers ",
+                "values": {
+                    "grep": [
+                        "(?:0?[0-9]|1[0-9]|2[0-4])"
+                    ],
+                    "ecma": [
+                        "(?:0?[0-9]|1[0-9]|2[0-4])"
+                    ]
+                }
+            },
+            {
+                "code": "Minutes",
+                "name": "Minutes from 00 to 59",
+                "description": "Numbers from 00 to 59",
+                "values": {
+                    "grep": [
+                        "(?:[0-5][0-9])"
+                    ],
+                    "ecma": [
+                        "(?:[0-5][0-9])"
+                    ]
+                }
+            },
+            {
+                "code": "TimeSepWrong",
+                "name": "Invalid Time Separator",
+                "description": "Incorrect time separators",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "pPd2013thinspaced",
+                "name": "Dashes (without en-dash U+2013 with thin spaces)",
+                "description": "All forms but thin-spaced en-dash (U+2013)",
+                "values": {
+                    "grep": [
+                        "(?:(?:@{pZs2009}\\p{Pd}@{pZs2009})|(?:\\p{Zs}\\p{Pd}@{pZs2009}?)|(?:@{pZs2009}?\\p{Pd}\\p{Zs})|\\p{Pd})"
+                    ],
+                    "ecma": [
+                        "(?:(?:@{pZs2009}\\p{Pd}@{pZs2009})|(?:\\p{Zs}\\p{Pd}@{pZs2009}?)|(?:@{pZs2009}?\\p{Pd}\\p{Zs})|\\p{Pd})"
+                    ]
+                }
+            },
+            {
+                "code": "pZs2009",
+                "name": "Spaces (without thin space U+2009)",
+                "description": "Spaces (without thin space U+2009)",
+                "values": {
+                    "grep": [
+                        "[\\x{0020}\\x{00A0}\\x{1680}\\x{2000}-\\x{2008}\\x{200A}\\x{202F}\\x{205F}\\x{3000}]"
+                    ],
+                    "ecma": [
+                        "[\\p{Zs}--\\u{2009}]"
+                    ]
+                }
+            },
+            {
+                "code": "pZs202F",
+                "name": "Spaces (without narrow nbspace U+202F)",
+                "description": "Spaces (without narrow nbspace U+202F)",
+                "values": {
+                    "grep": [
+                        "[\\x{0020}\\x{00A0}\\x{1680}\\x{2000}-\\x{2009}\\x{200A}\\x{205F}\\x{3000}]"
+                    ],
+                    "ecma": [
+                        "[\\p{Zs}--\\u{202F}]"
+                    ]
+                }
+            },
+            {
+                "code": "Equal",
+                "name": "Equal symbols",
+                "description": "Symbol = and similar",
+                "values": {
+                    "grep": [
+                        "[\\x{003D}\\x{2260}\\x{2265}\\x{2264}\\x{2248}]"
+                    ],
+                    "ecma": [
+                        "[\\u{003D}\\u{2260}\\u{2265}\\u{2264}\\u{2248}]"
+                    ]
+                }
+            },
+            {
+                "code": "pPd2011nospaced",
+                "name": "Dashes (without nbhyphen U+2011 without spaces)",
+                "description": "All forms but closed nonbreaking hyphen (U+2011)",
+                "values": {
+                    "grep": [
+                        "(?:(?:\\p{Zs}\\p{Pd}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|@{pPd2011})"
+                    ],
+                    "ecma": [
+                        "(?:(?:\\p{Zs}\\p{Pd}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|@{pPd2011})"
+                    ]
+                }
+            },
+            {
+                "code": "pPd002Dnospaced",
+                "name": "Dashes (without hyphen U+002D without spaces)",
+                "description": "All forms but closed hyphen (U+002D)",
+                "values": {
+                    "grep": [
+                        "(?:(?:\\p{Zs}\\p{Pd}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|@{pPd002D})"
+                    ],
+                    "ecma": [
+                        "(?:(?:\\p{Zs}\\p{Pd}\\p{Zs})|(?:\\p{Zs}\\p{Pd})|(?:\\p{Pd}\\p{Zs})|@{pPd002D})"
+                    ]
+                }
+            },
+            {
+                "code": "MathSymNoMultiply",
+                "name": "MathSymbols without multiply and minus",
+                "description": "Basic mathematical symbols (+, ÷, = etc.) without minus",
+                "values": {
+                    "grep": [
+                        "[+÷=≠<>≤≥±≈∙·∶]"
+                    ],
+                    "ecma": [
+                        "[+÷=≠<>≤≥±≈∙·∶]"
+                    ]
+                }
+            },
+            {
+                "code": "MultiplyWrong",
+                "name": "Multiply Wrong forms only",
+                "description": "Various incorrect variants for the multiply symbol: e.g., the letter x in Latin, х in Cyrillic, or χ in Greek",
+                "values": {
+                    "grep": [
+                        "✕",
+                        "x",
+                        "х",
+                        "χ"
+                    ],
+                    "ecma": [
+                        "✕",
+                        "x",
+                        "х",
+                        "χ"
+                    ]
+                }
+            },
+            {
+                "code": "SentencePunct",
+                "name": "Sentence Punctuation",
+                "description": "Punctuation inside or after sentences (. : ; ! ? ‽)",
+                "values": {
+                    "grep": [
+                        "[\\x{002C}\\x{003A}\\x{003F}\\x{0021}\\x{003B}\\x{203D}]"
+                    ],
+                    "ecma": [
+                        "[\\u{002C}\\u{003A}\\u{003F}\\u{0021}\\u{003B}\\u{203D}]"
+                    ]
+                }
+            },
+            {
+                "code": "PeriodDateSpace",
+                "name": "Period followed by datespace",
+                "description": "Period which should be followed by nbspace/datespace but it could be represented as period_anyspace or just period",
+                "values": {
+                    "grep": [
+                        "(?:(?:\\.@{pZs00A0})|\\.)"
+                    ],
+                    "ecma": [
+                        "(?:(?:\\.[\\p{Zs}--@{DateSpace}])|\\.)"
+                    ]
+                }
+            },
+            {
+                "code": "DayAbb",
+                "name": "Abbreviation for the word “day”",
+                "description": "Abbreviation for the word “day”",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "SlashNospaced",
+                "name": "Slash (without slash U+002F without spaces)",
+                "description": "All forms but closed slash (U+002F)",
+                "values": {
+                    "grep": [
+                        "(?:(?:\\p{Zs}\\x{002F}\\p{Zs})|(?:\\p{Zs}\\x{002F})|(?:\\x{002F}\\p{Zs}))"
+                    ],
+                    "ecma": [
+                        "(?:(?:\\p{Zs}\\u{002F}\\p{Zs})|(?:\\p{Zs}\\u{002F})|(?:\\u{002F}\\p{Zs}))"
+                    ]
+                }
+            },
+            {
+                "code": "Minus",
+                "name": "Minus",
+                "description": "Preferred form of “minus” symbol",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "PercentSpace",
+                "name": "Space before percent % symbol",
+                "description": "",
+                "values": {
+                    "grep": [],
+                    "ecma": []
+                }
+            },
+            {
+                "code": "InnerQuoteContent",
+                "name": "Term in single quotes",
+                "description": "",
+                "values": {
+                    "grep": [
+                        "(?:(?:@{ApostropheSet})|(?!(?:@{ApostropheSet}))[^\\x{00AB}\\x{00BB}\\x{0022}\\x{201C}\\x{201D}\\r\\n\\x{2028}\\x{2029}])+?"
+                    ],
+                    "ecma": [
+                        "(?:(?<=[\\p{L}\\p{M}])(?:@{ApostropheSet})(?=[\\p{L}\\p{M}])|(?!(?:@{ApostropheSet}))[^\\u{00AB}\\u{00BB}\\u{0022}\\u{201C}\\u{201D}\\r\\n\\u{2028}\\u{2029}])+?"
+                    ]
+                }
+            },
+            {
+                "code": "GuillContent",
+                "name": "Expression inside guillemets",
+                "description": "",
+                "values": {
+                    "grep": [
+                        "[^\\x{00AB}\\x{00BB}\\r\\n\\x{2028}\\x{2029}]+?"
+                    ],
+                    "ecma": [
+                        "[^\\u{00AB}\\u{00BB}\\r\\n\\u{2028}\\u{2029}]+?"
+                    ]
+                }
+            },
+            {
+                "code": "CurlyQuoteContent",
+                "name": "Expression inside curly quotes",
+                "description": "",
+                "values": {
+                    "grep": [
+                        "[^\\x{00AB}\\x{00BB}\\x{201C}\\x{201D}\\r\\n\\x{2028}\\x{2029}]+?"
+                    ],
+                    "ecma": [
+                        "[^\\u{00AB}\\u{00BB}\\u{201C}\\u{201D}\\r\\n\\u{2028}\\u{2029}]+?"
+                    ]
+                }
+            },
+            {
+                "code": "StraightQuoteContent",
+                "name": "Expression inside straight quotes",
+                "description": "",
+                "values": {
+                    "grep": [
+                        "[^\\x{00AB}\\x{00BB}\\x{0022}\\r\\n\\x{2028}\\x{2029}]+?"
+                    ],
+                    "ecma": [
+                        "[^\\u{00AB}\\u{00BB}\\u{0022}\\r\\n\\u{2028}\\u{2029}]+?"
                     ]
                 }
             }

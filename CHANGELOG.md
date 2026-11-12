@@ -2,6 +2,3903 @@
 
 All notable changes to the Typofix rules database, newest first.
 
+## v2.0.0 — 2026-11-12
+
+### bg-BG
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #78 Secondary quotation marks ‚x‘
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #94 Keep dates (cardinal number followed by de) and month names together
+- Added #95 Keep year numbers with abbreviation for year together (2012 г.)
+- Added #96 Keep month with day number together in this format: Month #
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #137 En-dash with spaces instead of a hyphen between Roman numbers (span or interval)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #160 Keep dates in the format DD MM(Roman numerals) YYYY together
+- Added #163 Move currency symbols after the values
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #188 Hyphen in postal codes LV-####
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #190 Thin space between value and local currency unit (20 kr.)
+- Added #191 Thin space between ISO currency unit and value (USD 20)
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #198 No spaces in two-part abbreviations with periods
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #246 Replace space by nonbreaking space between any Roman ordinal number and following word
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #250 Nonbreaking and no spaces in three-part abbreviations like “и т.н.”
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #271 Replace space by nonbreaking space between ordinal number and following word
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #295 Replace space by nonbreaking space after abbreviations before units (кв. м)
+- Added #296 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #333 No space between numbers and degrees C or F (20°C, 70°F)
+- Added #354 Colon in Bible verse reference 1 Kor 3:18 or Mt 12:43–44
+- Added #364 No spaces in two-part abbreviations with one period
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #385 Force space in two-part abbreviations with periods
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #440 Hyphens in postal codes ####-###
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #503 Alert: Two initials connected with hyphen
+- Added #507 Remove spaces around slash between units (km / h > km/h)
+
+### cs-CZ-x-01
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #15 Remove redundant hyphen between word and suffix (4-procentní > 4procentní)
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #55 Connect suffix with hyphen (no spaces)
+- Added #56 Remove period after abbreviations and add nonbreaking space (gđe Poljak)
+- Added #58 Two hyphens to en-dash
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #72 Ratio / map scale with nonbreaking spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #76 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (IV.–VIII.)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #78 Secondary quotation marks ‚x‘
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #91 Nonbreaking spaces in two-part abbreviations (educational institutions)
+- Added #93 Add spaces around = in expression C=% of something
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #103 Nonbreaking space in two-part abbreviations of academic degrees with periods
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #110 Use dash with spaces between town and multiple word district names
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #163 Move currency symbols after the values
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #186 Nonbreaking space in UK postal codes (### ###)
+- Added #188 Hyphen in postal codes LV-####
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #199 Convert thousands separator comma or period to a temporary symbol
+- Added #200 Convert temporary thousands separator to a preferred symbol
+- Added #201 Convert decimal separator period to a temporary symbol
+- Added #202 Convert temporary decimal separator to a preferred symbol
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #207 Em-dash to en-dash with spaces
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #219 Endash with spaces between year and number
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #227 Remove commonly written suffixes (6-tý) and replace by period (6.)
+- Added #228 Remove wrong cardinal number suffixes (6-ti > 6)
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #237 Connect two words with discretionary and nonbreaking hyphen (geographical locations)
+- Added #238 Connect two words with discretionary and nonbreaking hyphen (know-how)
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #242 Convert single quotation mark into prime symbol
+- Added #243 Geographic coordinate system with proper symbols and spaces (54°41′14″N)
+- Added #244 Geographic coordinate system with proper symbols and spaces (54°41′N)
+- Added #245 Nonbreaking space in three-part abbreviations of academic degrees with periods
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #260 Convert x or X to multiply symbol between numbers and add regular spaces if missing
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #283 En-dash with spaces between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #291 Delete an extra space at the beginning of a paragraph
+- Added #294 Imperial length, angle or time units with space between compounds
+- Added #299 Nonbreaking spaces instead of periods between four-number-group phone numbers
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #310 Keep short day together separated by nonbreaking space (27. 12.)
+- Added #311 Connect a specific word with following letter
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #318 Remove spaces between Biblical verses (Kaz 7,20)
+- Added #323 Keep cardinal number together with the following word
+- Added #331 Correct misplaced comma or semicolon
+- Added #349 Use comma as a decimal separator after currency symbols (€ 19,90)
+- Added #352 Make spaces around math symbols between words (guest + 1)
+- Added #358 Remove period after certain abbreviations
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #374 Replace nonbreaking space by regular spaces after specifics words followed by letter
+- Added #376 Correct form of et al.
+- Added #379 Replace colon in time values by period after time related prepositions (around 10:00 → around 10.00)
+- Added #380 Replace colon in time values by period when followed by word “hour” (10:00 hod. to 10.00 hod.)
+- Added #381 Replace colon in time values by period in time ranges (10:00–11:00 → 10:00–11:00)
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #397 Replace space by nonbreaking space between certain words and numbers
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #410 Keep short words with the next word
+- Added #411 Convert hyphen at the end of the line to en-dash
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #443 Correct order and of space dash comma in a sentence (,- to –,)
+- Added #444 Remove extra comma before space dash space
+- Added #446 Add space before dash if missing in a sentence
+- Added #447 Add space after dash if missing in a sentence
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #456 Delete a tab at the beginning of a paragraph
+- Added #457 Replace tab or tabs by space inside text
+- Added #458 Delete a tab at the end of a paragraph
+- Added #460 Add space after closing quotation marks if missing
+- Added #461 No spaces in two-part abbreviations with periods (t.i. or t. i. > ti.)
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #475 Alert: the space before % is based on grammatical context 
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #489 Use hyphen without spaces between town and district names (Bratislava-Petržalka)
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #497 Keep abbreviation for year together with four-digit number
+- Added #500 Nonbreaking spaces instead of periods between three-number-group phone numbers
+- Added #503 Alert: Two initials connected with hyphen
+- Added #504 Remove duplicated symbols
+- Added #505 Connect two words with dash (Hanzelka–Zikmund)
+- Added #506 Replace wrong apostrophe by proper form ’ before years (’74)
+- Added #507 Remove spaces around slash between units (km / h > km/h)
+- Added #509 Replace nonbreaking space by regular spaces after specifics words followed by number
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #525 Add missing sixth nonbreaking to ratio/scale if preceded by certain words (1 : 100)
+
+### cs-CZ-x-02
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #15 Remove redundant hyphen between word and suffix (4-procentní > 4procentní)
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #55 Connect suffix with hyphen (no spaces)
+- Added #56 Remove period after abbreviations and add nonbreaking space (gđe Poljak)
+- Added #58 Two hyphens to en-dash
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #76 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (IV.–VIII.)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #78 Secondary quotation marks ‚x‘
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #91 Nonbreaking spaces in two-part abbreviations (educational institutions)
+- Added #93 Add spaces around = in expression C=% of something
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #163 Move currency symbols after the values
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #186 Nonbreaking space in UK postal codes (### ###)
+- Added #188 Hyphen in postal codes LV-####
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #199 Convert thousands separator comma or period to a temporary symbol
+- Added #200 Convert temporary thousands separator to a preferred symbol
+- Added #201 Convert decimal separator period to a temporary symbol
+- Added #202 Convert temporary decimal separator to a preferred symbol
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #207 Em-dash to en-dash with spaces
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #219 Endash with spaces between year and number
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #224 Add missing sixth spaces to ratio/scale if preceded by certain words (1 : 100)
+- Added #225 Ratio / map scale with sixth spaces around colon
+- Added #227 Remove commonly written suffixes (6-tý) and replace by period (6.)
+- Added #228 Remove wrong cardinal number suffixes (6-ti > 6)
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #237 Connect two words with discretionary and nonbreaking hyphen (geographical locations)
+- Added #238 Connect two words with discretionary and nonbreaking hyphen (know-how)
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #242 Convert single quotation mark into prime symbol
+- Added #243 Geographic coordinate system with proper symbols and spaces (54°41′14″N)
+- Added #244 Geographic coordinate system with proper symbols and spaces (54°41′N)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #270 Thin space in two-part abbreviations of academic degrees with periods
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #291 Delete an extra space at the beginning of a paragraph
+- Added #294 Imperial length, angle or time units with space between compounds
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #299 Nonbreaking spaces instead of periods between four-number-group phone numbers
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #310 Keep short day together separated by nonbreaking space (27. 12.)
+- Added #311 Connect a specific word with following letter
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #318 Remove spaces between Biblical verses (Kaz 7,20)
+- Added #320 Thin space in three-part abbreviations of academic degrees with periods
+- Added #323 Keep cardinal number together with the following word
+- Added #331 Correct misplaced comma or semicolon
+- Added #349 Use comma as a decimal separator after currency symbols (€ 19,90)
+- Added #352 Make spaces around math symbols between words (guest + 1)
+- Added #358 Remove period after certain abbreviations
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #374 Replace nonbreaking space by regular spaces after specifics words followed by letter
+- Added #376 Correct form of et al.
+- Added #379 Replace colon in time values by period after time related prepositions (around 10:00 → around 10.00)
+- Added #380 Replace colon in time values by period when followed by word “hour” (10:00 hod. to 10.00 hod.)
+- Added #381 Replace colon in time values by period in time ranges (10:00–11:00 → 10:00–11:00)
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #397 Replace space by nonbreaking space between certain words and numbers
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #410 Keep short words with the next word
+- Added #411 Convert hyphen at the end of the line to en-dash
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #443 Correct order and of space dash comma in a sentence (,- to –,)
+- Added #444 Remove extra comma before space dash space
+- Added #446 Add space before dash if missing in a sentence
+- Added #447 Add space after dash if missing in a sentence
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #456 Delete a tab at the beginning of a paragraph
+- Added #457 Replace tab or tabs by space inside text
+- Added #458 Delete a tab at the end of a paragraph
+- Added #460 Add space after closing quotation marks if missing
+- Added #461 No spaces in two-part abbreviations with periods (t.i. or t. i. > ti.)
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #475 Alert: the space before % is based on grammatical context 
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #489 Use hyphen without spaces between town and district names (Bratislava-Petržalka)
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #497 Keep abbreviation for year together with four-digit number
+- Added #500 Nonbreaking spaces instead of periods between three-number-group phone numbers
+- Added #503 Alert: Two initials connected with hyphen
+- Added #504 Remove duplicated symbols
+- Added #505 Connect two words with dash (Hanzelka–Zikmund)
+- Added #506 Replace wrong apostrophe by proper form ’ before years (’74)
+- Added #507 Remove spaces around slash between units (km / h > km/h)
+- Added #509 Replace nonbreaking space by regular spaces after specifics words followed by number
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### da-DK
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #34 Primary quotation marks “ ”
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #76 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (IV.–VIII.)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #103 Nonbreaking space in two-part abbreviations of academic degrees with periods
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #114 Secondary quotation marks ‘x’
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #163 Move currency symbols after the values
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #185 Hyphen between spaces to en-dash
+- Added #187 En-dash without spaces instead of a hyphen between decades (1980s–1990s)
+- Added #188 Hyphen in postal codes LV-####
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #231 Keep Pantone numbers with suffixes
+- Added #245 Nonbreaking space in three-part abbreviations of academic degrees with periods
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #309 Use periods for thousand separators instead of spaces
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #342 Add spaces before ellipsis
+- Added #343 Add spaces after ellipsis
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #371 Add space before ellipsis in the middle of a sentence
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #417 Wrong apostrophe to the correct form in decades
+- Added #421 Add nonbreraking space before ellipsis at the end of a sentence
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### de-DE
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #29 Connect v. with surname
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #55 Connect suffix with hyphen (no spaces)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #78 Secondary quotation marks ‚x‘
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #92 Fix spelling of rock ’n’ roll
+- Added #94 Keep dates (cardinal number followed by de) and month names together
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #103 Nonbreaking space in two-part abbreviations of academic degrees with periods
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #160 Keep dates in the format DD MM(Roman numerals) YYYY together
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #187 En-dash without spaces instead of a hyphen between decades (1980s–1990s)
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #219 Endash with spaces between year and number
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #309 Use periods for thousand separators instead of spaces
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #489 Use hyphen without spaces between town and district names (Bratislava-Petržalka)
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### el-GR
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #32 Primary quotation marks « » (no spaces)
+- Added #34 Primary quotation marks “ ”
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #42 No space between ISO currency unit and a value (USD20)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #56 Remove period after abbreviations and add nonbreaking space (gđe Poljak)
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #72 Ratio / map scale with nonbreaking spaces around colon
+- Added #73 Ratio / map scale without spaces around colon
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #80 Primary quotation marks » «
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #89 Secondary quotation marks “ ”
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #113 No space between value and ISO currency unit (20USD)
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #166 Remove space after diameter sign ⌀ (U+2300) before length units
+- Added #167 No space between value and currency symbols (7€)
+- Added #169 No space between value and local currency unit (20kr.)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #198 No spaces in two-part abbreviations with periods
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #246 Replace space by nonbreaking space between any Roman ordinal number and following word
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #260 Convert x or X to multiply symbol between numbers and add regular spaces if missing
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #265 Hyphen to en-dash if preceded and followed by space
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #308 Keep numbers with following abbreviation
+- Added #309 Use periods for thousand separators instead of spaces
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #332 Connect capitalised names with Greek numbers
+- Added #334 Connect initials without space (J.F. or J.R.R.)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #336 No spaces in four-part abbreviations with periods
+- Added #337 Convert Greek dexia keraia to preferred form (Α´)
+- Added #353 Convert Greek dexia keraia (Α´ α´) to preferred form at the begenning of a paragraph
+- Added #358 Remove period after certain abbreviations
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #389 En-dash between date ranges in various formats with slash ending with year (1898 or 89 or ’89)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #392 Convert centered period to proper Greek · if placed after any Greek letter
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #394 Connect Greek numbers with following abbreviations
+- Added #395 No space in three-part academic abbreviations with periods (Π.Μ.Σ.)
+- Added #396 Non-breaking Space in Greek Biblical Book Abbreviations (Αʹ Θεσ)
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #490 Add space after colon if missing inside a sentence
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #521 Convert semicolon to proper Greek ; if placed after any Greek letter
+
+### en-GB
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #81 Replace multiple tabs by single tab
+- Added #82 Hyphens in US postal codes #####-####
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #92 Fix spelling of rock ’n’ roll
+- Added #96 Keep month with day number together in this format: Month #
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #129 Temporary apostrophe to right shape
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #165 Move currency symbols before the values
+- Added #167 No space between value and currency symbols (7€)
+- Added #170 No space between currency symbols and value (€20)
+- Added #171 No space between local currency unit and value (zł20)
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #186 Nonbreaking space in UK postal codes (### ###)
+- Added #187 En-dash without spaces instead of a hyphen between decades (1980s–1990s)
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #207 Em-dash to en-dash with spaces
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #242 Convert single quotation mark into prime symbol
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #255 Remove space before ordinal number and suffix
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #265 Hyphen to en-dash if preceded and followed by space
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #296 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #298 Imperial lenght, angle or time units with space between compounds
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #311 Connect a specific word with following letter
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #316 Add space before ellipsis if not followed by an uppercase letter
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #319 Correct spelling of numbers between 21–99 with hyphen (twenty-one)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #333 No space between numbers and degrees C or F (20°C, 70°F)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #336 No spaces in four-part abbreviations with periods
+- Added #342 Add spaces before ellipsis
+- Added #343 Add spaces after ellipsis
+- Added #354 Colon in Bible verse reference 1 Kor 3:18 or Mt 12:43–44
+- Added #366 Move ISO currency codes before the values
+- Added #367 Move local currency symbols and abbreviations before the values
+- Added #371 Add space before ellipsis in the middle of a sentence
+- Added #376 Correct form of et al.
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #406 Three hyphens to en-dash
+- Added #411 Convert hyphen at the end of the line to en-dash
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #427 Change Left Double Quotation Mark to temporary symbol
+- Added #428 Change Right Double Quotation Mark to temporary symbol
+- Added #429 Change temporary Right Double Quotation Mark to a single one ’
+- Added #430 Change temporary Left Double Quotation Mark to a single one ‘
+- Added #433 Change temporary Single Quotation Marks to double ones “ ”
+- Added #434 Change temporary Right Single Quotation Mark to a double one ”
+- Added #435 Primary quotation marks ‘ ’
+- Added #436 Secondary quotation marks “ ”
+- Added #437 Change Single Quotation Marks to temporary symbols
+- Added #438 Change temporary Left Single Quotation Mark to a double one “
+- Added #440 Hyphens in postal codes ####-###
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #494 Replace colon in time values by period when followed by am/pm
+- Added #496 Alert: a.m. or p.m. following the 24-hour clock
+- Added #503 Alert: Two initials connected with hyphen
+- Added #513 Keep number and large number abbreviations together without space
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+
+### en-US
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #34 Primary quotation marks “ ”
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #59 Two hyphens between words to closed em-dash
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #81 Replace multiple tabs by single tab
+- Added #82 Hyphens in US postal codes #####-####
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #92 Fix spelling of rock ’n’ roll
+- Added #96 Keep month with day number together in this format: Month #
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #114 Secondary quotation marks ‘x’
+- Added #129 Temporary apostrophe to right shape
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #165 Move currency symbols before the values
+- Added #167 No space between value and currency symbols (7€)
+- Added #170 No space between currency symbols and value (€20)
+- Added #171 No space between local currency unit and value (zł20)
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #186 Nonbreaking space in UK postal codes (### ###)
+- Added #187 En-dash without spaces instead of a hyphen between decades (1980s–1990s)
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #213 Hyphen or en-dash with spaces to em-dash without spaces
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #242 Convert single quotation mark into prime symbol
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #255 Remove space before ordinal number and suffix
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #296 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #298 Imperial lenght, angle or time units with space between compounds
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #311 Connect a specific word with following letter
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #314 Convert thousands separator space or period to comma
+- Added #316 Add space before ellipsis if not followed by an uppercase letter
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #319 Correct spelling of numbers between 21–99 with hyphen (twenty-one)
+- Added #333 No space between numbers and degrees C or F (20°C, 70°F)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #336 No spaces in four-part abbreviations with periods
+- Added #342 Add spaces before ellipsis
+- Added #343 Add spaces after ellipsis
+- Added #351 Change hyphen to an em-dash at the beginning of a paragraph
+- Added #354 Colon in Bible verse reference 1 Kor 3:18 or Mt 12:43–44
+- Added #366 Move ISO currency codes before the values
+- Added #367 Move local currency symbols and abbreviations before the values
+- Added #371 Add space before ellipsis in the middle of a sentence
+- Added #375 Three hyphens to em-dash
+- Added #376 Correct form of et al.
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #407 Convert period to preferred separator in dates (slash, hyphen)
+- Added #408 Convert hyphen to preferred separator in dates (slash, period)
+- Added #409 Convert slash to preferred separator in dates (hyphen, period)
+- Added #412 Keep short dates with periods together without spaces (MDY 12.11.1974)
+- Added #413 Keep short dates with slashes together without spaces MDY (12/11/1974)
+- Added #415 Convert short days with periods to slash (12/27)
+- Added #416 Convert short days with hyphen to slash (12/27)
+- Added #421 Add nonbreraking space before ellipsis at the end of a sentence
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #427 Change Left Double Quotation Mark to temporary symbol
+- Added #428 Change Right Double Quotation Mark to temporary symbol
+- Added #429 Change temporary Right Double Quotation Mark to a single one ’
+- Added #430 Change temporary Left Double Quotation Mark to a single one ‘
+- Added #433 Change temporary Single Quotation Marks to double ones “ ”
+- Added #434 Change temporary Right Single Quotation Mark to a double one ”
+- Added #437 Change Single Quotation Marks to temporary symbols
+- Added #438 Change temporary Left Single Quotation Mark to a double one “
+- Added #440 Hyphens in postal codes ####-###
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #496 Alert: a.m. or p.m. following the 24-hour clock
+- Added #503 Alert: Two initials connected with hyphen
+- Added #511 Two hyphens between parentheses or quotation marks to em-dash
+- Added #512 Hyphen or en-dash to em-dash without spaces if preceded and followed by space
+- Added #513 Keep number and large number abbreviations together without space
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+
+### es-ES
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #32 Primary quotation marks « » (no spaces)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #89 Secondary quotation marks “ ”
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #114 Secondary quotation marks ‘x’
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #155 Connect initials with surnames using six-per-em non-breaking space incl. prefixes like van, de etc.
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #190 Thin space between value and local currency unit (20 kr.)
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #201 Convert decimal separator period to a temporary symbol
+- Added #202 Convert temporary decimal separator to a preferred symbol
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #222 Spaces around en-dash in various date ranges (1.1.2023 – 31.12.2024)
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #242 Convert single quotation mark into prime symbol
+- Added #243 Geographic coordinate system with proper symbols and spaces (54°41′14″N)
+- Added #244 Geographic coordinate system with proper symbols and spaces (54°41′N)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #249 Nonbreaking and narrow spaces in three-part abbreviations like “pred n. l.”
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #258 Add missing inverted exclamation mark (¡) at the beginning of a sentence ending with !
+- Added #259 Add missing inverted question mark (¿) at the beginning of a sentence ending with ?
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #279 Thin space between value and currency symbols (20 €)
+- Added #280 Thin space between value and ISO currency unit (20 USD)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #308 Keep numbers with following abbreviation
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #324 Add missing inverted punctuation (¿¡) at the beginning of a sentence ending with !?
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #328 Add missing inverted interrobang (⸘) at the beginning of a sentence ending with ‽
+- Added #350 Use em-dashes instead of hyphens in Spanish sentences
+- Added #351 Change hyphen to an em-dash at the beginning of a paragraph
+- Added #358 Remove period after certain abbreviations
+- Added #359 Replace space by nonbreaking space between certain words in French and Roman number
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #377 Add missing period in Spanish ordinal numbers (2ª –> 2.ª and 2º –> 2.º)
+- Added #378 Replace an apostrophe as a decimal separator by comma in Spanish (1’99 –> 1,99)
+- Added #382 Add periods to Spanish abbreviations before suffixes ª and º (nº –> n.º)
+- Added #383 Add comma before certain expressions at the end of a list (Peter, Manuel, etc. or José, …)
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #389 En-dash between date ranges in various formats with slash ending with year (1898 or 89 or ’89)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #403 Remove comma and optional space before ellipsis – preferences
+- Added #404 Add missing em-dash at the end of Spanish sentence
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #422 Nonbreaking spaces in three-part abbreviations (miscelaneous)
+- Added #423 Thin spaces in four-part abbreviations with periods
+- Added #424 Thin and nonbreaking spaces in three-part abbreviations
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #439 Hyphen to em-dash if preceded and followed by space
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #490 Add space after colon if missing inside a sentence
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #511 Two hyphens between parentheses or quotation marks to em-dash
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #523 Two hyphens to em-dash
+
+### et-EE
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #76 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (IV.–VIII.)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #95 Keep year numbers with abbreviation for year together (2012 г.)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #103 Nonbreaking space in two-part abbreviations of academic degrees with periods
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #161 Ratio / map scale with thin spaces around the colon
+- Added #163 Move currency symbols after the values
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #198 No spaces in two-part abbreviations with periods
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #305 Hyphen in postal codes LT-#####
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #329 Use nonbreaking hyphen in contractions (m-ați)
+- Added #330 Connect suffix with nonbreaking hyphen (no spaces)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #358 Remove period after certain abbreviations
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### fi-FI
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #33 Primary quotation marks ” ”
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #79 Secondary quotation marks ’x’
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #91 Nonbreaking spaces in two-part abbreviations (educational institutions)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #129 Temporary apostrophe to right shape
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #157 Remove spaces adjacent to a tab	
+- Added #159 Remove spaces before ellipsis
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #188 Hyphen in postal codes LV-####
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #207 Em-dash to en-dash with spaces
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #218 Connect capitalised names with ordinal Roman numerals (useful for popes, emperors – Karel IV. etc.)
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #260 Convert x or X to multiply symbol between numbers and add regular spaces if missing
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #290 Convert figure dash to dash between letters
+- Added #291 Delete an extra space at the beginning of a paragraph
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #354 Colon in Bible verse reference 1 Kor 3:18 or Mt 12:43–44
+- Added #358 Remove period after certain abbreviations
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #450 Remove comma before certain expressions at the end of a list
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #503 Alert: Two initials connected with hyphen
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #526 Add space after punctuation if missing at the end of a sentence (Finnish and Swedish)
+- Added #527 Add space after closing quotation marks if missing (Finnish, Swedish)
+- Added #528 Change any hyphen or dash preceding numbers to preferred minus sign
+- Added #529 En-dash without spaces instead of a hyphen between cardinal numbers (range) followed by hyphen
+
+### fr-FR
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #24 Add or change space before ?, !, ; and : to preferred width
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #35 Primary quotation marks « » (preferred spaces)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #55 Connect suffix with hyphen (no spaces)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #89 Secondary quotation marks “ ”
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #95 Keep year numbers with abbreviation for year together (2012 г.)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #160 Keep dates in the format DD MM(Roman numerals) YYYY together
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #207 Em-dash to en-dash with spaces
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #291 Delete an extra space at the beginning of a paragraph
+- Added #300 Connect three words with hyphen (geographical locations)
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #303 Connect four words with hyphen (geographical locations)
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #327 Replace space by nonbreaking space between any Roman ordinal number with suffix and certain words in French
+- Added #340 Keep short dates (Arabic numbers for months) together without spaces DMY (12-11-1974)
+- Added #358 Remove period after certain abbreviations
+- Added #359 Replace space by nonbreaking space between certain words in French and Roman number
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #389 En-dash between date ranges in various formats with slash ending with year (1898 or 89 or ’89)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #410 Keep short words with the next word
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #445 Keep French time expression connected with nonbreaking spaces
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #456 Delete a tab at the beginning of a paragraph
+- Added #457 Replace tab or tabs by space inside text
+- Added #458 Delete a tab at the end of a paragraph
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #489 Use hyphen without spaces between town and district names (Bratislava-Petržalka)
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### ga-IE
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #34 Primary quotation marks “ ”
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #96 Keep month with day number together in this format: Month #
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #137 En-dash with spaces instead of a hyphen between Roman numbers (span or interval)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #165 Move currency symbols before the values
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #170 No space between currency symbols and value (€20)
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #188 Hyphen in postal codes LV-####
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #210 Endash with spaces instead of a hyphen between a span of months
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #290 Convert figure dash to dash between letters
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #308 Keep numbers with following abbreviation
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #340 Keep short dates (Arabic numbers for months) together without spaces DMY (12-11-1974)
+- Added #362 Remove space between value and percent symbol (20%) – preferences
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #366 Move ISO currency codes before the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #389 En-dash between date ranges in various formats with slash ending with year (1898 or 89 or ’89)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #410 Keep short words with the next word
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #427 Change Left Double Quotation Mark to temporary symbol
+- Added #428 Change Right Double Quotation Mark to temporary symbol
+- Added #429 Change temporary Right Double Quotation Mark to a single one ’
+- Added #430 Change temporary Left Double Quotation Mark to a single one ‘
+- Added #433 Change temporary Single Quotation Marks to double ones “ ”
+- Added #434 Change temporary Right Single Quotation Mark to a double one ”
+- Added #437 Change Single Quotation Marks to temporary symbols
+- Added #438 Change temporary Left Single Quotation Mark to a double one “
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #515 Keep single-character words together with the following word (prefs)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### hr-HR
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #17 Primary quotation marks „ ”
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #56 Remove period after abbreviations and add nonbreaking space (gđe Poljak)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #72 Ratio / map scale with nonbreaking spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #76 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (IV.–VIII.)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #103 Nonbreaking space in two-part abbreviations of academic degrees with periods
+- Added #104 Nonbreaking space after military ranks
+- Added #114 Secondary quotation marks ‘x’
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #139 Endash with nonbreaking spaces instead of a hyphen between a span of week days
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #161 Ratio / map scale with thin spaces around the colon
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #195 Nonbreaking space in Maltese postal codes AAA ####
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #231 Keep Pantone numbers with suffixes
+- Added #238 Connect two words with discretionary and nonbreaking hyphen (know-how)
+- Added #239 Convert double quotation mark into double prime symbol
+- Added #242 Convert single quotation mark into prime symbol
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #276 Thin spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #307 Em-dash to en-dash
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #358 Remove period after certain abbreviations
+- Added #360 Add a period after the first part of the range of years (1999.–2000.)
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #440 Hyphens in postal codes ####-###
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### hu-HU
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #17 Primary quotation marks „ ”
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #96 Keep month with day number together in this format: Month #
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #104 Nonbreaking space after military ranks
+- Added #117 Secondary quotation marks » «
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #163 Move currency symbols after the values
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #191 Thin space between ISO currency unit and value (USD 20)
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #199 Convert thousands separator comma or period to a temporary symbol
+- Added #200 Convert temporary thousands separator to a preferred symbol
+- Added #201 Convert decimal separator period to a temporary symbol
+- Added #202 Convert temporary decimal separator to a preferred symbol
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #231 Keep Pantone numbers with suffixes
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #265 Hyphen to en-dash if preceded and followed by space
+- Added #266 Convert x or X to multiply symbol between numbers and remove spaces
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #291 Delete an extra space at the beginning of a paragraph
+- Added #293 Replace space by nonbreaking space between ordinal number and following word or abbreviation
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #308 Keep numbers with following abbreviation
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #318 Remove spaces between Biblical verses (Kaz 7,20)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #347 Multiply symbol (three numbers) without spaces
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #380 Replace colon in time values by period when followed by word “hour” (10:00 hod. to 10.00 hod.)
+- Added #381 Replace colon in time values by period in time ranges (10:00–11:00 → 10:00–11:00)
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #398 Replace colon in time values by period when followed by certain suffixes; replace hyphen by nonbreaking one (13.00-kor)
+- Added #419 Nonbreaking spaces in two-part abbreviations with periods (pr. Kr.)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #440 Hyphens in postal codes ####-###
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #442 Remove space from Biblical Book Abbreviations
+- Added #443 Correct order and of space dash comma in a sentence (,- to –,)
+- Added #446 Add space before dash if missing in a sentence
+- Added #447 Add space after dash if missing in a sentence
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #450 Remove comma before certain expressions at the end of a list
+- Added #451 Change suffix -én into -jén in Hungarian
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #453 En-dash without spaces instead of a hyphen between cardinal numbers (range) followed by sufix
+- Added #454 Remove period from ordinal numbers after months
+- Added #456 Delete a tab at the beginning of a paragraph
+- Added #457 Replace tab or tabs by space inside text
+- Added #458 Delete a tab at the end of a paragraph
+- Added #459 Remove extra suffix in Hungarian expressions
+- Added #460 Add space after closing quotation marks if missing
+- Added #461 No spaces in two-part abbreviations with periods (t.i. or t. i. > ti.)
+- Added #462 Nonbreaking space before military ranks
+- Added #463 Replace space by nonbreaking space between Roman ordinal number marked by period and following capitalized word
+- Added #464 En-dash without spaces between ordinal Roman numbers where final ordinal marker is a period (ie. I–VIII.)
+- Added #465 Nonbreaking space between symbols and cardinal or ordinal numbers incl. Roman Numbers
+- Added #466 Keep short dates together using nonbreaking spaces YMD (1974. 09. 12.) incl. leading zero
+- Added #467 Keep short dates together using nonbreaking spaces YMD (1974. IX. 9.)
+- Added #468 Long dates with proper periods and spaces (1974. máj 9.)
+- Added #469 Connect Hungarian surnames to initials using nonbreaking space (Szabó Gy. Z.)
+- Added #471 Nonbreaking space before Hungarian police ranks
+- Added #472 Insert nonbreaking space after asterisk before year to express born in (* 1974. IX. 12)
+- Added #473 Insert nonbreaking space after dagger before year to express death in († 1974. IX. 12)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #479 Alert: the year designation does not consist of four digits
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #515 Keep single-character words together with the following word (prefs)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### it-IT
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #32 Primary quotation marks « » (no spaces)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #89 Secondary quotation marks “ ”
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #139 Endash with nonbreaking spaces instead of a hyphen between a span of week days
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #185 Hyphen between spaces to en-dash
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #190 Thin space between value and local currency unit (20 kr.)
+- Added #191 Thin space between ISO currency unit and value (USD 20)
+- Added #192 The correct form of born in year (1974–)
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #210 Endash with spaces instead of a hyphen between a span of months
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #265 Hyphen to en-dash if preceded and followed by space
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #356 Replace wrong apostrophe by proper form ’ in year spans (1972–’74)
+- Added #357 En-dash with thin spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix (ie. 1º – 3º)
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #515 Keep single-character words together with the following word (prefs)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### lt-LT
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #55 Connect suffix with hyphen (no spaces)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #78 Secondary quotation marks ‚x‘
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #95 Keep year numbers with abbreviation for year together (2012 г.)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #114 Secondary quotation marks ‘x’
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #163 Move currency symbols after the values
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #188 Hyphen in postal codes LV-####
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #271 Replace space by nonbreaking space between ordinal number and following word
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #289 Add nonbreaking spaces between day and abbreviation for day (sausio 13 d.)
+- Added #290 Convert figure dash to dash between letters
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #305 Hyphen in postal codes LT-#####
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #400 Nonbreaking spaces in three-part abbreviations like “ir t. t.”
+- Added #401 Two hyphens between numbers to a temporary symbol
+- Added #402 Convert temporary dash to en-dash in Lithuanian
+- Added #410 Keep short words with the next word
+- Added #418 Nonbreaking spaces in three-part abbreviations with periods (a. pr. Kr.)
+- Added #419 Nonbreaking spaces in two-part abbreviations with periods (pr. Kr.)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #508 Non-breaking spaces in four-part abbreviations with periods
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### lv-LV
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #32 Primary quotation marks « » (no spaces)
+- Added #34 Primary quotation marks “ ”
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #89 Secondary quotation marks “ ”
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #95 Keep year numbers with abbreviation for year together (2012 г.)
+- Added #96 Keep month with day number together in this format: Month #
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #114 Secondary quotation marks ‘x’
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #163 Move currency symbols after the values
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #188 Hyphen in postal codes LV-####
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #293 Replace space by nonbreaking space between ordinal number and following word or abbreviation
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #305 Hyphen in postal codes LT-#####
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #418 Nonbreaking spaces in three-part abbreviations with periods (a. pr. Kr.)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #460 Add space after closing quotation marks if missing
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #511 Two hyphens between parentheses or quotation marks to em-dash
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #520 Convert ellipsis or three periods (…) in parentheses or brackets by two dots (..)
+- Added #522 Two spaced hyphens between words to spaced em-dash
+
+### mt-MT
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #34 Primary quotation marks “ ”
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #138 Proper form of Maltese ordinal numbers with single hyphen
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #164 Replace hyphen by hard hyphen to avoid breaking words after prefix followed by hyphen
+- Added #165 Move currency symbols before the values
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #170 No space between currency symbols and value (€20)
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #195 Nonbreaking space in Maltese postal codes AAA ####
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #198 No spaces in two-part abbreviations with periods
+- Added #231 Keep Pantone numbers with suffixes
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #308 Keep numbers with following abbreviation
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #366 Move ISO currency codes before the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #389 En-dash between date ranges in various formats with slash ending with year (1898 or 89 or ’89)
+- Added #410 Keep short words with the next word
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #427 Change Left Double Quotation Mark to temporary symbol
+- Added #428 Change Right Double Quotation Mark to temporary symbol
+- Added #429 Change temporary Right Double Quotation Mark to a single one ’
+- Added #430 Change temporary Left Double Quotation Mark to a single one ‘
+- Added #433 Change temporary Single Quotation Marks to double ones “ ”
+- Added #434 Change temporary Right Single Quotation Mark to a double one ”
+- Added #437 Change Single Quotation Marks to temporary symbols
+- Added #438 Change temporary Left Single Quotation Mark to a double one “
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### nl-NL
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #34 Primary quotation marks “ ”
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #114 Secondary quotation marks ‘x’
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #137 En-dash with spaces instead of a hyphen between Roman numbers (span or interval)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #165 Move currency symbols before the values
+- Added #168 Nonbreaking space between currency symbol and value (€ 20)
+- Added #170 No space between currency symbols and value (€20)
+- Added #172 Nonbreaking space between local currency unit and value
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #188 Hyphen in postal codes LV-####
+- Added #196 Nonbreaking space in Dutch postal codes #### AA
+- Added #198 No spaces in two-part abbreviations with periods
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #207 Em-dash to en-dash with spaces
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #240 Use correct form of apostrophe in Dutch at the beginning of words (’t)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #265 Hyphen to en-dash if preceded and followed by space
+- Added #266 Convert x or X to multiply symbol between numbers and remove spaces
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #309 Use periods for thousand separators instead of spaces
+- Added #311 Connect a specific word with following letter
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #334 Connect initials without space (J.F. or J.R.R.)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #340 Keep short dates (Arabic numbers for months) together without spaces DMY (12-11-1974)
+- Added #341 Keep short dates (Roman numbers for months) together with spaces DMY (12 XII 1974)
+- Added #342 Add spaces before ellipsis
+- Added #343 Add spaces after ellipsis
+- Added #344 No space after dagger before year or date († 12. 9. 2004)
+- Added #345 No space after asterisk before year or date to express born in (* 1974)
+- Added #346 Basic mathematical operations with spaces around operators incl. multiply
+- Added #347 Multiply symbol (three numbers) without spaces
+- Added #349 Use comma as a decimal separator after currency symbols (€ 19,90)
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #421 Add nonbreraking space before ellipsis at the end of a sentence
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #530 Preferred form of space between value and percent symbol (20%)
+
+### pl-PL
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #17 Primary quotation marks „ ”
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #27 Connect initials using 1/6 space  (J. F. or J. R. R.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #95 Keep year numbers with abbreviation for year together (2012 г.)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #160 Keep dates in the format DD MM(Roman numerals) YYYY together
+- Added #161 Ratio / map scale with thin spaces around the colon
+- Added #166 Remove space after diameter sign ⌀ (U+2300) before length units
+- Added #171 No space between local currency unit and value (zł20)
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #184 Secondary quotation marks « »
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #206 Convert any dashes used as dialogue dashes at the beginning of a paragraph to en-dash and tab
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #294 Imperial length, angle or time units with space between compounds
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #341 Keep short dates (Roman numbers for months) together with spaces DMY (12 XII 1974)
+- Added #349 Use comma as a decimal separator after currency symbols (€ 19,90)
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #397 Replace space by nonbreaking space between certain words and numbers
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### pt-PT
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #31 Always remove space between value and percent symbol (20%)
+- Added #32 Primary quotation marks « » (no spaces)
+- Added #34 Primary quotation marks “ ”
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #61 Hyphen to em-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #89 Secondary quotation marks “ ”
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #103 Nonbreaking space in two-part abbreviations of academic degrees with periods
+- Added #104 Nonbreaking space after military ranks
+- Added #114 Secondary quotation marks ‘x’
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #188 Hyphen in postal codes LV-####
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #222 Spaces around en-dash in various date ranges (1.1.2023 – 31.12.2024)
+- Added #231 Keep Pantone numbers with suffixes
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #267 Replace standard spaces by narrow nonbreaking spaces in numbers
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #308 Keep numbers with following abbreviation
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #320 Thin space in three-part abbreviations of academic degrees with periods
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #375 Three hyphens to em-dash
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #386 Keep short dates with slashes together without spaces (12/11/1974)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #388 Convert short days with periods to slash (27/12)
+- Added #389 En-dash between date ranges in various formats with slash ending with year (1898 or 89 or ’89)
+- Added #390 Convert short days with periods to slash (20–27/12)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #393 Convert short days with hyphen to slash (27/12)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #405 Convert short days with hyphens to slash (20–27/12)
+- Added #418 Nonbreaking spaces in three-part abbreviations with periods (a. pr. Kr.)
+- Added #419 Nonbreaking spaces in two-part abbreviations with periods (pr. Kr.)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #440 Hyphens in postal codes ####-###
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #484 Nonbreaking space between numbers and common SI units (20 mg, 50 kHz, 3 mol)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #508 Non-breaking spaces in four-part abbreviations with periods
+- Added #514 Nonbreaking space between numbers and all abbreviated or full length SI units incl. SI prefixes (20 mg, 3 mol)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### ro-RO
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #13 Replace standard spaces by nonbreaking spaces in numbers
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #17 Primary quotation marks „ ”
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #160 Keep dates in the format DD MM(Roman numerals) YYYY together
+- Added #163 Move currency symbols after the values
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #184 Secondary quotation marks « »
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #206 Convert any dashes used as dialogue dashes at the beginning of a paragraph to en-dash and tab
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #270 Thin space in two-part abbreviations of academic degrees with periods
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #307 Em-dash to en-dash
+- Added #309 Use periods for thousand separators instead of spaces
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #320 Thin space in three-part abbreviations of academic degrees with periods
+- Added #321 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a suffix (III-lea–VIII-lea)
+- Added #322 Connect suffix after Roman number with nonbreaking hyphen without spaces (XIX-lea)
+- Added #325 Keep short dates with periods together without spaces (DMY 12.11.1974)
+- Added #326 Keep short dates together without space (27.12.)
+- Added #329 Use nonbreaking hyphen in contractions (m-ați)
+- Added #330 Connect suffix with nonbreaking hyphen (no spaces)
+- Added #334 Connect initials without space (J.F. or J.R.R.)
+- Added #354 Colon in Bible verse reference 1 Kor 3:18 or Mt 12:43–44
+- Added #358 Remove period after certain abbreviations
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #387 Convert period to preferred separator in dates (slash, hyphen)
+- Added #391 Convert date separator to preferred form in DMY dates
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #503 Alert: Two initials connected with hyphen
+- Added #515 Keep single-character words together with the following word (prefs)
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+
+### sk-SK
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #6 Primary quotation marks „ “
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #36 Multiply symbol (three dimensions) with thin spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #43 Add period after certain abbreviations if missing
+- Added #44 Multiply symbol (two dimensions) with thin spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #47 Correct spaces and punctuation in Czech and Slovak abbreviation spol. s r. o.
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #57 Connect two words with hyphen (geographical locations)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #72 Ratio / map scale with nonbreaking spaces around colon
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #78 Secondary quotation marks ‚x‘
+- Added #81 Replace multiple tabs by single tab
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #91 Nonbreaking spaces in two-part abbreviations (educational institutions)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #104 Nonbreaking space after military ranks
+- Added #105 Nonbreaking space after police ranks (DI Muller)
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #132 Insert narrow space after asterisk before year or date to express born in (* 1974)
+- Added #133 Insert narrow space after dagger before year or date in various formats († 12. 9. 2004)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #137 En-dash with spaces instead of a hyphen between Roman numbers (span or interval)
+- Added #139 Endash with nonbreaking spaces instead of a hyphen between a span of week days
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #159 Remove spaces before ellipsis
+- Added #163 Move currency symbols after the values
+- Added #166 Remove space after diameter sign ⌀ (U+2300) before length units
+- Added #173 En-dash with nonbreaking spaces instead of a hyphen between cardinal numbers (range)
+- Added #176 Use a non-breaking hyphen to link the ‘al-’ article (and its variations) in Arabic names
+- Added #177 Keep together historical date shorthand (e.g., June ’56, October ’56) 
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #190 Thin space between value and local currency unit (20 kr.)
+- Added #192 The correct form of born in year (1974–)
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #209 Add space after punctuation if missing inside a sentence
+- Added #210 Endash with spaces instead of a hyphen between a span of months
+- Added #214 Remove redundant ,– or .– after decimal values or currency symbols and use non-breaking space instead
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #234 Convert the first space in the musical key string to non-breaking space
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #249 Nonbreaking and narrow spaces in three-part abbreviations like “pred n. l.”
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #252 Convert decimal separator followed by dash to correct form
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #262 Thin space between symbols and numbers
+- Added #267 Replace standard spaces by narrow nonbreaking spaces in numbers
+- Added #268 Connect initials with surnames using narrow non-breaking space incl. prefixes like van, de etc.
+- Added #269 Connect initials using thin space (J. F. or J. R. R.)
+- Added #270 Thin space in two-part abbreviations of academic degrees with periods
+- Added #272 Thin space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #273 Thin space between fractions and units (½ in)
+- Added #274 Always use narrow space between value and percent symbol (20 %)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #276 Thin spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #277 Insert hair space between primary and secondary quotation marks
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #279 Thin space between value and currency symbols (20 €)
+- Added #280 Thin space between value and ISO currency unit (20 USD)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #283 En-dash with spaces between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #297 Convert x or X to multiply symbol between numbers and add thin spaces if missing
+- Added #299 Nonbreaking spaces instead of periods between four-number-group phone numbers
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #309 Use periods for thousand separators instead of spaces
+- Added #310 Keep short day together separated by nonbreaking space (27. 12.)
+- Added #311 Connect a specific word with following letter
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #368 Move ISO currency codes after the values
+- Added #369 Move local currency symbols and abbreviations after the values
+- Added #372 En-dash with spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (I. – VIII.)
+- Added #373 En-dash with spaces instead of a hyphen between ordinal numbers where ordinal marker is a period
+- Added #374 Replace nonbreaking space by regular spaces after specifics words followed by letter
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #400 Nonbreaking spaces in three-part abbreviations like “ir t. t.”
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #426 Thin space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #487 Thin space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #489 Use hyphen without spaces between town and district names (Bratislava-Petržalka)
+- Added #490 Add space after colon if missing inside a sentence
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #497 Keep abbreviation for year together with four-digit number
+- Added #500 Nonbreaking spaces instead of periods between three-number-group phone numbers
+- Added #503 Alert: Two initials connected with hyphen
+- Added #504 Remove duplicated symbols
+- Added #507 Remove spaces around slash between units (km / h > km/h)
+- Added #509 Replace nonbreaking space by regular spaces after specifics words followed by number
+- Added #517 Thin space between numbers and degrees C or F (20°C, 70°F)
+
+### sl-SI
+- Added #1 Superior ² after length units – area
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #7 Superior ³ after length units – volume
+- Added #8 Keep single-character words together with the following word
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #12 Keep date and month name together (2. Mai)
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #19 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a period (1.–2.)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #37 Multiply symbol (three dimensions) with regular spaces
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #39 Thin spaces in three-part abbreviations with periods
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #45 Multiply symbol (two dimensions) with regular spaces
+- Added #46 Narrow spaces in two-part abbreviations with periods
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #50 Nonbreaking space between symbols and words (© Typofix)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #55 Connect suffix with hyphen (no spaces)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #69 Replace ø by diameter sign ⌀ (U+2300) and nonbreaking space before length units
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #76 En-dash without spaces instead of a hyphen between ordinal Roman numbers where ordinal marker is a period (IV.–VIII.)
+- Added #77 Change quotation marks inside quotation marks from primary to secondary (“Word: ‘Word’!”)
+- Added #80 Primary quotation marks » «
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #98 Replace space between value and percent symbol by nonbreaking space (20 %)
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #100 Replace space by nonbreaking space between Roman ordinal number marked by period and following word
+- Added #104 Nonbreaking space after military ranks
+- Added #130 Convert comma to baseline single quote ‚ if used inappropriately
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #135 Remove spaces around ampersand in uppercase abbreviations (AT&T)
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #149 Convert all hyphens in the musical key string to non-breaking hyphens
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #153 Change any hyphen or dash preceding numbers to minus sign (U+2212) From -2 to −2
+- Added #157 Remove spaces adjacent to a tab	
+- Added #158 Remove all soft hyphens (U+00AD)
+- Added #161 Ratio / map scale with thin spaces around the colon
+- Added #163 Move currency symbols after the values
+- Added #174 Connect two words with space-hyphen-space (geographical locations)
+- Added #178 Replace two single open quotes ‚ ‚ with one double opening quotation mark „ (correct form of quotation marks to be modified in next step)
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #189 Add space after punctuation if missing at the end of a sentence
+- Added #192 The correct form of born in year (1974–)
+- Added #193 Basic mathematical operations with spaces around operators
+- Added #194 Correct hyphen/dash to minus between two values if followed by =
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #201 Convert decimal separator period to a temporary symbol
+- Added #202 Convert temporary decimal separator to a preferred symbol
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #205 Add missing spaces before opening parenthesis or brackets
+- Added #223 Add space before ellipsis if preceded by comma
+- Added #226 Add missing thin spaces to ratio/scale (1 : 100)
+- Added #227 Remove commonly written suffixes (6-tý) and replace by period (6.)
+- Added #231 Keep Pantone numbers with suffixes
+- Added #233 Connect two words with hyphen (know-how)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #256 Convert x or X to multiply symbol 
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #260 Convert x or X to multiply symbol between numbers and add regular spaces if missing
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #263 Insert nonbreaking space after asterisk before year or date to express born in (* 1974)
+- Added #264 Insert nonbreaking space after dagger before year or date († 12. 9. 2004)
+- Added #267 Replace standard spaces by narrow nonbreaking spaces in numbers
+- Added #270 Thin space in two-part abbreviations of academic degrees with periods
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #282 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #287 Convert all nonbreaking hyphens to regular hyphens
+- Added #290 Convert figure dash to dash between letters
+- Added #302 Alert: Multiple meaning of I.-V. – Roman numerals or initials
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #308 Keep numbers with following abbreviation
+- Added #310 Keep short day together separated by nonbreaking space (27. 12.)
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #316 Add space before ellipsis if not followed by an uppercase letter
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #320 Thin space in three-part abbreviations of academic degrees with periods
+- Added #330 Connect suffix with nonbreaking hyphen (no spaces)
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #361 Remove periods after Biblical book abbreviations (Kor.)
+- Added #363 Remove spaces before ellipsis – preferences
+- Added #379 Replace colon in time values by period after time related prepositions (around 10:00 → around 10.00)
+- Added #380 Replace colon in time values by period when followed by word “hour” (10:00 hod. to 10.00 hod.)
+- Added #381 Replace colon in time values by period in time ranges (10:00–11:00 → 10:00–11:00)
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #399 Nonbreaking and no spaces in two-part abbreviations like “ir pan.”
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #448 Remove extra spaces after opening quotation marks
+- Added #449 Remove extra spaces before closing quotation marks
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #460 Add space after closing quotation marks if missing
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #480 Alert: capital letter after ordinal Arabic or Roman number
+- Added #481 Alert: multiple meanings of “I.”
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #493 Alert: It is possible that the plus sign (+) is used instead of the † symbol for the date of death.
+- Added #497 Keep abbreviation for year together with four-digit number
+- Added #498 No space between symbols and words
+- Added #499 Secondary quotation marks ›x‹
+- Added #501 Nonbreaking space in four-part abbreviations of academic degrees with periods
+- Added #503 Alert: Two initials connected with hyphen
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #524 Keep preposition with time values (ob 9.00)
+
+### sv-SE
+- Added #1 Superior ² after length units – area
+- Added #2 Keep date and month name together (2 May)
+- Added #4 Nonbreaking space between value and ISO currency unit (20 USD)
+- Added #5 Nonbreaking space in postal codes ### ##
+- Added #7 Superior ³ after length units – volume
+- Added #9 Delete an extra space at the beginning of a paragraph
+- Added #10 Delete an extra space at the end of a paragraph
+- Added #14 Nonbreaking space after academic titles and honorifics “St. Peter”, “Dr. House”
+- Added #16 Nonbreaking space between symbols and numbers incl. Roman numerals (§ XIV or № 14)
+- Added #20 En-dash without spaces instead of a hyphen between cardinal numbers (range)
+- Added #21 Three or four periods to ellipsis (U+2026)
+- Added #22 Replaces two periods by a single period
+- Added #25 Connect capitalised names with Roman numerals (useful for popes, emperors – Charles IV etc.)
+- Added #26 Connect town name with a district number (Praha 1)
+- Added #28 Connect initials using nonbreaking space (J. F. or J. R. R.)
+- Added #30 Always use nonbreaking space between value and percent symbol (20 %)
+- Added #33 Primary quotation marks ” ”
+- Added #38 Wrong apostrophe to the correct form at the end of a word
+- Added #40 Nonbreaking space between value and local currency unit (20 kr.)
+- Added #41 Nonbreaking space between value and currency symbols (20 €)
+- Added #43 Add period after certain abbreviations if missing
+- Added #48 Nonbreaking space between abbreviations and words (e.g. Doe)
+- Added #49 Nonbreaking space between words and single-word abbreviations (John etc.)
+- Added #51 Hyphens instead of dashes between five number groups (ISBN)
+- Added #52 Hyphens instead of dashes between four number groups (ISBN)
+- Added #54 Hyphens instead of dashes between three number groups (ISBN)
+- Added #58 Two hyphens to en-dash
+- Added #60 Hyphen to en-dash preceded by a nonbreaking space
+- Added #62 Endash without spaces instead of a hyphen between a span of week days (ie. mo–fr)
+- Added #63 Change hyphen to a dash at the beginning of a paragraph
+- Added #64 Remove extra spaces after opening parenthesis or brackets
+- Added #65 Remove extra spaces before closing parenthesis or brackets
+- Added #66 Remove spaces before certain punctuation, typically . , : ; ? !
+- Added #67 Remove space between numerical value and certain symbols (5°)
+- Added #68 Remove space between word and symbol (typically trade mark ™ and registered ®)
+- Added #70 Replace space by nonbreaking space between ordinal number with suffix and following word
+- Added #71 Nonbreaking space between single-word abbreviations and numbers (Nr. 20)
+- Added #73 Ratio / map scale without spaces around colon
+- Added #74 En-dash without spaces instead of a hyphen between Roman numbers (IV–XIII)
+- Added #75 Nonbreaking space between abbreviations and Roman numbers (Nr. XVI)
+- Added #79 Secondary quotation marks ’x’
+- Added #81 Replace multiple tabs by single tab
+- Added #83 Nonbreaking space between numbers and abbreviated Non-SI units (20 yd, 300 px)
+- Added #84 Nonbreaking space between fractions and units (½ in)
+- Added #85 En-dash without spaces instead of a hyphen between a span of months (January–March)
+- Added #87 Wrong apostrophe to the correct form ’ (U+2019) inside expressions
+- Added #88 Upside down apostrophe to correct form ’ in French expressions
+- Added #90 Connect numbers up to four digits before closing parenthesis with the last word (final value 11)
+- Added #96 Keep month with day number together in this format: Month #
+- Added #99 Nonbreaking spaces in two-part abbreviations
+- Added #104 Nonbreaking space after military ranks
+- Added #131 Correct form of degree Celsius/Fahrenheit
+- Added #136 Use comma as a decimal separator before currency symbols (19,90 €)
+- Added #144 Nonbreaking space between ISO currency unit and value (USD 20)
+- Added #145 Remove all kinds of spaces (horizontal and vertical) at the end of the story
+- Added #148 Replace u by µ after values before m or g
+- Added #150 Non-breaking Space in Biblical Book Abbreviations (Tim, 2 Tim etc.)
+- Added #151 Non-breaking space in Bible verse reference 
+- Added #157 Remove spaces adjacent to a tab	
+- Added #166 Remove space after diameter sign ⌀ (U+2300) before length units
+- Added #179 Replace two single quotes ’ ’ with one double quotation mark ” (correct form of quotation marks to by modified in next step)
+- Added #180 Replace two single quotes ‹ ‹ with one double quotation mark « (correct form of quotation marks to be modified in next step)
+- Added #181 Replace two single quotes › › with one double quotation mark » (correct form of quotation marks to be modified in next step)
+- Added #182 Replace closing high-6 double quotation mark “ to high-9 double quotation mark ”
+- Added #197 Nonbreaking space after abbreviations marking birth or death before the date
+- Added #198 No spaces in two-part abbreviations with periods
+- Added #204 Add missing spaces after closing parenthesis or brackets
+- Added #217 En-dash without spaces instead of a hyphen between ordinal numbers where ordinal marker is a suffix
+- Added #231 Keep Pantone numbers with suffixes
+- Added #243 Geographic coordinate system with proper symbols and spaces (54°41′14″N)
+- Added #244 Geographic coordinate system with proper symbols and spaces (54°41′N)
+- Added #247 Connect initials with surnames using nonbreaking space incl. prefixes like van, de etc.
+- Added #248 Hyphens instead of dashes between two number groups (ISSN)
+- Added #251 Keep number and large number words together using nonbreaking space (30 millions)
+- Added #253 Replace two single quotes ‘ ‘ with one double quotation mark “ (correct form of quotation marks to be modified in next step)
+- Added #254 Two hyphens to en-dash at the beginning of a paragraph
+- Added #257 Keep cardinal numbers and time units together (2 weeks)
+- Added #261 Add nonbreaking spaces around ± between numbers (100 ± 1 kg)
+- Added #275 Remove duplicate redundant punctuation before closing parenthesis
+- Added #278 Delete space between quotation marks (hairspace could be added consistently in the next step if required)
+- Added #281 Remove Spanish inverted punctuation in languages other than Spanish
+- Added #284 Keep short dates together using nonbreaking spaces (12. 09. 1974)
+- Added #285 Connect suffix after number with nonbreaking hyphen without  spaces (1-osios)
+- Added #286 Keep number and large number abbreviations together using nonbreaking space
+- Added #290 Convert figure dash to dash between letters
+- Added #296 En-dash between date ranges in various formats ending with year (1898 or 89 or ’89)
+- Added #301 Keep together month and year (e.g., June 56, October 1956, Year 1968) 
+- Added #306 Keep ordinal numbers and time units together (2nd week)
+- Added #307 Em-dash to en-dash
+- Added #311 Connect a specific word with following letter
+- Added #312 Replace space by nonbreaking space between long Roman ordinal number and following word
+- Added #315 Comma in Bible verse reference 1 Kor 3,18 or Mt 12,43–44
+- Added #317 Nonbreaking space between value and local currency word (20 dollars)
+- Added #335 No spaces in three-part abbreviations with periods
+- Added #339 Replace space by nonbreaking space between ordinal number marked with period and following word
+- Added #364 No spaces in two-part abbreviations with one period
+- Added #370 Remove spaces before ellipsis at the end of a sentence
+- Added #371 Add space before ellipsis in the middle of a sentence
+- Added #384 Remove zero-width characters (U+200B–200D)
+- Added #425 Nonbreaking space between numbers and non-SI single letter units (24 h)
+- Added #441 Connect town name with a district Roman number (Liberec IV)
+- Added #452 Convert two periods (..) in parenthesis by ellipsis (…)
+- Added #470 Fix wrong hyphen and spaces in expressions like Ein- und Zweizimmer 
+- Added #474 Alert: a word followed by hyphen
+- Added #476 Alert: two capital letters at the beginning of a word
+- Added #477 Alert: two consecutive identical parentheses or brackets
+- Added #478 Alert: sentence probably starts with lowercase letter
+- Added #482 Nonbreaking space between numbers and non-SI unit names (20 miles, 12 pounds)
+- Added #483 Nonbreaking space between numbers and SI unit names incl. SI prefixes (20 grams, 50 kilohertz)
+- Added #485 Nonbreaking space between numbers and SI single letter units (2 m, 50 A, 3 Ω)
+- Added #486 Fix Dublin 6W instead of incorrect 6 W
+- Added #491 Alert: It is possible that this is an incorrectly typed expression “à la”
+- Added #492 Convert á to à before expressing the value of a currency
+- Added #503 Alert: Two initials connected with hyphen
+- Added #516 Nonbreaking space between numbers and degrees C or F (20 °C, 70 °F)
+- Added #519 Keep short dates (Arabic numbers for months) together without spaces YMD (1974-11-12)
+- Added #526 Add space after punctuation if missing at the end of a sentence (Finnish and Swedish)
+- Added #527 Add space after closing quotation marks if missing (Finnish, Swedish)
+
 ## v1.0.1 — 2026-11-11
 
 _No rule changes._

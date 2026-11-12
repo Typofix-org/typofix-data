@@ -3,6 +3,805 @@
 <typofix version="1" report="https://typofix.org/report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://typofix.org/xsd/typofix.xsd">
   <variables>
     <variable>
+      <code>ISOcurrency</code>
+      <name>ISO currency codes</name>
+      <description>ISO 4217 is a standard published by the International Organization for Standardization (ISO) that defines alpha codes for the representation of currencies</description>
+      <values>
+        <grep>
+          <value><![CDATA[AED]]></value>
+          <value><![CDATA[AFN]]></value>
+          <value><![CDATA[ALL]]></value>
+          <value><![CDATA[AMD]]></value>
+          <value><![CDATA[ANG]]></value>
+          <value><![CDATA[AOA]]></value>
+          <value><![CDATA[ARS]]></value>
+          <value><![CDATA[AUD]]></value>
+          <value><![CDATA[AWG]]></value>
+          <value><![CDATA[AZN]]></value>
+          <value><![CDATA[BAM]]></value>
+          <value><![CDATA[BBD]]></value>
+          <value><![CDATA[BDT]]></value>
+          <value><![CDATA[BGN]]></value>
+          <value><![CDATA[BHD]]></value>
+          <value><![CDATA[BIF]]></value>
+          <value><![CDATA[BMD]]></value>
+          <value><![CDATA[BND]]></value>
+          <value><![CDATA[BOB]]></value>
+          <value><![CDATA[BRL]]></value>
+          <value><![CDATA[BSD]]></value>
+          <value><![CDATA[BTN]]></value>
+          <value><![CDATA[BWP]]></value>
+          <value><![CDATA[BYN]]></value>
+          <value><![CDATA[BZD]]></value>
+          <value><![CDATA[CAD]]></value>
+          <value><![CDATA[CDF]]></value>
+          <value><![CDATA[CHF]]></value>
+          <value><![CDATA[CLP]]></value>
+          <value><![CDATA[CNY]]></value>
+          <value><![CDATA[COP]]></value>
+          <value><![CDATA[CRC]]></value>
+          <value><![CDATA[CUP]]></value>
+          <value><![CDATA[CVE]]></value>
+          <value><![CDATA[CZK]]></value>
+          <value><![CDATA[DJF]]></value>
+          <value><![CDATA[DKK]]></value>
+          <value><![CDATA[DOP]]></value>
+          <value><![CDATA[DZD]]></value>
+          <value><![CDATA[EGP]]></value>
+          <value><![CDATA[ERN]]></value>
+          <value><![CDATA[ETB]]></value>
+          <value><![CDATA[EUR]]></value>
+          <value><![CDATA[FJD]]></value>
+          <value><![CDATA[FKP]]></value>
+          <value><![CDATA[FOK]]></value>
+          <value><![CDATA[GBP]]></value>
+          <value><![CDATA[GEL]]></value>
+          <value><![CDATA[GGP]]></value>
+          <value><![CDATA[GHS]]></value>
+          <value><![CDATA[GIP]]></value>
+          <value><![CDATA[GMD]]></value>
+          <value><![CDATA[GNF]]></value>
+          <value><![CDATA[GTQ]]></value>
+          <value><![CDATA[GYD]]></value>
+          <value><![CDATA[HKD]]></value>
+          <value><![CDATA[HNL]]></value>
+          <value><![CDATA[HRK]]></value>
+          <value><![CDATA[HTG]]></value>
+          <value><![CDATA[HUF]]></value>
+          <value><![CDATA[IDR]]></value>
+          <value><![CDATA[ILS]]></value>
+          <value><![CDATA[IMP]]></value>
+          <value><![CDATA[INR]]></value>
+          <value><![CDATA[IQD]]></value>
+          <value><![CDATA[IRR]]></value>
+          <value><![CDATA[ISK]]></value>
+          <value><![CDATA[JEP]]></value>
+          <value><![CDATA[JMD]]></value>
+          <value><![CDATA[JOD]]></value>
+          <value><![CDATA[JPY]]></value>
+          <value><![CDATA[KES]]></value>
+          <value><![CDATA[KGS]]></value>
+          <value><![CDATA[KHR]]></value>
+          <value><![CDATA[KID]]></value>
+          <value><![CDATA[KMF]]></value>
+          <value><![CDATA[KRW]]></value>
+          <value><![CDATA[KWD]]></value>
+          <value><![CDATA[KYD]]></value>
+          <value><![CDATA[KZT]]></value>
+          <value><![CDATA[LAK]]></value>
+          <value><![CDATA[LBP]]></value>
+          <value><![CDATA[LKR]]></value>
+          <value><![CDATA[LRD]]></value>
+          <value><![CDATA[LSL]]></value>
+          <value><![CDATA[LYD]]></value>
+          <value><![CDATA[MAD]]></value>
+          <value><![CDATA[MDL]]></value>
+          <value><![CDATA[MGA]]></value>
+          <value><![CDATA[MKD]]></value>
+          <value><![CDATA[MMK]]></value>
+          <value><![CDATA[MNT]]></value>
+          <value><![CDATA[MOP]]></value>
+          <value><![CDATA[MRU]]></value>
+          <value><![CDATA[MUR]]></value>
+          <value><![CDATA[MVR]]></value>
+          <value><![CDATA[MWK]]></value>
+          <value><![CDATA[MXN]]></value>
+          <value><![CDATA[MYR]]></value>
+          <value><![CDATA[MZN]]></value>
+          <value><![CDATA[NAD]]></value>
+          <value><![CDATA[NGN]]></value>
+          <value><![CDATA[NIO]]></value>
+          <value><![CDATA[NOK]]></value>
+          <value><![CDATA[NPR]]></value>
+          <value><![CDATA[NZD]]></value>
+          <value><![CDATA[OMR]]></value>
+          <value><![CDATA[PAB]]></value>
+          <value><![CDATA[PEN]]></value>
+          <value><![CDATA[PGK]]></value>
+          <value><![CDATA[PHP]]></value>
+          <value><![CDATA[PKR]]></value>
+          <value><![CDATA[PLN]]></value>
+          <value><![CDATA[PYG]]></value>
+          <value><![CDATA[QAR]]></value>
+          <value><![CDATA[RON]]></value>
+          <value><![CDATA[RSD]]></value>
+          <value><![CDATA[RUB]]></value>
+          <value><![CDATA[RWF]]></value>
+          <value><![CDATA[SAR]]></value>
+          <value><![CDATA[SBD]]></value>
+          <value><![CDATA[SCR]]></value>
+          <value><![CDATA[SDG]]></value>
+          <value><![CDATA[SEK]]></value>
+          <value><![CDATA[SGD]]></value>
+          <value><![CDATA[SHP]]></value>
+          <value><![CDATA[SLL]]></value>
+          <value><![CDATA[SOS]]></value>
+          <value><![CDATA[SRD]]></value>
+          <value><![CDATA[SSP]]></value>
+          <value><![CDATA[STN]]></value>
+          <value><![CDATA[SVC]]></value>
+          <value><![CDATA[SYP]]></value>
+          <value><![CDATA[SZL]]></value>
+          <value><![CDATA[THB]]></value>
+          <value><![CDATA[TJS]]></value>
+          <value><![CDATA[TMT]]></value>
+          <value><![CDATA[TND]]></value>
+          <value><![CDATA[TOP]]></value>
+          <value><![CDATA[TRY]]></value>
+          <value><![CDATA[TTD]]></value>
+          <value><![CDATA[TWD]]></value>
+          <value><![CDATA[TZS]]></value>
+          <value><![CDATA[UAH]]></value>
+          <value><![CDATA[UGX]]></value>
+          <value><![CDATA[USD]]></value>
+          <value><![CDATA[UYU]]></value>
+          <value><![CDATA[UZS]]></value>
+          <value><![CDATA[VES]]></value>
+          <value><![CDATA[VND]]></value>
+          <value><![CDATA[VUV]]></value>
+          <value><![CDATA[WST]]></value>
+          <value><![CDATA[XAF]]></value>
+          <value><![CDATA[XCD]]></value>
+          <value><![CDATA[XDR]]></value>
+          <value><![CDATA[XOF]]></value>
+          <value><![CDATA[XPF]]></value>
+          <value><![CDATA[YER]]></value>
+          <value><![CDATA[ZAR]]></value>
+          <value><![CDATA[ZMW]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[AED]]></value>
+          <value><![CDATA[AFN]]></value>
+          <value><![CDATA[ALL]]></value>
+          <value><![CDATA[AMD]]></value>
+          <value><![CDATA[ANG]]></value>
+          <value><![CDATA[AOA]]></value>
+          <value><![CDATA[ARS]]></value>
+          <value><![CDATA[AUD]]></value>
+          <value><![CDATA[AWG]]></value>
+          <value><![CDATA[AZN]]></value>
+          <value><![CDATA[BAM]]></value>
+          <value><![CDATA[BBD]]></value>
+          <value><![CDATA[BDT]]></value>
+          <value><![CDATA[BGN]]></value>
+          <value><![CDATA[BHD]]></value>
+          <value><![CDATA[BIF]]></value>
+          <value><![CDATA[BMD]]></value>
+          <value><![CDATA[BND]]></value>
+          <value><![CDATA[BOB]]></value>
+          <value><![CDATA[BRL]]></value>
+          <value><![CDATA[BSD]]></value>
+          <value><![CDATA[BTN]]></value>
+          <value><![CDATA[BWP]]></value>
+          <value><![CDATA[BYN]]></value>
+          <value><![CDATA[BZD]]></value>
+          <value><![CDATA[CAD]]></value>
+          <value><![CDATA[CDF]]></value>
+          <value><![CDATA[CHF]]></value>
+          <value><![CDATA[CLP]]></value>
+          <value><![CDATA[CNY]]></value>
+          <value><![CDATA[COP]]></value>
+          <value><![CDATA[CRC]]></value>
+          <value><![CDATA[CUP]]></value>
+          <value><![CDATA[CVE]]></value>
+          <value><![CDATA[CZK]]></value>
+          <value><![CDATA[DJF]]></value>
+          <value><![CDATA[DKK]]></value>
+          <value><![CDATA[DOP]]></value>
+          <value><![CDATA[DZD]]></value>
+          <value><![CDATA[EGP]]></value>
+          <value><![CDATA[ERN]]></value>
+          <value><![CDATA[ETB]]></value>
+          <value><![CDATA[EUR]]></value>
+          <value><![CDATA[FJD]]></value>
+          <value><![CDATA[FKP]]></value>
+          <value><![CDATA[FOK]]></value>
+          <value><![CDATA[GBP]]></value>
+          <value><![CDATA[GEL]]></value>
+          <value><![CDATA[GGP]]></value>
+          <value><![CDATA[GHS]]></value>
+          <value><![CDATA[GIP]]></value>
+          <value><![CDATA[GMD]]></value>
+          <value><![CDATA[GNF]]></value>
+          <value><![CDATA[GTQ]]></value>
+          <value><![CDATA[GYD]]></value>
+          <value><![CDATA[HKD]]></value>
+          <value><![CDATA[HNL]]></value>
+          <value><![CDATA[HRK]]></value>
+          <value><![CDATA[HTG]]></value>
+          <value><![CDATA[HUF]]></value>
+          <value><![CDATA[IDR]]></value>
+          <value><![CDATA[ILS]]></value>
+          <value><![CDATA[IMP]]></value>
+          <value><![CDATA[INR]]></value>
+          <value><![CDATA[IQD]]></value>
+          <value><![CDATA[IRR]]></value>
+          <value><![CDATA[ISK]]></value>
+          <value><![CDATA[JEP]]></value>
+          <value><![CDATA[JMD]]></value>
+          <value><![CDATA[JOD]]></value>
+          <value><![CDATA[JPY]]></value>
+          <value><![CDATA[KES]]></value>
+          <value><![CDATA[KGS]]></value>
+          <value><![CDATA[KHR]]></value>
+          <value><![CDATA[KID]]></value>
+          <value><![CDATA[KMF]]></value>
+          <value><![CDATA[KRW]]></value>
+          <value><![CDATA[KWD]]></value>
+          <value><![CDATA[KYD]]></value>
+          <value><![CDATA[KZT]]></value>
+          <value><![CDATA[LAK]]></value>
+          <value><![CDATA[LBP]]></value>
+          <value><![CDATA[LKR]]></value>
+          <value><![CDATA[LRD]]></value>
+          <value><![CDATA[LSL]]></value>
+          <value><![CDATA[LYD]]></value>
+          <value><![CDATA[MAD]]></value>
+          <value><![CDATA[MDL]]></value>
+          <value><![CDATA[MGA]]></value>
+          <value><![CDATA[MKD]]></value>
+          <value><![CDATA[MMK]]></value>
+          <value><![CDATA[MNT]]></value>
+          <value><![CDATA[MOP]]></value>
+          <value><![CDATA[MRU]]></value>
+          <value><![CDATA[MUR]]></value>
+          <value><![CDATA[MVR]]></value>
+          <value><![CDATA[MWK]]></value>
+          <value><![CDATA[MXN]]></value>
+          <value><![CDATA[MYR]]></value>
+          <value><![CDATA[MZN]]></value>
+          <value><![CDATA[NAD]]></value>
+          <value><![CDATA[NGN]]></value>
+          <value><![CDATA[NIO]]></value>
+          <value><![CDATA[NOK]]></value>
+          <value><![CDATA[NPR]]></value>
+          <value><![CDATA[NZD]]></value>
+          <value><![CDATA[OMR]]></value>
+          <value><![CDATA[PAB]]></value>
+          <value><![CDATA[PEN]]></value>
+          <value><![CDATA[PGK]]></value>
+          <value><![CDATA[PHP]]></value>
+          <value><![CDATA[PKR]]></value>
+          <value><![CDATA[PLN]]></value>
+          <value><![CDATA[PYG]]></value>
+          <value><![CDATA[QAR]]></value>
+          <value><![CDATA[RON]]></value>
+          <value><![CDATA[RSD]]></value>
+          <value><![CDATA[RUB]]></value>
+          <value><![CDATA[RWF]]></value>
+          <value><![CDATA[SAR]]></value>
+          <value><![CDATA[SBD]]></value>
+          <value><![CDATA[SCR]]></value>
+          <value><![CDATA[SDG]]></value>
+          <value><![CDATA[SEK]]></value>
+          <value><![CDATA[SGD]]></value>
+          <value><![CDATA[SHP]]></value>
+          <value><![CDATA[SLL]]></value>
+          <value><![CDATA[SOS]]></value>
+          <value><![CDATA[SRD]]></value>
+          <value><![CDATA[SSP]]></value>
+          <value><![CDATA[STN]]></value>
+          <value><![CDATA[SVC]]></value>
+          <value><![CDATA[SYP]]></value>
+          <value><![CDATA[SZL]]></value>
+          <value><![CDATA[THB]]></value>
+          <value><![CDATA[TJS]]></value>
+          <value><![CDATA[TMT]]></value>
+          <value><![CDATA[TND]]></value>
+          <value><![CDATA[TOP]]></value>
+          <value><![CDATA[TRY]]></value>
+          <value><![CDATA[TTD]]></value>
+          <value><![CDATA[TWD]]></value>
+          <value><![CDATA[TZS]]></value>
+          <value><![CDATA[UAH]]></value>
+          <value><![CDATA[UGX]]></value>
+          <value><![CDATA[USD]]></value>
+          <value><![CDATA[UYU]]></value>
+          <value><![CDATA[UZS]]></value>
+          <value><![CDATA[VES]]></value>
+          <value><![CDATA[VND]]></value>
+          <value><![CDATA[VUV]]></value>
+          <value><![CDATA[WST]]></value>
+          <value><![CDATA[XAF]]></value>
+          <value><![CDATA[XCD]]></value>
+          <value><![CDATA[XDR]]></value>
+          <value><![CDATA[XOF]]></value>
+          <value><![CDATA[XPF]]></value>
+          <value><![CDATA[YER]]></value>
+          <value><![CDATA[ZAR]]></value>
+          <value><![CDATA[ZMW]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>LenghtUnits</code>
+      <name>SI length units abbreviations</name>
+      <description>List of of the most common units of lenght, SI and non-SI units incl. local forms (km, км, χλμ.) – only 2 letters and more</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:da|[acdEfGhkMmnPpQqRrTYyZz\x{00B5}\x{03BC}])m]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:da|[acdEfGhkMmnPpQqRrTYyZz\u{00B5}\u{03BC}])m]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SLW</code>
+      <name>Single Letter Words</name>
+      <description>List of single-letter-words – in some languages, there are specific rules for these words.</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>Year</code>
+      <name>Abbreviation for Year</name>
+      <description>Abbreviation for the word “year” – used typically after the number (2012 г.) or before the number (r. 2012)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WeightUnits</code>
+      <name>SI weight units</name>
+      <description>List of of the most common units of weight, SI and non-SI units including local versions of names of those units (ton, кг…)</description>
+      <values>
+        <grep>
+          <value><![CDATA[kg]]></value>
+          <value><![CDATA[mg]]></value>
+          <value><![CDATA[µg]]></value>
+          <value><![CDATA[ng]]></value>
+          <value><![CDATA[pg]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[kg]]></value>
+          <value><![CDATA[mg]]></value>
+          <value><![CDATA[µg]]></value>
+          <value><![CDATA[ng]]></value>
+          <value><![CDATA[pg]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>AcademicTitles</code>
+      <name>Academic titles, honorifics etc</name>
+      <description>Abbreviated (or very short) forms of academic titles and degrees, honorifics, Saint etc. (Mr., Dr, Prof., St etc.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>VolumeUnits</code>
+      <name>Volume Units abbreviations</name>
+      <description>List of of the most common units of volume, SI and non-SI units including local versions of names of those units (km³, км³, fl oz…)</description>
+      <values>
+        <grep>
+          <value><![CDATA[nm³]]></value>
+          <value><![CDATA[[\x{00B5}\x{03BC}]m³]]></value>
+          <value><![CDATA[mm³]]></value>
+          <value><![CDATA[cm³]]></value>
+          <value><![CDATA[m³]]></value>
+          <value><![CDATA[dm³]]></value>
+          <value><![CDATA[km³]]></value>
+          <value><![CDATA[ft³]]></value>
+          <value><![CDATA[yd³]]></value>
+          <value><![CDATA[mi³]]></value>
+          <value><![CDATA[in³]]></value>
+          <value><![CDATA[hl]]></value>
+          <value><![CDATA[dl]]></value>
+          <value><![CDATA[cl]]></value>
+          <value><![CDATA[ml]]></value>
+          <value><![CDATA[\x{2113}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[nm³]]></value>
+          <value><![CDATA[[\u{00B5}\u{03BC}]m³]]></value>
+          <value><![CDATA[mm³]]></value>
+          <value><![CDATA[cm³]]></value>
+          <value><![CDATA[m³]]></value>
+          <value><![CDATA[dm³]]></value>
+          <value><![CDATA[km³]]></value>
+          <value><![CDATA[ft³]]></value>
+          <value><![CDATA[yd³]]></value>
+          <value><![CDATA[mi³]]></value>
+          <value><![CDATA[in³]]></value>
+          <value><![CDATA[hl]]></value>
+          <value><![CDATA[dl]]></value>
+          <value><![CDATA[cl]]></value>
+          <value><![CDATA[ml]]></value>
+          <value><![CDATA[\u{2113}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>AreaUnits</code>
+      <name>Area Units</name>
+      <description>List of of the most common units of area, SI and non-SI units including local versions of names of those units (ha, hectare, yd², см²…)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(\x{00B5}|\x{03BC})m²]]></value>
+          <value><![CDATA[[cdnml]?m²]]></value>
+          <value><![CDATA[ft²]]></value>
+          <value><![CDATA[yd²]]></value>
+          <value><![CDATA[mi²]]></value>
+          <value><![CDATA[ha]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(\u{00B5}|\u{03BC})m²]]></value>
+          <value><![CDATA[[cdnml]?m²]]></value>
+          <value><![CDATA[ft²]]></value>
+          <value><![CDATA[yd²]]></value>
+          <value><![CDATA[mi²]]></value>
+          <value><![CDATA[ha]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SymBefore</code>
+      <name>Symbols before words</name>
+      <description>Symbols written before a word and followed by a nonbreaking space to prevent splitting at the end of a line (© § etc.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>TempUnits</code>
+      <name>Temperature Units abbreviations</name>
+      <description>List of of the most common units of temperature, SI and non-SI units including possible local versions (°C)  – only 2 letters and more</description>
+      <values>
+        <grep>
+          <value><![CDATA[°C]]></value>
+          <value><![CDATA[°F]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[°C]]></value>
+          <value><![CDATA[°F]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>RomanNums</code>
+      <name>Roman Numbers</name>
+      <description>A regex definition of valid Roman numbers</description>
+      <values>
+        <grep>
+          <value><![CDATA[@{LB}(?:(?:I[VX]|VI{0,3}|I{1,3})|(?:(?:X[LC]|LX{0,3}|X{1,3})(?:I[VX]|V?I{0,3}))|(?:(?:C[DM]|DC{0,3}|C{1,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3}))|(?:M+(?:C[DM]|D?C{0,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3})))|(?:[\x{2160}-\x{216F}])|(?:[\x{2170}-\x{217F}])@{RB}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[@{LB}(?:(?:I[VX]|VI{0,3}|I{1,3})|(?:(?:X[LC]|LX{0,3}|X{1,3})(?:I[VX]|V?I{0,3}))|(?:(?:C[DM]|DC{0,3}|C{1,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3}))|(?:M+(?:C[DM]|D?C{0,3})(?:X[LC]|L?X{0,3})(?:I[VX]|V?I{0,3})))|(?:[\u{2160}-\u{216F}])|(?:[\u{2170}-\u{217F}])@{RB}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Town</code>
+      <name>Town or City name</name>
+      <description>List of town or city names which are followed by district number or code (Praha 1, Dublin 2 etc.), common in Czechia, Slovakia and Ireland</description>
+      <values>
+        <grep>
+          <value><![CDATA[Praha]]></value>
+          <value><![CDATA[Prague]]></value>
+          <value><![CDATA[Bratislava]]></value>
+          <value><![CDATA[Dublin]]></value>
+          <value><![CDATA[Ostrava]]></value>
+          <value><![CDATA[Bh?aile\p{Zs}Átha\p{Zs}Cliath]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[Praha]]></value>
+          <value><![CDATA[Prague]]></value>
+          <value><![CDATA[Bratislava]]></value>
+          <value><![CDATA[Dublin]]></value>
+          <value><![CDATA[Ostrava]]></value>
+          <value><![CDATA[Bh?aile\p{Zs}Átha\p{Zs}Cliath]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>LocalCurrency</code>
+      <name>Local Currency Abbreviations</name>
+      <description>List of local and historical currency abbreviations. The global list contains all non-€ valid EU currencies, local list typically include Δρχ., Kčs, DM or лв</description>
+      <values>
+        <grep>
+          <value><![CDATA[Kč]]></value>
+          <value><![CDATA[Sk]]></value>
+          <value><![CDATA[Ft]]></value>
+          <value><![CDATA[[Kk]r\.?]]></value>
+          <value><![CDATA[Rp]]></value>
+          <value><![CDATA[Re]]></value>
+          <value><![CDATA[zł]]></value>
+          <value><![CDATA[lei]]></value>
+          <value><![CDATA[Rs]]></value>
+          <value><![CDATA[DM]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[Kč]]></value>
+          <value><![CDATA[Sk]]></value>
+          <value><![CDATA[Ft]]></value>
+          <value><![CDATA[[Kk]r\.?]]></value>
+          <value><![CDATA[Rp]]></value>
+          <value><![CDATA[Re]]></value>
+          <value><![CDATA[zł]]></value>
+          <value><![CDATA[lei]]></value>
+          <value><![CDATA[Rs]]></value>
+          <value><![CDATA[DM]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Percent</code>
+      <name>Percent-like Symbols (% ‰)</name>
+      <description>Symbols derived from the % sign</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0025}]]></value>
+          <value><![CDATA[\x{2030}]]></value>
+          <value><![CDATA[\x{2031}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0025}]]></value>
+          <value><![CDATA[\u{2030}]]></value>
+          <value><![CDATA[\u{2031}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Multiply</code>
+      <name>Multiply</name>
+      <description>Various correct and incorrect variants for the multiply symbol: e.g., the letter x in Latin, х in Cyrillic, or χ in Greek</description>
+      <values>
+        <grep>
+          <value><![CDATA[×]]></value>
+          <value><![CDATA[✕]]></value>
+          <value><![CDATA[x]]></value>
+          <value><![CDATA[X]]></value>
+          <value><![CDATA[Х]]></value>
+          <value><![CDATA[х]]></value>
+          <value><![CDATA[Χ]]></value>
+          <value><![CDATA[χ]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[×]]></value>
+          <value><![CDATA[✕]]></value>
+          <value><![CDATA[x]]></value>
+          <value><![CDATA[X]]></value>
+          <value><![CDATA[Х]]></value>
+          <value><![CDATA[х]]></value>
+          <value><![CDATA[Χ]]></value>
+          <value><![CDATA[χ]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>ApostropheWrong</code>
+      <name>Collection of wrong forms of apostrophe</name>
+      <description>Various incorrect variants for the apostrophe glyph: from accents to symbols from other scripts (does not include left single English quote ‘ U+2018)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0027}]]></value>
+          <value><![CDATA[\x{0060}]]></value>
+          <value><![CDATA[\x{00B4}]]></value>
+          <value><![CDATA[\x{02B9}]]></value>
+          <value><![CDATA[\x{02BB}]]></value>
+          <value><![CDATA[\x{02BC}]]></value>
+          <value><![CDATA[\x{05F3}]]></value>
+          <value><![CDATA[\x{201B}]]></value>
+          <value><![CDATA[\x{2032}]]></value>
+          <value><![CDATA[\x{2035}]]></value>
+          <value><![CDATA[\x{275C}]]></value>
+          <value><![CDATA[\x{FF07}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0027}]]></value>
+          <value><![CDATA[\u{0060}]]></value>
+          <value><![CDATA[\u{00B4}]]></value>
+          <value><![CDATA[\u{02B9}]]></value>
+          <value><![CDATA[\u{02BB}]]></value>
+          <value><![CDATA[\u{02BC}]]></value>
+          <value><![CDATA[\u{05F3}]]></value>
+          <value><![CDATA[\u{201B}]]></value>
+          <value><![CDATA[\u{2032}]]></value>
+          <value><![CDATA[\u{2035}]]></value>
+          <value><![CDATA[\u{275C}]]></value>
+          <value><![CDATA[\u{FF07}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>3abb</code>
+      <name>Abbreviations composed of three parts followed by period</name>
+      <description>Complex abbreviations consisting of three parts ending with a period (s. r. o., s. r. l.) – the form of the space (or no space) depends on individual language setting </description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordPairs</code>
+      <name>WordPairs</name>
+      <description>Frequently occurring pairs of words that should be joined by a nonbreaking space, typically broadcast stations (HBO 3, Rai 1)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:Eurosport\h[1-2]@{RB})]]></value>
+          <value><![CDATA[(?:France\h24@{RB})]]></value>
+          <value><![CDATA[(?:BBC\hNews@{RB})]]></value>
+          <value><![CDATA[(?:Al\hArabiya@{RB})]]></value>
+          <value><![CDATA[(?:Al\hJazeera@{RB})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:Eurosport\p{Zs}[1-2]@{RB})]]></value>
+          <value><![CDATA[(?:France\p{Zs}24@{RB})]]></value>
+          <value><![CDATA[(?:BBC\p{Zs}News@{RB})]]></value>
+          <value><![CDATA[(?:Al\p{Zs}Arabiya@{RB})]]></value>
+          <value><![CDATA[(?:Al\p{Zs}Jazeera@{RB})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Abbs</code>
+      <name>Abbreviations used before words</name>
+      <description>Abbreviations written before a word and followed by an nonbreaking space to prevent splitting at the end of a line (i.e., incl. or resp.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbAfter</code>
+      <name>Abbreviations used after words</name>
+      <description>Symbols written at the end of a word or sentence preceded by nonbreaking space to prevent splitting at the end of a line (etc., usw.)</description>
+      <values>
+        <grep>
+          <value><![CDATA[etc\.]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[etc\.]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbBeforeNums</code>
+      <name>Abbreviations used before numbers</name>
+      <description>Abbreviations written before numbers and followed by a nonbreaking space to prevent splitting at the end of a line (tel., No., nr., pp.)</description>
+      <values>
+        <grep>
+          <value><![CDATA[fax]]></value>
+          <value><![CDATA[ID]]></value>
+          <value><![CDATA[Op\.]]></value>
+          <value><![CDATA[AD]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[fax]]></value>
+          <value><![CDATA[ID]]></value>
+          <value><![CDATA[Op\.]]></value>
+          <value><![CDATA[AD]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>HypSuffix</code>
+      <name>Suffices connected after words with hyphen</name>
+      <description>Suffixes written after a word with a hyphen and no spaces (bude-li, dintr‑o)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbsWithoutPeriod</code>
+      <name>Abbreviations not marked by period</name>
+      <description>Frequent abbreviations that are commonly incorrectly followed by a period – this allows the removal of unnecessary periods (cca)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>CompoudsGeo</code>
+      <name>Two-word compounds using hyphen (geographical locations)</name>
+      <description>Compound city or regional names consisting of two parts joined by a hyphen (Baden-Württemberg, Charleville-Mézières)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DaysWeek</code>
+      <name>Days of the week</name>
+      <description>List of names of week days – long and abbreviated (Saturday, Sat, Sa)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>NoSpacePunct</code>
+      <name>Punctuation not preceded by a space</name>
+      <description>Punctuation not preceded by a space (. , : ; ? ! ‽ · ;)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SymAfterNumsTop</code>
+      <name>Symbols after numbers written without spaces (1° 2′ 3″ 4‴ 5⁗)</name>
+      <description>Symbols (units) to be written right after the number (°, ″ etc.)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00B0}]]></value>
+          <value><![CDATA[\x{2032}]]></value>
+          <value><![CDATA[\x{2033}]]></value>
+          <value><![CDATA[\x{2034}]]></value>
+          <value><![CDATA[\x{2057}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00B0}]]></value>
+          <value><![CDATA[\u{2032}]]></value>
+          <value><![CDATA[\u{2033}]]></value>
+          <value><![CDATA[\u{2034}]]></value>
+          <value><![CDATA[\u{2057}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SymBeforeNums</code>
+      <name>Nonbreaking space between symbols and numbers</name>
+      <description>Symbols written before numbers and followed by a nonbreaking space to prevent splitting at the end of a line (§, №, ℮)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00A7}]]></value>
+          <value><![CDATA[\x{2116}]]></value>
+          <value><![CDATA[\x{212E}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00A7}]]></value>
+          <value><![CDATA[\u{2116}]]></value>
+          <value><![CDATA[\u{212E}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SymAfter</code>
+      <name>Symbols after words (® ™ ℠)</name>
+      <description>Symbols to be written right after a word without space (®, ™)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00AE}]]></value>
+          <value><![CDATA[\x{2122}]]></value>
+          <value><![CDATA[\x{2120}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00AE}]]></value>
+          <value><![CDATA[\u{2122}]]></value>
+          <value><![CDATA[\u{2120}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
       <code>OrdSuffix</code>
       <name>Ordinal Suffixes</name>
       <description>Ordinal indicator is a character, group of characters or a symbol following a numeral denoting that it is an ordinal number (1st, 2:a 3., 4ª)</description>
@@ -21,6 +820,15 @@
       </values>
     </variable>
     <variable>
+      <code>QR1</code>
+      <name>Quote Right Primary</name>
+      <description>Primary (default) right quotation mark</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
       <code>QL2</code>
       <name>Quote Left Secondary</name>
       <description>Secondary (nested) left quotation mark</description>
@@ -30,9 +838,548 @@
       </values>
     </variable>
     <variable>
+      <code>QR2</code>
+      <name>Quote Right Secondary</name>
+      <description>Secondary (nested) right quotation mark</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>QL1All</code>
+      <name>Quote Left Primary All</name>
+      <description>All possible forms of primary left quotation mark including wrong ones</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>QR2All</code>
+      <name>Quote Right Secondary All</name>
+      <description>All possible forms of secondary (nested) right quotation mark including wrong ones</description>
+      <values>
+        <grep>
+          <value><![CDATA[’]]></value>
+          <value><![CDATA[‘]]></value>
+          <value><![CDATA[\x{2039}]]></value>
+          <value><![CDATA[\x{203A}]]></value>
+          <value><![CDATA[\x{0027}]]></value>
+          <value><![CDATA[\x{0060}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[’]]></value>
+          <value><![CDATA[‘]]></value>
+          <value><![CDATA[\u{2039}]]></value>
+          <value><![CDATA[\u{203A}]]></value>
+          <value><![CDATA[\u{0027}]]></value>
+          <value><![CDATA[\u{0060}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>QR1All</code>
+      <name>Quote Right Primary All</name>
+      <description>All possible forms of primary right quotation mark including wrong ones</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>QL2All</code>
+      <name>Quote Left Secondary All</name>
+      <description>All possible forms of secondary (nested) left quotation mark including wrong ones</description>
+      <values>
+        <grep>
+          <value><![CDATA[’]]></value>
+          <value><![CDATA[‘]]></value>
+          <value><![CDATA[‚]]></value>
+          <value><![CDATA[\x{2039}]]></value>
+          <value><![CDATA[\x{203A}]]></value>
+          <value><![CDATA[\x{0027}]]></value>
+          <value><![CDATA[\x{0060}]]></value>
+          <value><![CDATA[\x{201B}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[’]]></value>
+          <value><![CDATA[‘]]></value>
+          <value><![CDATA[‚]]></value>
+          <value><![CDATA[\u{2039}]]></value>
+          <value><![CDATA[\u{203A}]]></value>
+          <value><![CDATA[\u{0027}]]></value>
+          <value><![CDATA[\u{0060}]]></value>
+          <value><![CDATA[\u{201B}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>EnergyUnits</code>
+      <name>Energy and Power non-SI units</name>
+      <description>List of of the most common non-SI units of energy including local versions of names of those units (kcal, mW, calories, joules)</description>
+      <values>
+        <grep>
+          <value><![CDATA[hp]]></value>
+          <value><![CDATA[HP]]></value>
+          <value><![CDATA[k?cal]]></value>
+          <value><![CDATA[[kM]W[p]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[hp]]></value>
+          <value><![CDATA[HP]]></value>
+          <value><![CDATA[k?cal]]></value>
+          <value><![CDATA[[kM]W[p]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DigitalUnits</code>
+      <name>Digital Units abbreviations</name>
+      <description>List of of the most common digital units, SI and non-SI units including local versions of names of those units (px, dpi)</description>
+      <values>
+        <grep>
+          <value><![CDATA[ppi]]></value>
+          <value><![CDATA[dpi]]></value>
+          <value><![CDATA[lpi]]></value>
+          <value><![CDATA[px]]></value>
+          <value><![CDATA[l\x{002F}cm]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[ppi]]></value>
+          <value><![CDATA[dpi]]></value>
+          <value><![CDATA[lpi]]></value>
+          <value><![CDATA[px]]></value>
+          <value><![CDATA[l\u{002F}cm]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>TimeUnitsAbb</code>
+      <name>Time Units abbreviations</name>
+      <description>List of of the most common units of time, SI and non-SI units including local versions of names of those units (cent., wk, sec, )</description>
+      <values>
+        <grep>
+          <value><![CDATA[ms]]></value>
+          <value><![CDATA[μs]]></value>
+          <value><![CDATA[ns]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[ms]]></value>
+          <value><![CDATA[μs]]></value>
+          <value><![CDATA[ns]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>UniFrac</code>
+      <name>Unicode Fractions</name>
+      <description>List of all Unicode precomposed fractions (½ etc.)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00BD}]]></value>
+          <value><![CDATA[\x{00BC}]]></value>
+          <value><![CDATA[\x{00BE}]]></value>
+          <value><![CDATA[\x{2150}]]></value>
+          <value><![CDATA[\x{2151}]]></value>
+          <value><![CDATA[\x{2152}]]></value>
+          <value><![CDATA[\x{2153}]]></value>
+          <value><![CDATA[\x{2154}]]></value>
+          <value><![CDATA[\x{2155}]]></value>
+          <value><![CDATA[\x{2156}]]></value>
+          <value><![CDATA[\x{2157}]]></value>
+          <value><![CDATA[\x{2158}]]></value>
+          <value><![CDATA[\x{2159}]]></value>
+          <value><![CDATA[\x{215A}]]></value>
+          <value><![CDATA[\x{215B}]]></value>
+          <value><![CDATA[\x{215C}]]></value>
+          <value><![CDATA[\x{215D}]]></value>
+          <value><![CDATA[\x{215E}]]></value>
+          <value><![CDATA[\x{215F}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00BD}]]></value>
+          <value><![CDATA[\u{00BC}]]></value>
+          <value><![CDATA[\u{00BE}]]></value>
+          <value><![CDATA[\u{2150}]]></value>
+          <value><![CDATA[\u{2151}]]></value>
+          <value><![CDATA[\u{2152}]]></value>
+          <value><![CDATA[\u{2153}]]></value>
+          <value><![CDATA[\u{2154}]]></value>
+          <value><![CDATA[\u{2155}]]></value>
+          <value><![CDATA[\u{2156}]]></value>
+          <value><![CDATA[\u{2157}]]></value>
+          <value><![CDATA[\u{2158}]]></value>
+          <value><![CDATA[\u{2159}]]></value>
+          <value><![CDATA[\u{215A}]]></value>
+          <value><![CDATA[\u{215B}]]></value>
+          <value><![CDATA[\u{215C}]]></value>
+          <value><![CDATA[\u{215D}]]></value>
+          <value><![CDATA[\u{215E}]]></value>
+          <value><![CDATA[\u{215F}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Frac</code>
+      <name>Fractions</name>
+      <description>Expression for fractions created with slash or U+2044 (fraction sign)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:@{LB}(?:\d+)(?:\x{002F}|\x{2044})(?:\d+))]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:@{LB}(?:\p{Nd}+)(?:\u{002F}|\u{2044})(?:\p{Nd}+))]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
       <code>Months</code>
       <name>Months</name>
       <description>List of names of months incl. abbreviated forms and inflected forms (January, jaanuar, jaanuari, jaanuaril…)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>2abbEdu</code>
+      <name>Abbreviations composed of two parts (university faculties)</name>
+      <description>Keep abbreviations of universities and faculties together using nonbreaking space (common probably only in Czechia and Slovakia: FF UK, FT UTB)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>RomanMonths</code>
+      <name>Roman Months</name>
+      <description>Months expressed in Roman numbers (I–XII)</description>
+      <values>
+        <grep>
+          <value><![CDATA[@{LB}(?:I{1,3}|IV|V|VI{1,3}|IX|X|XI{1,3}|XII)@{RB}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[@{LB}(?:I{1,3}|IV|V|VI{1,3}|IX|X|XI{1,3}|XII)@{RB}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>2abb</code>
+      <name>Abbreviations composed of two parts followed by period</name>
+      <description>Complex abbreviations consisting of two parts ending with a period (u. Ä, e.g.) – the form of the space (or no space) depends on individual language setting </description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>ArabMonths</code>
+      <name>Arabic Months</name>
+      <description>Months expressed in Arabic numbers (1–12)</description>
+      <values>
+        <grep>
+          <value><![CDATA[@{LB}(?:1[0-2]|0?[1-9])@{RB}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[@{LB}(?:1[0-2]|0?[1-9])@{RB}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>2abbEduDeg</code>
+      <name>Abbreviations composed of two parts followed by period (academic degrees)</name>
+      <description>Complex abbreviations consisting of two parts ending with a period (Dr. med.) – the form of the space (or no space) depends on individual language setting </description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>MilitaryRanks</code>
+      <name>Military Ranks Abbreviations</name>
+      <description>List of abbreviations or short words denoting military ranks, both current and historical (Gen., Sgt., Col)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>PoliceRanks</code>
+      <name>Police Ranks Abbreviations</name>
+      <description>List of abbreviations or short words denoting police ranks, both current and historical (DI, mjr.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DegreeAll</code>
+      <name>All form of degree sign</name>
+      <description>Various correct and incorrect variants for the degree glyph: from accents to symbols</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00B0}]]></value>
+          <value><![CDATA[\x{02DA}]]></value>
+          <value><![CDATA[\x{030A}]]></value>
+          <value><![CDATA[\x{2070}]]></value>
+          <value><![CDATA[\x{2218}]]></value>
+          <value><![CDATA[\x{00BA}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00B0}]]></value>
+          <value><![CDATA[\u{02DA}]]></value>
+          <value><![CDATA[\u{030A}]]></value>
+          <value><![CDATA[\u{2070}]]></value>
+          <value><![CDATA[\u{2218}]]></value>
+          <value><![CDATA[\u{00BA}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>YearWord</code>
+      <name>The word year</name>
+      <description>Term for the word “year” or “season”</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>MusicalKeys</code>
+      <name>Musical Keys with non breaking hyphen</name>
+      <description>Musical key – the structure of musical key description (A-dur, b minor, c - moll)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>BiblicalBookAbb</code>
+      <name>Biblical books abbreviations</name>
+      <description>List of Biblical book abbreviations, shorthand forms used to refer to the books of the Bible in a concise manner (there might be several alternative forms)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SIprefixes</code>
+      <name>Prefixes for the International System of Units (SI)</name>
+      <description>The SI prefixes are metric prefixes that were standardised for use in the International System of Units</description>
+      <values>
+        <grep>
+          <value><![CDATA[[acdEfGhkMmnPpQqRrTYyZz\x{00B5}\x{03BC}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[acdEfGhkMmnPpQqRrTYyZz\u{00B5}\u{03BC}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SIunitsLong</code>
+      <name>SI Base &amp; Derived Units</name>
+      <description>The International System of Units assigns special names to 7 base and 22 derived units</description>
+      <values>
+        <grep>
+          <value><![CDATA[Wb]]></value>
+          <value><![CDATA[Sv]]></value>
+          <value><![CDATA[Hz]]></value>
+          <value><![CDATA[sr]]></value>
+          <value><![CDATA[mol]]></value>
+          <value><![CDATA[lm]]></value>
+          <value><![CDATA[lx]]></value>
+          <value><![CDATA[cd]]></value>
+          <value><![CDATA[rad]]></value>
+          <value><![CDATA[Pa]]></value>
+          <value><![CDATA[Bq]]></value>
+          <value><![CDATA[Da]]></value>
+          <value><![CDATA[eV]]></value>
+          <value><![CDATA[ua]]></value>
+          <value><![CDATA[Gy]]></value>
+          <value><![CDATA[kat]]></value>
+          <value><![CDATA[°C]]></value>
+          <value><![CDATA[g\/m[2²]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[Wb]]></value>
+          <value><![CDATA[Sv]]></value>
+          <value><![CDATA[Hz]]></value>
+          <value><![CDATA[sr]]></value>
+          <value><![CDATA[mol]]></value>
+          <value><![CDATA[lm]]></value>
+          <value><![CDATA[lx]]></value>
+          <value><![CDATA[cd]]></value>
+          <value><![CDATA[rad]]></value>
+          <value><![CDATA[Pa]]></value>
+          <value><![CDATA[Bq]]></value>
+          <value><![CDATA[Da]]></value>
+          <value><![CDATA[eV]]></value>
+          <value><![CDATA[ua]]></value>
+          <value><![CDATA[Gy]]></value>
+          <value><![CDATA[kat]]></value>
+          <value><![CDATA[°C]]></value>
+          <value><![CDATA[g\/m[2²]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>TimeUnits</code>
+      <name>Time Units words</name>
+      <description>List of of the most common units of time, SI and non-SI units including local versions of names of those units (second, sec, day, year, decade, century…)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>PrefixHyphen</code>
+      <name>Prefixes followed by hyphen</name>
+      <description>List of prefixes connected to main compound by nonbreaking hyphen, common in Maltese (il-partiċeli)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>CompoudsGeo2</code>
+      <name>Two-word compounds using space-hyphen-space (geographical locations)</name>
+      <description>Compound city or regional names consisting of two parts joined by a space-hyphen-space (Šmarje - Sap) – probably in Slovenia only</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>ApostropheSet</code>
+      <name>Collection of Apostrophe Variants</name>
+      <description>Various incorrect variants for the apostrophe glyph: from accents to symbols from other scripts (includes left single English quote ‘ U+2018)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0027}]]></value>
+          <value><![CDATA[\x{0060}]]></value>
+          <value><![CDATA[\x{00B4}]]></value>
+          <value><![CDATA[\x{02B9}]]></value>
+          <value><![CDATA[\x{02BB}]]></value>
+          <value><![CDATA[\x{02BC}]]></value>
+          <value><![CDATA[\x{05F3}]]></value>
+          <value><![CDATA[\x{2018}]]></value>
+          <value><![CDATA[\x{2019}]]></value>
+          <value><![CDATA[\x{201B}]]></value>
+          <value><![CDATA[\x{2032}]]></value>
+          <value><![CDATA[\x{2035}]]></value>
+          <value><![CDATA[\x{275C}]]></value>
+          <value><![CDATA[\x{FF07}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0027}]]></value>
+          <value><![CDATA[\u{0060}]]></value>
+          <value><![CDATA[\u{00B4}]]></value>
+          <value><![CDATA[\u{02B9}]]></value>
+          <value><![CDATA[\u{02BB}]]></value>
+          <value><![CDATA[\u{02BC}]]></value>
+          <value><![CDATA[\u{05F3}]]></value>
+          <value><![CDATA[\u{2018}]]></value>
+          <value><![CDATA[\u{2019}]]></value>
+          <value><![CDATA[\u{201B}]]></value>
+          <value><![CDATA[\u{2032}]]></value>
+          <value><![CDATA[\u{2035}]]></value>
+          <value><![CDATA[\u{275C}]]></value>
+          <value><![CDATA[\u{FF07}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>MathMonomial</code>
+      <name>Monomial</name>
+      <description>Common numbers or variables in equations: 2, 3.14, ab, 2a, a², −2 etc.</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:@{LB}(?:(?:\x{2212}?\d+(?:[.,]\d+)?[[:lower:]]*)|[[:lower:]]{1,2})[\x{00B2}\x{00B3}\x{00B9}\x{2070}-\x{2079}]*)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:@{LB}(?:(?:\u{2212}?\p{Nd}+(?:[.,]\p{Nd}+)?\p{Ll}*)|\p{Ll}{1,2})[\u{00B2}\u{00B3}\u{00B9}\u{2070}-\u{2079}]*)]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>abbSpace</code>
+      <name>Space in abbreviations</name>
+      <description>The form (width) of space used after period in abbreviations (u. Ä., s. r. o.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>PunctSpace</code>
+      <name>Space before punctuation</name>
+      <description>The form (width) of space used before punctuation (; : ? !) in French</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{2009}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{2009}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SpacePunct</code>
+      <name>Punctuation preceded by a space</name>
+      <description>Punctuation which must be preceded by a space (: ; ? ! ‽) in French</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{003A}]]></value>
+          <value><![CDATA[\x{003B}]]></value>
+          <value><![CDATA[\x{003F}]]></value>
+          <value><![CDATA[\x{0021}]]></value>
+          <value><![CDATA[\x{203D}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{003A}]]></value>
+          <value><![CDATA[\u{003B}]]></value>
+          <value><![CDATA[\u{003F}]]></value>
+          <value><![CDATA[\u{0021}]]></value>
+          <value><![CDATA[\u{203D}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>CompoudsDash</code>
+      <name>Two-word compounds using dash (general)</name>
+      <description></description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>GuillSpace</code>
+      <name>Space after and before guillemets</name>
+      <description>The form (width) of space used before and after guillemets (« ») in French</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00A0}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00A0}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Decade</code>
+      <name>Decade</name>
+      <description>A year with a decade designation (1980s, 1980er, 1980-talet, 1980’erne)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>Born</code>
+      <name>Born or died in abbreviation</name>
+      <description>Abbreviation used to mark the birth (b. 1975, geb. 1976)</description>
       <values>
         <grep/>
         <ecma/>
@@ -52,6 +1399,333 @@
       </values>
     </variable>
     <variable>
+      <code>ThousandsSep</code>
+      <name>Thousand Separator</name>
+      <description>Thousand separator – typically period (.), space ( ) or comma (,)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DecimalSep</code>
+      <name>Decimal Separator</name>
+      <description>Decimal separator – typically comma (,) or period (.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DashRangeSpaces</code>
+      <name>Dash with spaces indicating range of values</name>
+      <description>Select the proper lenght of standard dash (en-dash or em-dash) and form of spaces on both sides in closed range of values (1 – 10, 1910 – 1947, 12 000 – 24 000, 12.000 – 24.000)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>EmDash</code>
+      <name>EmDash</name>
+      <description>Possible alternatives to the default dash used in US English (em-dash without spaces)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>RomanNums2</code>
+      <name>Roman Numbers long</name>
+      <description>A regex definition of valid Roman numbers made of at least two letters</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?-i:[IVXLCDM]{2,}|[\x{2160}-\x{217F}]+)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?-i:[IVXLCDM]{2,}|[\u{2160}-\u{217F}]+)]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>RatioWords</code>
+      <name>RatioWords</name>
+      <description>List of words with the meaning of “scale” or “ratio” (only in languages where ratios are written with spaces 1 : 000)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>RedundantOrd</code>
+      <name>Redundant ordinal number suffixes</name>
+      <description>Frequent but incorrect (redundant) suffixes used after ordinal numbers (5-tý)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>RedundantCar</code>
+      <name>Redundant cardinal number suffixes</name>
+      <description>Frequent but incorrect (redundant) suffixes used after cardinal numbers (5-ti)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>CompoudsHyphen</code>
+      <name>Two-word compounds using hyphen (general)</name>
+      <description>Common expressions consisting of two parts joined by a hyphen (know-how, e-mail, …)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:know\p{Zs}*\p{Pd}\p{Zs}*how)]]></value>
+          <value><![CDATA[(?:e\p{Zs}*\p{Pd}\p{Zs}*mail)]]></value>
+          <value><![CDATA[(?:S\p{Zs}*\p{Pd}\p{Zs}*Bahn)]]></value>
+          <value><![CDATA[(?:Wi\p{Zs}*\p{Pd}\p{Zs}*Fi)]]></value>
+          <value><![CDATA[(?:e\p{Zs}*\p{Pd}\p{Zs}*book)]]></value>
+          <value><![CDATA[(?:high\p{Zs}*\p{Pd}\p{Zs}*tech)]]></value>
+          <value><![CDATA[(?:low\p{Zs}*\p{Pd}\p{Zs}*cost)]]></value>
+          <value><![CDATA[(?:Hewlett\p{Zs}*\p{Pd}\p{Zs}*Packard)]]></value>
+          <value><![CDATA[(?:Harley\p{Zs}*\p{Pd}\p{Zs}*Davidson)]]></value>
+          <value><![CDATA[(?:T\p{Zs}*\p{Pd}\p{Zs}*Mobile)]]></value>
+          <value><![CDATA[(?:Sk[lł]odowsk[[:lower:]]+\p{Zs}*\p{Pd}\p{Zs}*Curie)]]></value>
+          <value><![CDATA[(?:Rolls\p{Zs}*\p{Pd}\p{Zs}*Royce)]]></value>
+          <value><![CDATA[(?:Mercedes\p{Zs}*\p{Pd}\p{Zs}*Benz)]]></value>
+          <value><![CDATA[(?:Baskin\p{Zs}*\p{Pd}\p{Zs}*Robbins)]]></value>
+          <value><![CDATA[(?:opt\p{Zs}*\p{Pd}\p{Zs}*(?:in|out))]]></value>
+          <value><![CDATA[(?:DVB\p{Zs}*\p{Pd}\p{Zs}*T2?)]]></value>
+          <value><![CDATA[(?:MPEG\p{Zs}*\p{Pd}\p{Zs}*\d)]]></value>
+          <value><![CDATA[(?:G\p{Zs}*\p{Pd}\p{Zs}*(?:20|7))]]></value>
+          <value><![CDATA[(?:Covid\p{Zs}*\p{Pd}\p{Zs}*19)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:know\p{Zs}*\p{Pd}\p{Zs}*how)]]></value>
+          <value><![CDATA[(?:e\p{Zs}*\p{Pd}\p{Zs}*mail)]]></value>
+          <value><![CDATA[(?:S\p{Zs}*\p{Pd}\p{Zs}*Bahn)]]></value>
+          <value><![CDATA[(?:Wi\p{Zs}*\p{Pd}\p{Zs}*Fi)]]></value>
+          <value><![CDATA[(?:e\p{Zs}*\p{Pd}\p{Zs}*book)]]></value>
+          <value><![CDATA[(?:high\p{Zs}*\p{Pd}\p{Zs}*tech)]]></value>
+          <value><![CDATA[(?:low\p{Zs}*\p{Pd}\p{Zs}*cost)]]></value>
+          <value><![CDATA[(?:Hewlett\p{Zs}*\p{Pd}\p{Zs}*Packard)]]></value>
+          <value><![CDATA[(?:Harley\p{Zs}*\p{Pd}\p{Zs}*Davidson)]]></value>
+          <value><![CDATA[(?:T\p{Zs}*\p{Pd}\p{Zs}*Mobile)]]></value>
+          <value><![CDATA[(?:Sk[lł]odowsk\p{Ll}+\p{Zs}*\p{Pd}\p{Zs}*Curie)]]></value>
+          <value><![CDATA[(?:Rolls\p{Zs}*\p{Pd}\p{Zs}*Royce)]]></value>
+          <value><![CDATA[(?:Mercedes\p{Zs}*\p{Pd}\p{Zs}*Benz)]]></value>
+          <value><![CDATA[(?:Baskin\p{Zs}*\p{Pd}\p{Zs}*Robbins)]]></value>
+          <value><![CDATA[(?:opt\p{Zs}*\p{Pd}\p{Zs}*(?:in|out))]]></value>
+          <value><![CDATA[(?:DVB\p{Zs}*\p{Pd}\p{Zs}*T2?)]]></value>
+          <value><![CDATA[(?:MPEG\p{Zs}*\p{Pd}\p{Zs}*\p{Nd})]]></value>
+          <value><![CDATA[(?:G\p{Zs}*\p{Pd}\p{Zs}*(?:20|7))]]></value>
+          <value><![CDATA[(?:Covid\p{Zs}*\p{Pd}\p{Zs}*19)]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Prime</code>
+      <name>Prime</name>
+      <description>Preferred form of prime symbol – many fonts do not contain the proper form (′) so the alternative is (')</description>
+      <values>
+        <grep>
+          <value><![CDATA[′]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[′]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DblPrime</code>
+      <name>Double Prime</name>
+      <description>Preferred form of prime symbol – many fonts do not contain the proper form (″) so the alternative is (")</description>
+      <values>
+        <grep>
+          <value><![CDATA[″]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[″]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DblPrimeWrong</code>
+      <name>Double Prime Wrong</name>
+      <description>A collection of uncorrect forms of double prime</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0022}]]></value>
+          <value><![CDATA[\x{02BA}]]></value>
+          <value><![CDATA[\x{2033}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0022}]]></value>
+          <value><![CDATA[\u{02BA}]]></value>
+          <value><![CDATA[\u{2033}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>PrimeWrong</code>
+      <name>Prime Wrong</name>
+      <description>A collection of uncorrect forms of prime</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0027}]]></value>
+          <value><![CDATA[\x{02B9}]]></value>
+          <value><![CDATA[\x{2032}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0027}]]></value>
+          <value><![CDATA[\u{02B9}]]></value>
+          <value><![CDATA[\u{2032}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>GeoSpace</code>
+      <name>Space in geographic coordinate system</name>
+      <description>The form (width) of space used in geographical coordinates (51° 28′ 38″ N)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>3abbEduDeg</code>
+      <name>Abbreviations composed of three parts followed by period (academic degrees)</name>
+      <description>Complex abbreviations of academic degrees consisting of two parts ending with a period (dr. h. c.) – the form of the space (or no space) depends on individual language setting</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>word2abb</code>
+      <name>Abbreviations preceded by a short word (pred n. l.)</name>
+      <description>Abbreviations preceded by a short word (pred n. l.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbsPeriod</code>
+      <name>Abbreviations ending with period</name>
+      <description></description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>NumWord</code>
+      <name>Numbers written as abbreviations</name>
+      <description>Abbreviations of numbers in the form of words (mil., mio., mld…)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>InitSpace</code>
+      <name>Space in initials</name>
+      <description>The form (width) of space used between initials (J.R.R.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>LastInitSpace</code>
+      <name>Last space after initials</name>
+      <description>The form (width) of the last space after initials before surname (A. Merkel)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00A0}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00A0}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>NarrowSpace</code>
+      <name>Thin Space</name>
+      <description>The preferred form (width) of a narrow or thin space</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DayDate</code>
+      <name>Day in Date incl. leading zero</name>
+      <description>An expression (regex) to capture date number (1–31 or 01–31)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:@{LB}0?[1-9]|[12][0-9]|3[01])]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:@{LB}0?[1-9]|[12][0-9]|3[01])]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>YearDate</code>
+      <name>Year in Date</name>
+      <description>An expression (regex) to capture four-digit year (1987) or two digit year (87) possibly preceded by an apostrophe (’)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:@{LB}(?:\d{4}|\x{2019}?\d{2})@{RB})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:@{LB}(?:\p{Nd}{4}|\u{2019}?\p{Nd}{2})@{RB})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DateSepAll</code>
+      <name>Date Separator incl. alternative forms</name>
+      <description>A list of all forms of date separators – typically period (.), hyphen (-) or slash (/)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DateSep</code>
+      <name>Date Separator</name>
+      <description>Preferred day separator – typically period (.), hyphen (-) or slash (/) incl. alternative forms</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DateSpace</code>
+      <name>Space in short dates</name>
+      <description>The form (width) of space in short dates (21. 2.) if space is required</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00A0}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00A0}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>HypSuffixNum</code>
+      <name>Suffices connected after numbers with hyphen</name>
+      <description>Suffixes written after numbers with a hyphen and no spaces (2-oisos, 2-bólként)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
       <code>Dash</code>
       <name>Dash</name>
       <description>The alternative options for a standard en-dash used in a sentence (not as a range or relation indicator)</description>
@@ -65,12 +1739,833 @@
       </values>
     </variable>
     <variable>
+      <code>MathSym</code>
+      <name>MathSymbols</name>
+      <description>Basic mathematical symbols (+, ÷, = etc.)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[+×÷=≠<>≤≥±≈∙·∶−]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[+×÷=≠<>≤≥±≈∙·∶−]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
       <code>AbbAfterOrd</code>
       <name>Abbreviations after ordinal numbers</name>
       <description>List of expressions which should be connected to a preceding ordinal number with nonbreaking space to prevent splitting at the end of a line (1. LF)</description>
       <values>
         <grep/>
         <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>FigSpace</code>
+      <name>Figural Space</name>
+      <description>Space between figures – the form (width) of space used as a separator in phone numbers, bank accounts etc.</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>abbUnits</code>
+      <name>Abbreviations before units</name>
+      <description>Abbreviations used before units and followed by space (sq. for sq. meters)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>CompoudsGeoThree</code>
+      <name>Three-word compounds using hyphen (geographical locations)</name>
+      <description>Compound city or regional names consisting of three parts joined by a hyphen (Villeneuve-Saint-Georges) </description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>CompoudsGeoFour</code>
+      <name>Four-word compounds using hyphen (geographical locations)</name>
+      <description>Compound city or regional names consisting of four parts joined by a hyphen (Sainte-Marie-aux-Mines) </description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>MaltaPost</code>
+      <name>Maltese postal code prefix</name>
+      <description>A list of three-letter prefixes used in Malta in postal codes</description>
+      <values>
+        <grep>
+          <value><![CDATA[ATD]]></value>
+          <value><![CDATA[BBG]]></value>
+          <value><![CDATA[BKR]]></value>
+          <value><![CDATA[BML]]></value>
+          <value><![CDATA[BRG]]></value>
+          <value><![CDATA[BZN]]></value>
+          <value><![CDATA[DGL]]></value>
+          <value><![CDATA[FGR]]></value>
+          <value><![CDATA[FNT]]></value>
+          <value><![CDATA[FRN]]></value>
+          <value><![CDATA[GDJ]]></value>
+          <value><![CDATA[GHR]]></value>
+          <value><![CDATA[GRB]]></value>
+          <value><![CDATA[GSM]]></value>
+          <value><![CDATA[GSR]]></value>
+          <value><![CDATA[GXQ]]></value>
+          <value><![CDATA[GZR]]></value>
+          <value><![CDATA[HMR]]></value>
+          <value><![CDATA[IKL]]></value>
+          <value><![CDATA[ISL]]></value>
+          <value><![CDATA[KCM]]></value>
+          <value><![CDATA[KKP]]></value>
+          <value><![CDATA[KKR]]></value>
+          <value><![CDATA[KMN]]></value>
+          <value><![CDATA[LJA]]></value>
+          <value><![CDATA[LQA]]></value>
+          <value><![CDATA[MDN]]></value>
+          <value><![CDATA[MFN]]></value>
+          <value><![CDATA[MGR]]></value>
+          <value><![CDATA[MLH]]></value>
+          <value><![CDATA[MQB]]></value>
+          <value><![CDATA[MRS]]></value>
+          <value><![CDATA[MSD]]></value>
+          <value><![CDATA[MSK]]></value>
+          <value><![CDATA[MST]]></value>
+          <value><![CDATA[MTF]]></value>
+          <value><![CDATA[MTP]]></value>
+          <value><![CDATA[MXK]]></value>
+          <value><![CDATA[MXR]]></value>
+          <value><![CDATA[NDR]]></value>
+          <value><![CDATA[NXR]]></value>
+          <value><![CDATA[PBK]]></value>
+          <value><![CDATA[PLA]]></value>
+          <value><![CDATA[PTA]]></value>
+          <value><![CDATA[QLA]]></value>
+          <value><![CDATA[QRD]]></value>
+          <value><![CDATA[QRM]]></value>
+          <value><![CDATA[RBT]]></value>
+          <value><![CDATA[SCM]]></value>
+          <value><![CDATA[SFI]]></value>
+          <value><![CDATA[SGN]]></value>
+          <value><![CDATA[SGW]]></value>
+          <value><![CDATA[SLC]]></value>
+          <value><![CDATA[SLM]]></value>
+          <value><![CDATA[TP]]></value>
+          <value><![CDATA[SLZ]]></value>
+          <value><![CDATA[SNT]]></value>
+          <value><![CDATA[SPB]]></value>
+          <value><![CDATA[STJ]]></value>
+          <value><![CDATA[SPK]]></value>
+          <value><![CDATA[SVR]]></value>
+          <value><![CDATA[SWQ]]></value>
+          <value><![CDATA[TXN]]></value>
+          <value><![CDATA[VCT]]></value>
+          <value><![CDATA[VLT]]></value>
+          <value><![CDATA[XBX]]></value>
+          <value><![CDATA[XJR]]></value>
+          <value><![CDATA[XLN]]></value>
+          <value><![CDATA[XRA]]></value>
+          <value><![CDATA[XWK]]></value>
+          <value><![CDATA[ZBB]]></value>
+          <value><![CDATA[ZBG]]></value>
+          <value><![CDATA[ZBR]]></value>
+          <value><![CDATA[ZRQ]]></value>
+          <value><![CDATA[ZTN]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[ATD]]></value>
+          <value><![CDATA[BBG]]></value>
+          <value><![CDATA[BKR]]></value>
+          <value><![CDATA[BML]]></value>
+          <value><![CDATA[BRG]]></value>
+          <value><![CDATA[BZN]]></value>
+          <value><![CDATA[DGL]]></value>
+          <value><![CDATA[FGR]]></value>
+          <value><![CDATA[FNT]]></value>
+          <value><![CDATA[FRN]]></value>
+          <value><![CDATA[GDJ]]></value>
+          <value><![CDATA[GHR]]></value>
+          <value><![CDATA[GRB]]></value>
+          <value><![CDATA[GSM]]></value>
+          <value><![CDATA[GSR]]></value>
+          <value><![CDATA[GXQ]]></value>
+          <value><![CDATA[GZR]]></value>
+          <value><![CDATA[HMR]]></value>
+          <value><![CDATA[IKL]]></value>
+          <value><![CDATA[ISL]]></value>
+          <value><![CDATA[KCM]]></value>
+          <value><![CDATA[KKP]]></value>
+          <value><![CDATA[KKR]]></value>
+          <value><![CDATA[KMN]]></value>
+          <value><![CDATA[LJA]]></value>
+          <value><![CDATA[LQA]]></value>
+          <value><![CDATA[MDN]]></value>
+          <value><![CDATA[MFN]]></value>
+          <value><![CDATA[MGR]]></value>
+          <value><![CDATA[MLH]]></value>
+          <value><![CDATA[MQB]]></value>
+          <value><![CDATA[MRS]]></value>
+          <value><![CDATA[MSD]]></value>
+          <value><![CDATA[MSK]]></value>
+          <value><![CDATA[MST]]></value>
+          <value><![CDATA[MTF]]></value>
+          <value><![CDATA[MTP]]></value>
+          <value><![CDATA[MXK]]></value>
+          <value><![CDATA[MXR]]></value>
+          <value><![CDATA[NDR]]></value>
+          <value><![CDATA[NXR]]></value>
+          <value><![CDATA[PBK]]></value>
+          <value><![CDATA[PLA]]></value>
+          <value><![CDATA[PTA]]></value>
+          <value><![CDATA[QLA]]></value>
+          <value><![CDATA[QRD]]></value>
+          <value><![CDATA[QRM]]></value>
+          <value><![CDATA[RBT]]></value>
+          <value><![CDATA[SCM]]></value>
+          <value><![CDATA[SFI]]></value>
+          <value><![CDATA[SGN]]></value>
+          <value><![CDATA[SGW]]></value>
+          <value><![CDATA[SLC]]></value>
+          <value><![CDATA[SLM]]></value>
+          <value><![CDATA[TP]]></value>
+          <value><![CDATA[SLZ]]></value>
+          <value><![CDATA[SNT]]></value>
+          <value><![CDATA[SPB]]></value>
+          <value><![CDATA[STJ]]></value>
+          <value><![CDATA[SPK]]></value>
+          <value><![CDATA[SVR]]></value>
+          <value><![CDATA[SWQ]]></value>
+          <value><![CDATA[TXN]]></value>
+          <value><![CDATA[VCT]]></value>
+          <value><![CDATA[VLT]]></value>
+          <value><![CDATA[XBX]]></value>
+          <value><![CDATA[XJR]]></value>
+          <value><![CDATA[XLN]]></value>
+          <value><![CDATA[XRA]]></value>
+          <value><![CDATA[XWK]]></value>
+          <value><![CDATA[ZBB]]></value>
+          <value><![CDATA[ZBG]]></value>
+          <value><![CDATA[ZBR]]></value>
+          <value><![CDATA[ZRQ]]></value>
+          <value><![CDATA[ZTN]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbAfterNums</code>
+      <name>Abbreviations used after numbers</name>
+      <description>Abbreviations written after numbers and preceded by a nonbreaking space to prevent splitting at the end of a line (Sb., ks)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordLetter</code>
+      <name>Words before individual letters</name>
+      <description>Certain words are often connected with letters, inserting nonbreaking space you avoid breaking those expressions at the end of the line</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>OrdSuffixHyph</code>
+      <name>Ordinal Suffixes preceded with hyphen</name>
+      <description>Ordinal suffix following a number and hyphen denoting that it is an ordinal number (2-oji, 1-ва, 3-lea)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>Number</code>
+      <name>Words for Number</name>
+      <description>Words like number, nombre, číslo, Nummer…</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>NumWordLong</code>
+      <name>Numbers written as regular words</name>
+      <description>Words for numbers – numerals – in unabbreviated form, incl. plural and inflected forms (million, honderd, sto, sta…)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>LocalCurrencyLong</code>
+      <name>Local Currency Words</name>
+      <description>List of local and historical currencies, their full forms, incl. plural and inclined forms (kuna, tolar, dollar, euro, euros…)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DollarPrefix</code>
+      <name>Dollar Prefix</name>
+      <description>A prefix to differantiate between dollar currencies in different countries (AU$, Can$…)</description>
+      <values>
+        <grep>
+          <value><![CDATA[US]]></value>
+          <value><![CDATA[CA?]]></value>
+          <value><![CDATA[Can]]></value>
+          <value><![CDATA[AU?]]></value>
+          <value><![CDATA[N[ZT]?]]></value>
+          <value><![CDATA[HK]]></value>
+          <value><![CDATA[SG?]]></value>
+          <value><![CDATA[FJ]]></value>
+          <value><![CDATA[BZ?]]></value>
+          <value><![CDATA[N]]></value>
+          <value><![CDATA[SI]]></value>
+          <value><![CDATA[EC]]></value>
+          <value><![CDATA[J]]></value>
+          <value><![CDATA[GY]]></value>
+          <value><![CDATA[SR]]></value>
+          <value><![CDATA[B]]></value>
+          <value><![CDATA[FJ]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[US]]></value>
+          <value><![CDATA[CA?]]></value>
+          <value><![CDATA[Can]]></value>
+          <value><![CDATA[AU?]]></value>
+          <value><![CDATA[N[ZT]?]]></value>
+          <value><![CDATA[HK]]></value>
+          <value><![CDATA[SG?]]></value>
+          <value><![CDATA[FJ]]></value>
+          <value><![CDATA[BZ?]]></value>
+          <value><![CDATA[N]]></value>
+          <value><![CDATA[SI]]></value>
+          <value><![CDATA[EC]]></value>
+          <value><![CDATA[J]]></value>
+          <value><![CDATA[GY]]></value>
+          <value><![CDATA[SR]]></value>
+          <value><![CDATA[B]]></value>
+          <value><![CDATA[FJ]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DashDialog</code>
+      <name>Dash used in dialogues</name>
+      <description>A dash used at the beginning of a paragraph to indicate dialogue – its form, with or without spaces, and possible variants (\x{0009} means tab character \t)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{2013}\x{0009}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{2013}\u{0009}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>NonBrHyphen</code>
+      <name>Contrations using nonbreaking hyphen</name>
+      <description>A list of contractions written with nonbreaking hyphen to prevent splitting at the end of a line (m-ați)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>GreekNums</code>
+      <name>Greek Numbers (UC only)</name>
+      <description>An expression (regex) to catch Greek numbers – Greek letters followed by acute </description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:\x{0375}?[ΑΒΓΔΕϚΖΗΘ](?:[ΡΣΤΥΦΧΨΩϠ])?(?:[ΙΚΛΜΝΞΟΠϘϞ])?(?:\x{0375}?[ΑΒΓΔΕϚΖΗΘ])?|[ΡΣΤΥΦΧΨΩϠ]?[ΙΚΛΜΝΞΟΠϘϞ]?[ΑΒΓΔΕϚΖΗΘ])(?:\x{0374}|[ʹ΄’'´′])]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:\u{0375}?[ΑΒΓΔΕϚΖΗΘ](?:[ΡΣΤΥΦΧΨΩϠ])?(?:[ΙΚΛΜΝΞΟΠϘϞ])?(?:\u{0375}?[ΑΒΓΔΕϚΖΗΘ])?|[ΡΣΤΥΦΧΨΩϠ]?[ΙΚΛΜΝΞΟΠϘϞ]?[ΑΒΓΔΕϚΖΗΘ])(?:\u{0374}|[ʹ΄’'´′])]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>4abb</code>
+      <name>Abbreviations composed of four parts followed by period</name>
+      <description>Complex abbreviations consisting of four parts ending with a period (ΚΕ.Β.Ο.Π.) – the form of the space (or no space) depends on individual language setting</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>GreekNumSym</code>
+      <name>Greek Number Symbol dexia keraia</name>
+      <description>Symbol following the Greek letter denoting Greek numbers</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00B4}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00B4}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SpaceEll</code>
+      <name>Space before or after ellipsis</name>
+      <description>The form (width) of space used before or after ellipsis</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0020}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0020}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>MultiplySpace</code>
+      <name>Multiplication Space</name>
+      <description>The form (width) of space used in multiplication formulas (3 × 3) – typically narrow or hair space</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>BeforeRomanNums</code>
+      <name>Words before Roman numerals</name>
+      <description>Words used before Roman numerals, i.e. in French “XVI siècle”</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>MusicalKeysSpace</code>
+      <name>Musical Keys with space</name>
+      <description>Musical key – the structure of musical key description (A dur, b minor)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>VarUnits</code>
+      <name>Various Units</name>
+      <description>Various units like spoons, pieces or cups</description>
+      <values>
+        <grep>
+          <value><![CDATA[psi]]></value>
+          <value><![CDATA[atm]]></value>
+          <value><![CDATA[pH]]></value>
+          <value><![CDATA[ppm]]></value>
+          <value><![CDATA[ppb]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[psi]]></value>
+          <value><![CDATA[atm]]></value>
+          <value><![CDATA[pH]]></value>
+          <value><![CDATA[ppm]]></value>
+          <value><![CDATA[ppb]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>GeoSpaceLast</code>
+      <name>Last space in geographic coordinate system (before N, S…)</name>
+      <description>The form (width) of space used in geographical coordinates (51° 28′ 38″ N)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbBeforeRomanNums</code>
+      <name>Abbreviations used before Roman numbers</name>
+      <description>Abbreviations written before numbers and followed by a nonbreaking space to prevent splitting at the end of a line (vol. XII)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>PrepositionTime</code>
+      <name>Prepositions related to time values</name>
+      <description>List of prepositions preceding time expressions</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordHour</code>
+      <name>All forms of the word “hour” incl. abbreviations</name>
+      <description>All forms of the word “hour” incl. abbreviations and other time related words</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SpanishAbbs</code>
+      <name>Spanish abbreviations written incorrectly without period before suffix</name>
+      <description></description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordsAfterComma</code>
+      <name>Words used after comma</name>
+      <description>Words or symbols which should (or should not) be preceded by comma and space</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>2abbSpace</code>
+      <name>Abbreviations composed of two parts followed by period separated by space</name>
+      <description>Abbreviations consisting of two parts ending with a period written – against the general rule – with spaces</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>currSpace</code>
+      <name>Currency Space</name>
+      <description>The form of a space between currency symbol and value</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{00A0}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{00A0}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DateSepNonPeriod</code>
+      <name>Date Separator incl. alternative forms</name>
+      <description>A list of all forms of date separators but not period: hyphen (-) or slash (/)</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{002D}]]></value>
+          <value><![CDATA[\x{2011}]]></value>
+          <value><![CDATA[\x{002F}]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{002D}]]></value>
+          <value><![CDATA[\u{2011}]]></value>
+          <value><![CDATA[\u{002F}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>GreekNumSymWrong</code>
+      <name>All possible forms of Greek Number Symbol dexia keraia</name>
+      <description>All possible forms of Greek Number Symbol dexia keraia</description>
+      <values>
+        <grep>
+          <value><![CDATA[\x{0374}|[ʹ΄’'´′]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\u{0374}|[ʹ΄’'´′]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>WordsBeforeNums</code>
+      <name>Words before numbers</name>
+      <description></description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>TimeSuffix</code>
+      <name>Time suffix</name>
+      <description>Suffixes connected to time values</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>wordabb</code>
+      <name>Abbreviations preceded by a short word (ir pan.)</name>
+      <description>Abbreviations preceded by a short word (ir pan.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>ShortWords</code>
+      <name>Short Words</name>
+      <description>List of short words which could be connected with the following word</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>ConjHyphen</code>
+      <name>Conjunction used after words with hyphen (Ein- und Zweizimmer)</name>
+      <description>Conjunction used after words with hyphen, usually “and” or “or”</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordHyphen</code>
+      <name>Words ending with hyphens followed by space and a conjunction</name>
+      <description>Words ending with hyphens followed by space and a conjunction – suspended hyphen (Ein- oder Zweizimmer)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordTriplets</code>
+      <name>Word triplets </name>
+      <description>Three words to be connected by nonbreaking space</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>abbWordabb</code>
+      <name>Abbreviations structured a. de C.</name>
+      <description>Abbreviations structured a. de C.</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WordsNotAfterComma</code>
+      <name>Words which should not be preceded by comma</name>
+      <description>Words or symbols which should not be preceded by comma and space</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>2abbWrong</code>
+      <name>Abbreviations wrongly composed of two parts followed by period</name>
+      <description>Complex abbreviations wrongly consisting of two parts ending with a period (ú. n. or ú.n.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SymAfterNums</code>
+      <name>Symbols after numbers</name>
+      <description></description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>YearDateLong</code>
+      <name>Year in Date Long</name>
+      <description>An expression (regex) to capture four-digit year (1987)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:\d{4}\b)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:\p{Nd}{4}(?:(?<![\p{L}\p{M}\p{N}])(?=[\p{L}\p{M}\p{N}])|(?<=[\p{L}\p{M}\p{N}])(?![\p{L}\p{M}\p{N}])))]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Initials</code>
+      <name>Form of initial</name>
+      <description>Capital letters and/or digraphs and trigraphs like Ch. in Czech or Sz. in Hungarian</description>
+      <values>
+        <grep>
+          <value><![CDATA[[[:upper:]]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[\p{Lu}]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>LenghtUnitsWords</code>
+      <name>SI units of length in the form of words</name>
+      <description>List of of the most common words representing the units of lenght (kilometer)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>TempUnitsWords</code>
+      <name>Units of temperature in the form of words</name>
+      <description>List of of the most common words representing the units of temperature (degree) eventually incl. historical units</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SIprefixesNames</code>
+      <name>SI Prefixes Names</name>
+      <description>A metric prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. All metric prefixes used today are decimal.</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SIunitsNames</code>
+      <name>SI Base &amp; Derived Unit Names</name>
+      <description>The International System of Units is the modern form of the metric system and the world's most widely used system of measurement. The list contains base and derived units plus units used in conjunction with SI units as well as other units using SI prefixes. The names of the units are localized in every language. Instead of kilogram we use gram to add possible prefixes in a simple way.</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SingleLetterUnits</code>
+      <name>Non-SI Base &amp; Derived Units (one letter only)</name>
+      <description>Single letter single letter abbreviations for non-SI units, typically t (tons), h (hours)</description>
+      <values>
+        <grep>
+          <value><![CDATA[t]]></value>
+          <value><![CDATA[h]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[t]]></value>
+          <value><![CDATA[h]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SIunitsShort</code>
+      <name>SI Base &amp; Derived Units (one letter only)</name>
+      <description>The International System of Units assigns special names to 7 base and 22 derived units</description>
+      <values>
+        <grep>
+          <value><![CDATA[[bgmsultBAKMNJWCVFSTHL\x{03a9}\x{2126}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[bgmsultBAKMNJWCVFSTHL\u{03a9}\u{2126}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>EnergyUnitsWords</code>
+      <name>Energy and Power non-SI unit names</name>
+      <description>List of of the most common non-SI units of energy including local versions of names of those units (calories, joules)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>TownSuburbSingle</code>
+      <name>Town name followed by hyphen and suburb name</name>
+      <description>Town name followed by hyphen and suburb name (Bratislava-Petržalka)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>TownSuburbMulti</code>
+      <name>Town name followed by hyphen or dash and long suburb name (two words and more)</name>
+      <description>Town name followed by hyphen or dash and suburb name (Praha-Malá Strana)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SymBeforeNoSpace</code>
+      <name>Symbols before words not followed by space</name>
+      <description>Symbols written before a word and followed by a nonbreaking space to prevent splitting at the end of a line (© § etc.)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>4abbEduDeg</code>
+      <name>Abbreviations composed of four parts followed by period (academic degrees)</name>
+      <description>Complex abbreviations of academic degrees consisting of two parts ending with a period (dipl. inž. diz. inž.) – the form of the space (or no space) depends on individual language setting</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>DupSymbols</code>
+      <name>Duplicated Symbols</name>
+      <description>Symbols which should not be duplicated to indicate plural form</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>AbbsWithPeriod</code>
+      <name>Abbreviations requiring period</name>
+      <description>Abbreviations commonly written without final period</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:et\p{Zs}al)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:et\p{Zs}al)]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SuffixNum</code>
+      <name>Suffix written directly after number value</name>
+      <description>Suffix written directly after number value</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SlashUnits</code>
+      <name>Common units with slash</name>
+      <description>Common units with slash (km/h)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:km\p{Zs}*\x{002F}\p{Zs}*h)]]></value>
+          <value><![CDATA[(?:(?:@{LocalCurrency})\p{Zs}*\x{002F}\p{Zs}[ckdm]?m[²³]?)]]></value>
+          <value><![CDATA[(?:(?:@{LocalCurrency})\p{Zs}*\x{002F}\p{Zs}*l)]]></value>
+          <value><![CDATA[(?:[MG]B\p{Zs}*\x{002F}\p{Zs}*s)]]></value>
+          <value><![CDATA[(?:m\p{Zs}*\x{002F}\p{Zs}*s)]]></value>
+          <value><![CDATA[(?:[km]?g\p{Zs}*\x{002F}\p{Zs}*m[²³]?)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:km\p{Zs}*\u{002F}\p{Zs}*h)]]></value>
+          <value><![CDATA[(?:(?:@{LocalCurrency})\p{Zs}*\u{002F}\p{Zs}[ckdm]?m[²³]?)]]></value>
+          <value><![CDATA[(?:(?:@{LocalCurrency})\p{Zs}*\u{002F}\p{Zs}*l)]]></value>
+          <value><![CDATA[(?:[MG]B\p{Zs}*\u{002F}\p{Zs}*s)]]></value>
+          <value><![CDATA[(?:m\p{Zs}*\u{002F}\p{Zs}*s)]]></value>
+          <value><![CDATA[(?:[km]?g\p{Zs}*\u{002F}\p{Zs}*m[²³]?)]]></value>
+        </ecma>
       </values>
     </variable>
     <variable>
@@ -87,6 +2582,19 @@
       </values>
     </variable>
     <variable>
+      <code>pPd002D</code>
+      <name>Dashes (without hyphen U+002D)</name>
+      <description>Dashes (without nonbreaking space U+002D)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{2010}\x{2011}\x{2012}\x{2013}\x{2014}\x{2015}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Pd}--\u{002D}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
       <code>pPd2013</code>
       <name>Dashes (without en-dash U+2013)</name>
       <description>Dashes (without en-dash U+2013)</description>
@@ -96,6 +2604,19 @@
         </grep>
         <ecma>
           <value><![CDATA[[\p{Pd}--\u{2013}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd2011</code>
+      <name>Dashes (without non-breaking hyphen U+2011)</name>
+      <description>Dashes (without non-breaking hyphen U+2011)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{002D}\x{2010}\x{2013}\x{2012}\x{2014}\x{2015}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Pd}--\u{2011}]]]></value>
         </ecma>
       </values>
     </variable>
@@ -134,6 +2655,19 @@
       </values>
     </variable>
     <variable>
+      <code>pPd2014</code>
+      <name>Dashes (without em-dash U+2014)</name>
+      <description>Dashes (without em-dash U+2014)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{002D}\x{2010}\x{2011}\x{2012}\x{2013}\x{2015}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Pd}--\u{2014}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
       <code>LB</code>
       <name>Left Word Boundary</name>
       <description>Left word boundary</description>
@@ -143,6 +2677,453 @@
         </grep>
         <ecma>
           <value><![CDATA[(?<![\p{L}\p{M}\p{N}])]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>RB</code>
+      <name>Right Word Boundary</name>
+      <description>Right Word Boundary</description>
+      <values>
+        <grep>
+          <value><![CDATA[\b]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?![\p{L}\p{M}\p{N}])]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pZsabbSpace</code>
+      <name>Spaces (without nonbreaking space used as space after abbreviations)</name>
+      <description>Spaces (without abbSpace)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{0020}\x{1680}\x{2000}-\x{200A}\x{202F}\x{205F}\x{3000}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Zs}--@{abbSpace}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>LenghtUnitsWordsNonSI</code>
+      <name>Non SI units of length in the form of words</name>
+      <description>List of of the most common words representing the imperial units of lenght (mile etc.) incl. historical units</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>VolumeUnitsWordsNonSI</code>
+      <name>Non SI units of volume in the form of words</name>
+      <description>List of of the most common words representing the imperial units of volume (gallon) incl. historical units</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>WeightUnitsNonSI</code>
+      <name>Non SI weight units</name>
+      <description>List of of the most common units of weight, SI and non-SI units including local versions of names of those units (ton, кг…)</description>
+      <values>
+        <grep>
+          <value><![CDATA[Gt]]></value>
+          <value><![CDATA[Mt]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[Gt]]></value>
+          <value><![CDATA[Mt]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>LenghtUnitsNonSI</code>
+      <name>Length units abbreviations</name>
+      <description>List of of the most common units of lenght, SI and non-SI units incl. local forms (km, км, χλμ.) – only 2 letters and more</description>
+      <values>
+        <grep>
+          <value><![CDATA[ft]]></value>
+          <value><![CDATA[yd]]></value>
+          <value><![CDATA[mi]]></value>
+          <value><![CDATA[in]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[ft]]></value>
+          <value><![CDATA[yd]]></value>
+          <value><![CDATA[mi]]></value>
+          <value><![CDATA[in]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>NumWordNoSpace</code>
+      <name>Numbers written as abbreviations directly after number</name>
+      <description>Abbreviations of numbers in the form of abbreviations (m, bn)</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SIcommon</code>
+      <name>SI common units</name>
+      <description>Common SI units used in everyday communication</description>
+      <values>
+        <grep>
+          <value><![CDATA[[mcdkµμn]m[²³]?]]></value>
+          <value><![CDATA[[mcdhµμ]l]]></value>
+          <value><![CDATA[[mµμk]g]]></value>
+          <value><![CDATA[km\x{002F}h]]></value>
+          <value><![CDATA[m[²³]?\x{002F}s]]></value>
+          <value><![CDATA[g\x{002F}m²]]></value>
+          <value><![CDATA[kg\x{002F}m[²³]]]></value>
+          <value><![CDATA[l\x{002F}m²]]></value>
+          <value><![CDATA[mg\x{002F}m?l]]></value>
+          <value><![CDATA[mg\x{002F}m³]]></value>
+          <value><![CDATA[µg\x{002F}l]]></value>
+          <value><![CDATA[µg\x{002F}ml]]></value>
+          <value><![CDATA[µg\x{002F}m³]]></value>
+          <value><![CDATA[m?l\x{002F}min]]></value>
+          <value><![CDATA[l\x{002F}[hs]]]></value>
+          <value><![CDATA[min]]></value>
+          <value><![CDATA[ms]]></value>
+          <value><![CDATA[°C]]></value>
+          <value><![CDATA[ha]]></value>
+          <value><![CDATA[lx]]></value>
+          <value><![CDATA[lm]]></value>
+          <value><![CDATA[[kM]?Hz]]></value>
+          <value><![CDATA[MHz]]></value>
+          <value><![CDATA[mAh?]]></value>
+          <value><![CDATA[[mk]VA?]]></value>
+          <value><![CDATA[[kMT]Wh?]]></value>
+          <value><![CDATA[Wh]]></value>
+          <value><![CDATA[[khM]Pa]]></value>
+          <value><![CDATA[dB]]></value>
+          <value><![CDATA[[MGT]J]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[mcdkµμn]m[²³]?]]></value>
+          <value><![CDATA[[mcdhµμ]l]]></value>
+          <value><![CDATA[[mµμk]g]]></value>
+          <value><![CDATA[km\u{002F}h]]></value>
+          <value><![CDATA[m[²³]?\u{002F}s]]></value>
+          <value><![CDATA[g\u{002F}m²]]></value>
+          <value><![CDATA[kg\u{002F}m[²³]]]></value>
+          <value><![CDATA[l\u{002F}m²]]></value>
+          <value><![CDATA[mg\u{002F}m?l]]></value>
+          <value><![CDATA[mg\u{002F}m³]]></value>
+          <value><![CDATA[µg\u{002F}l]]></value>
+          <value><![CDATA[µg\u{002F}ml]]></value>
+          <value><![CDATA[µg\u{002F}m³]]></value>
+          <value><![CDATA[m?l\u{002F}min]]></value>
+          <value><![CDATA[l\u{002F}[hs]]]></value>
+          <value><![CDATA[min]]></value>
+          <value><![CDATA[ms]]></value>
+          <value><![CDATA[°C]]></value>
+          <value><![CDATA[ha]]></value>
+          <value><![CDATA[lx]]></value>
+          <value><![CDATA[lm]]></value>
+          <value><![CDATA[[kM]?Hz]]></value>
+          <value><![CDATA[MHz]]></value>
+          <value><![CDATA[mAh?]]></value>
+          <value><![CDATA[[mk]VA?]]></value>
+          <value><![CDATA[[kMT]Wh?]]></value>
+          <value><![CDATA[Wh]]></value>
+          <value><![CDATA[[khM]Pa]]></value>
+          <value><![CDATA[dB]]></value>
+          <value><![CDATA[[MGT]J]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd2013spaced</code>
+      <name>Dashes (without en-dash U+2013 with spaces)</name>
+      <description>All forms but spaced en-dash (U+2013)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:\p{Zs}@{pPd2013}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|\p{Pd})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:\p{Zs}@{pPd2013}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|\p{Pd})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd2013nospaced</code>
+      <name>Dashes (without en-dash U+2013 and without spaces)</name>
+      <description>All forms but closed en-dash (U+2013)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:\p{Zs}\p{Pd}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|@{pPd2013})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:\p{Zs}\p{Pd}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|@{pPd2013})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>24hours</code>
+      <name>24 hours incl. optional leading zero</name>
+      <description>Numbers </description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:0?[0-9]|1[0-9]|2[0-4])]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:0?[0-9]|1[0-9]|2[0-4])]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Minutes</code>
+      <name>Minutes from 00 to 59</name>
+      <description>Numbers from 00 to 59</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:[0-5][0-9])]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:[0-5][0-9])]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>TimeSepWrong</code>
+      <name>Invalid Time Separator</name>
+      <description>Incorrect time separators</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd2013thinspaced</code>
+      <name>Dashes (without en-dash U+2013 with thin spaces)</name>
+      <description>All forms but thin-spaced en-dash (U+2013)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:@{pZs2009}\p{Pd}@{pZs2009})|(?:\p{Zs}\p{Pd}@{pZs2009}?)|(?:@{pZs2009}?\p{Pd}\p{Zs})|\p{Pd})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:@{pZs2009}\p{Pd}@{pZs2009})|(?:\p{Zs}\p{Pd}@{pZs2009}?)|(?:@{pZs2009}?\p{Pd}\p{Zs})|\p{Pd})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pZs2009</code>
+      <name>Spaces (without thin space U+2009)</name>
+      <description>Spaces (without thin space U+2009)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{0020}\x{00A0}\x{1680}\x{2000}-\x{2008}\x{200A}\x{202F}\x{205F}\x{3000}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Zs}--\u{2009}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pZs202F</code>
+      <name>Spaces (without narrow nbspace U+202F)</name>
+      <description>Spaces (without narrow nbspace U+202F)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{0020}\x{00A0}\x{1680}\x{2000}-\x{2009}\x{200A}\x{205F}\x{3000}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\p{Zs}--\u{202F}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Equal</code>
+      <name>Equal symbols</name>
+      <description>Symbol = and similar</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{003D}\x{2260}\x{2265}\x{2264}\x{2248}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\u{003D}\u{2260}\u{2265}\u{2264}\u{2248}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd2011nospaced</code>
+      <name>Dashes (without nbhyphen U+2011 without spaces)</name>
+      <description>All forms but closed nonbreaking hyphen (U+2011)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:\p{Zs}\p{Pd}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|@{pPd2011})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:\p{Zs}\p{Pd}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|@{pPd2011})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>pPd002Dnospaced</code>
+      <name>Dashes (without hyphen U+002D without spaces)</name>
+      <description>All forms but closed hyphen (U+002D)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:\p{Zs}\p{Pd}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|@{pPd002D})]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:\p{Zs}\p{Pd}\p{Zs})|(?:\p{Zs}\p{Pd})|(?:\p{Pd}\p{Zs})|@{pPd002D})]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>MathSymNoMultiply</code>
+      <name>MathSymbols without multiply and minus</name>
+      <description>Basic mathematical symbols (+, ÷, = etc.) without minus</description>
+      <values>
+        <grep>
+          <value><![CDATA[[+÷=≠<>≤≥±≈∙·∶]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[+÷=≠<>≤≥±≈∙·∶]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>MultiplyWrong</code>
+      <name>Multiply Wrong forms only</name>
+      <description>Various incorrect variants for the multiply symbol: e.g., the letter x in Latin, х in Cyrillic, or χ in Greek</description>
+      <values>
+        <grep>
+          <value><![CDATA[✕]]></value>
+          <value><![CDATA[x]]></value>
+          <value><![CDATA[х]]></value>
+          <value><![CDATA[χ]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[✕]]></value>
+          <value><![CDATA[x]]></value>
+          <value><![CDATA[х]]></value>
+          <value><![CDATA[χ]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>SentencePunct</code>
+      <name>Sentence Punctuation</name>
+      <description>Punctuation inside or after sentences (. : ; ! ? ‽)</description>
+      <values>
+        <grep>
+          <value><![CDATA[[\x{002C}\x{003A}\x{003F}\x{0021}\x{003B}\x{203D}]]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[\u{002C}\u{003A}\u{003F}\u{0021}\u{003B}\u{203D}]]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>PeriodDateSpace</code>
+      <name>Period followed by datespace</name>
+      <description>Period which should be followed by nbspace/datespace but it could be represented as period_anyspace or just period</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:\.@{pZs00A0})|\.)]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:\.[\p{Zs}--@{DateSpace}])|\.)]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>DayAbb</code>
+      <name>Abbreviation for the word “day”</name>
+      <description>Abbreviation for the word “day”</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>SlashNospaced</code>
+      <name>Slash (without slash U+002F without spaces)</name>
+      <description>All forms but closed slash (U+002F)</description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:\p{Zs}\x{002F}\p{Zs})|(?:\p{Zs}\x{002F})|(?:\x{002F}\p{Zs}))]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?:\p{Zs}\u{002F}\p{Zs})|(?:\p{Zs}\u{002F})|(?:\u{002F}\p{Zs}))]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>Minus</code>
+      <name>Minus</name>
+      <description>Preferred form of “minus” symbol</description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>PercentSpace</code>
+      <name>Space before percent % symbol</name>
+      <description></description>
+      <values>
+        <grep/>
+        <ecma/>
+      </values>
+    </variable>
+    <variable>
+      <code>InnerQuoteContent</code>
+      <name>Term in single quotes</name>
+      <description></description>
+      <values>
+        <grep>
+          <value><![CDATA[(?:(?:@{ApostropheSet})|(?!(?:@{ApostropheSet}))[^\x{00AB}\x{00BB}\x{0022}\x{201C}\x{201D}\r\n\x{2028}\x{2029}])+?]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[(?:(?<=[\p{L}\p{M}])(?:@{ApostropheSet})(?=[\p{L}\p{M}])|(?!(?:@{ApostropheSet}))[^\u{00AB}\u{00BB}\u{0022}\u{201C}\u{201D}\r\n\u{2028}\u{2029}])+?]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>GuillContent</code>
+      <name>Expression inside guillemets</name>
+      <description></description>
+      <values>
+        <grep>
+          <value><![CDATA[[^\x{00AB}\x{00BB}\r\n\x{2028}\x{2029}]+?]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[^\u{00AB}\u{00BB}\r\n\u{2028}\u{2029}]+?]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>CurlyQuoteContent</code>
+      <name>Expression inside curly quotes</name>
+      <description></description>
+      <values>
+        <grep>
+          <value><![CDATA[[^\x{00AB}\x{00BB}\x{201C}\x{201D}\r\n\x{2028}\x{2029}]+?]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[^\u{00AB}\u{00BB}\u{201C}\u{201D}\r\n\u{2028}\u{2029}]+?]]></value>
+        </ecma>
+      </values>
+    </variable>
+    <variable>
+      <code>StraightQuoteContent</code>
+      <name>Expression inside straight quotes</name>
+      <description></description>
+      <values>
+        <grep>
+          <value><![CDATA[[^\x{00AB}\x{00BB}\x{0022}\r\n\x{2028}\x{2029}]+?]]></value>
+        </grep>
+        <ecma>
+          <value><![CDATA[[^\u{00AB}\u{00BB}\u{0022}\r\n\u{2028}\u{2029}]+?]]></value>
         </ecma>
       </values>
     </variable>
